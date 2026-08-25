@@ -1,19 +1,15 @@
 # =============================================================
 # Decap CMS 后台配置 — NJRUI Mobile Home (naijirui.com)
-# 本机使用（今天即可用）: 保持 local_backend: true，
-#   在 njrui-site 目录运行 npx decap-server，然后打开
-#   http://localhost:4321/admin/ 即可登录编辑。
-# 上线后使用（推荐）: 连接 GitHub 仓库 + Netlify Identity 后，
-#   把下方 local_backend 改为 false（或删除），并填好 git-gateway 配置。
 # =============================================================
 
 backend:
-  name: git-gateway
-  branch: main
-  accept_roles: [admin, editor]
+  name: github
+  repo: lmzbguo-hue/naijirui           # ⚠️ 已修正为正确的“用户名/仓库名”格式
+  branch: master                    # 您的主分支名称
+  base_url: https://decap-cms-oauth.vercel.app/
+  auth_endpoint: auth
 
-# 本机编辑模式: 无需 GitHub，通过本地代理直接改仓库文件
-local_backend: true
+local_backend: false                # ⚠️ 删除了重复的那一行
 
 # 上传的图片统一存到这里（上传后自动提交到仓库）
 media_folder: "public/images/uploads"
@@ -26,7 +22,7 @@ collections:
     label_singular: "文章 Blog Post"
     folder: "src/content/blog"
     create: true
-    slug: "{{postKey}}-{{lang}}"
+    slug: "{{slug}}-{{lang}}"
     fields:
       - { label: "文章标识 postKey（英文短横线，四个语言版本必须相同）", name: postKey, widget: string, hint: "例如 how-to-choose-container-house，生成 /blog/how-to-choose-container-house/" }
       - { label: "语言 Language", name: lang, widget: select, options: ["en", "zh", "ar", "fr"] }
@@ -36,215 +32,6 @@ collections:
       - { label: "SEO 描述（给谷歌看的 1-2 句）", name: seoDesc, widget: text, required: false }
       - { label: "摘要（博客列表页显示）", name: excerpt, widget: text }
       - { label: "正文 Body（# 小标题 / 段落 / 图片）", name: body, widget: markdown }
-
-  # ---------------- 产品 ----------------
-  - name: products
-    label: "产品 Products"
-    label_singular: "产品 Product"
-    folder: "src/data/products/items"
-    create: true
-    extension: json
-    format: json
-    identifier_field: slug
-    fields:
-      - { label: "产品标识 slug（英文短横线，唯一）", name: slug, widget: string, hint: "例如 20ft-double-wing-expandable-box，生成 /products/分类/slug/" }
-      - { label: "所属分类 Category", name: category, widget: select, options: ["folding-expandable-container-house", "flat-pack-container-house", "modular-prefab-house", "temporary-site-camp-accommodation", "prefab-villa"] }
-      - label: "产品名（4 语言）"
-        name: name
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: string }
-          - { label: "中文", name: zh, widget: string }
-          - { label: "عربي", name: ar, widget: string }
-          - { label: "FR", name: fr, widget: string }
-      - label: "短名（卡片显示，4 语言）"
-        name: shortName
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: string }
-          - { label: "中文", name: zh, widget: string }
-          - { label: "عربي", name: ar, widget: string }
-          - { label: "FR", name: fr, widget: string }
-      - label: "SEO 标题（4 语言）"
-        name: seoTitle
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: string }
-          - { label: "中文", name: zh, widget: string }
-          - { label: "عربي", name: ar, widget: string }
-          - { label: "FR", name: fr, widget: string }
-      - label: "SEO 描述（4 语言）"
-        name: seoDesc
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: text }
-          - { label: "中文", name: zh, widget: text }
-          - { label: "عربي", name: ar, widget: text }
-          - { label: "FR", name: fr, widget: text }
-      - label: "一句话卖点 Tagline（4 语言）"
-        name: tagline
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: string }
-          - { label: "中文", name: zh, widget: string }
-          - { label: "عربي", name: ar, widget: string }
-          - { label: "FR", name: fr, widget: string }
-      - label: "产品介绍（4 语言，段落之间用空行分隔）"
-        name: intro
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: text }
-          - { label: "中文", name: zh, widget: text }
-          - { label: "عربي", name: ar, widget: text }
-          - { label: "FR", name: fr, widget: text }
-      - { label: "主图（可从媒体库选择或上传）", name: image, widget: image }
-      - label: "主图 alt 描述（4 语言）"
-        name: imageAlt
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: string }
-          - { label: "中文", name: zh, widget: string }
-          - { label: "عربي", name: ar, widget: string }
-          - { label: "FR", name: fr, widget: string }
-      - label: "图集（可多张）"
-        name: gallery
-        widget: list
-        fields:
-          - { label: "图片", name: src, widget: image }
-          - label: "alt 描述（4 语言）"
-            name: alt
-            widget: object
-            fields:
-              - { label: "EN", name: en, widget: string }
-              - { label: "中文", name: zh, widget: string }
-              - { label: "عربي", name: ar, widget: string }
-              - { label: "FR", name: fr, widget: string }
-      - label: "核心卖点（每条一行，4 语言）"
-        name: highlights
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: list, default: [] }
-          - { label: "中文", name: zh, widget: list, default: [] }
-          - { label: "عربي", name: ar, widget: list, default: [] }
-          - { label: "FR", name: fr, widget: list, default: [] }
-      - label: "应用场景（每条一行，4 语言）"
-        name: applications
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: list, default: [] }
-          - { label: "中文", name: zh, widget: list, default: [] }
-          - { label: "عربي", name: ar, widget: list, default: [] }
-          - { label: "FR", name: fr, widget: list, default: [] }
-      - label: "参数表（每行：参数名 + 参数值，各 4 语言）"
-        name: specs
-        widget: list
-        label_singular: "参数行"
-        fields:
-          - label: "参数名（4 语言）"
-            name: key
-            widget: object
-            fields:
-              - { label: "EN", name: en, widget: string }
-              - { label: "中文", name: zh, widget: string }
-              - { label: "عربي", name: ar, widget: string }
-              - { label: "FR", name: fr, widget: string }
-          - label: "参数值（4 语言）"
-            name: value
-            widget: object
-            fields:
-              - { label: "EN", name: en, widget: string }
-              - { label: "中文", name: zh, widget: string }
-              - { label: "عربي", name: ar, widget: string }
-              - { label: "FR", name: fr, widget: string }
-      - label: "OEM 定制说明（4 语言）"
-        name: oem
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: text }
-          - { label: "中文", name: zh, widget: text }
-          - { label: "عربي", name: ar, widget: text }
-          - { label: "FR", name: fr, widget: text }
-
-  # ---------------- 常见问题 FAQ ----------------
-  - name: faqs
-    label: "常见问题 FAQ"
-    label_singular: "问题 FAQ"
-    folder: "src/data/faqs/items"
-    create: true
-    extension: json
-    format: json
-    identifier_field: slug
-    fields:
-      - { label: "标识 slug（如 faq-moq）", name: slug, widget: string }
-      - label: "问题（4 语言）"
-        name: q
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: text }
-          - { label: "中文", name: zh, widget: text }
-          - { label: "عربي", name: ar, widget: text }
-          - { label: "FR", name: fr, widget: text }
-      - label: "回答（4 语言）"
-        name: a
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: text }
-          - { label: "中文", name: zh, widget: text }
-          - { label: "عربي", name: ar, widget: text }
-          - { label: "FR", name: fr, widget: text }
-
-  # ---------------- 项目案例 ----------------
-  - name: cases
-    label: "项目案例 Cases"
-    label_singular: "案例 Case"
-    folder: "src/data/cases/items"
-    create: true
-    extension: json
-    format: json
-    identifier_field: slug
-    fields:
-      - { label: "案例标识 slug", name: slug, widget: string }
-      - label: "标题（4 语言）"
-        name: title
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: string }
-          - { label: "中文", name: zh, widget: string }
-          - { label: "عربي", name: ar, widget: string }
-          - { label: "FR", name: fr, widget: string }
-      - label: "项目类型（4 语言，如 度假村开发）"
-        name: project
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: string }
-          - { label: "中文", name: zh, widget: string }
-          - { label: "عربي", name: ar, widget: string }
-          - { label: "FR", name: fr, widget: string }
-      - label: "规模（4 语言，如 40+ 套）"
-        name: units
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: string }
-          - { label: "中文", name: zh, widget: string }
-          - { label: "عربي", name: ar, widget: string }
-          - { label: "FR", name: fr, widget: string }
-      - { label: "案例图片", name: image, widget: image }
-      - label: "图片 alt（4 语言）"
-        name: alt
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: string }
-          - { label: "中文", name: zh, widget: string }
-          - { label: "عربي", name: ar, widget: string }
-          - { label: "FR", name: fr, widget: string }
-      - label: "案例正文（4 语言，段落用空行分隔）"
-        name: body
-        widget: object
-        fields:
-          - { label: "EN", name: en, widget: text }
-          - { label: "中文", name: zh, widget: text }
-          - { label: "عربي", name: ar, widget: text }
-          - { label: "FR", name: fr, widget: text }
 
   # ---------------- 站点设置（联系方式等） ----------------
   - name: settings
@@ -272,7 +59,3 @@ collections:
             fields:
               - { label: "数字", name: value, widget: string }
               - { label: "说明文字", name: label, widget: string }
-
-# 提示：
-# - 产品主图/案例图/博客插图都可以在后台右上角 Media 上传后直接选用。
-# - 改完内容后（接 GitHub 自动部署时）保存即发布；本机模式需执行 npm run build 再上传 dist。

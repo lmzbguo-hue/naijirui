@@ -1,0 +1,34 @@
+{
+  "slug": "modular-resort-village",
+  "title": {
+    "en": "Modular Capsule Resort Village",
+    "zh": "模块化太空舱度假村",
+    "ar": "قرية منتجع كبسولات معيارية",
+    "fr": "Village resort de capsules modulaires"
+  },
+  "project": {
+    "en": "Glamping resort development",
+    "zh": "野奢度假村开发",
+    "ar": "تطوير منتجع تخييم فاخر",
+    "fr": "Développement de resort glamping"
+  },
+  "units": {
+    "en": "40+ capsule units",
+    "zh": "40+ 套太空舱",
+    "ar": "40+ وحدة كبسولة",
+    "fr": "40+ unités capsule"
+  },
+  "image": "/images/cases/case-resort-mountain.jpg",
+  "alt": {
+    "en": "Modular capsule resort village project in mountain landscape",
+    "zh": "山区景观中的模块化太空舱度假村项目",
+    "ar": "مشروع قرية كبسولات معيارية في مناظر جبلية",
+    "fr": "Projet de village resort de capsules en paysage montagnard"
+  },
+  "body": {
+    "en": "A full modular resort village built with space capsule houses on prepared foundations. Factory-fabricated units were delivered and crane-erected on a phased schedule, cutting on-site construction time dramatically compared with conventional building.",
+    "zh": "一个由太空舱房在预制基础上建成的完整模块化度假村。工厂预制单元按阶段交付并吊装，相比传统建造大幅缩短现场施工时间。",
+    "ar": "قرية منتجع معيارية كاملة بُنيت بمنازل كبسولة على أساسات مجهزة. وُلدت الوحدات من المصنع ورُكبت بالرافعات وفق جدول زمني مرحلي، مما قلص زمن البناء في الموقع بشكل كبير مقارنة بالبناء التقليدي.",
+    "fr": "Un village resort entièrement modulaire construit en capsules sur fondations préparées. Unités fabriquées en usine, livrées et levées par grue en phases, réduisant fortement le temps de chantier."
+  }
+}

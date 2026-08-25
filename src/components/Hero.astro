@@ -1,0 +1,45 @@
+---
+import { U, langPath } from '../i18n';
+
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const u = U(lang);
+const slides = u.hero;
+---
+<section class="hero" data-hero>
+  {slides.map((s: any, i: number) => (
+    <div class="hero-slide" data-slide={i} style={i === 0 ? '' : 'display:none'}>
+      <img src={i === 0 ? '/images/hero/hero-factory.jpg' : i === 1 ? '/images/hero/hero-resort.jpg' : '/images/hero/hero-villa.jpg'} alt={s.h1} width="1920" height="1318" />
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-kicker">{s.kicker}</div>
+          <h1>{s.h1}</h1>
+          <p>{s.p}</p>
+          <div>
+            <a class="btn" href={langPath(lang, '/get-a-quote/')}>{u.cta.quote}</a>
+            <a class="btn ghost" href={langPath(lang, '/products/')}>{u.cta.products}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  ))}
+  <div class="hero-dots">
+    {slides.map((_: any, i: number) => <button data-dot={i} class={i === 0 ? 'on' : ''} aria-label={`Slide ${i + 1}`} />)}
+  </div>
+</section>
+
+<script>
+  const root = document.querySelector('[data-hero]');
+  if (root) {
+    const slides = root.querySelectorAll('[data-slide]');
+    const dots = root.querySelectorAll('[data-dot]');
+    let cur = 0;
+    const show = (i) => {
+      slides.forEach((s, k) => { s.style.display = k === i ? '' : 'none'; });
+      dots.forEach((d, k) => d.classList.toggle('on', k === i));
+      cur = i;
+    };
+    dots.forEach((d, i) => d.addEventListener('click', () => show(i)));
+    setInterval(() => show((cur + 1) % slides.length), 6500);
+  }
+</script>

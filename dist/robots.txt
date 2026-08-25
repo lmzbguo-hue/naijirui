@@ -1,0 +1,23 @@
+# robots.txt - NJRUI Mobile Home | JIRUI WEIVE Co., Ltd.
+# https://naijirui.com
+
+User-agent: *
+Allow: /
+
+# Block admin/backend and internal paths
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_assets/
+Disallow: /search
+
+# Block parameterized URLs (site URLs are all static)
+Disallow: /*?
+
+# Allow image crawlers (product photos in Google Images = B2B lead source)
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://naijirui.com/sitemap-index.xml

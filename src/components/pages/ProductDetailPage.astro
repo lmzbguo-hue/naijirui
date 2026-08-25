@@ -1,0 +1,127 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuoteCTA from '../QuoteCTA.astro';
+import QuoteForm from '../QuoteForm.astro';
+import SpecTable from '../SpecTable.astro';
+import categories from '../../data/categories.json';
+import { t, ta, U, langPath } from '../../i18n';
+
+interface Props { lang: string; product: any; }
+const { lang, product } = Astro.props;
+const u = U(lang);
+const cat = categories.find((c) => c.slug === product.category)!;
+const canonical = `/products/${product.category}/${product.slug}/`;
+const url = langPath(lang, canonical);
+const specs = product.specs[lang] ?? product.specs.en ?? [];
+const intro = product.intro[lang] ?? product.intro.en ?? [];
+const highlights = ta(product.highlights, lang);
+const applications = ta(product.applications, lang);
+
+const productJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: t(product.name, lang),
+  image: ['https://naijirui.com' + product.image],
+  description: t(product.seoDesc, lang),
+  brand: { '@type': 'Brand', name: 'NJRUI' },
+  offers: {
+    '@type': 'Offer',
+    priceCurrency: 'USD',
+    price: '0',
+    availability: 'https://schema.org/InStock',
+    description: 'Inquiry only — price on request (MOQ and configuration dependent)',
+  },
+};
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://naijirui.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Products', item: 'https://naijirui.com/products/' },
+    { '@type': 'ListItem', position: 3, name: t(cat.name, lang), item: 'https://naijirui.com/products/' + product.category + '/' },
+    { '@type': 'ListItem', position: 4, name: t(product.name, lang), item: 'https://naijirui.com' + url },
+  ],
+};
+---
+<Base lang={lang} title={t(product.seoTitle, lang)} description={t(product.seoDesc, lang)} canonical={canonical} jsonLd={[productJsonLd, breadcrumbJsonLd]}>
+  <div class="page-head">
+    <div class="container">
+      <div class="crumbs">
+        <a href={langPath(lang, '/')}>{u.products.homeCrumbs}</a> / <a href={langPath(lang, '/products/')}>{u.products.productsCrumbs}</a> / <a href={langPath(lang, `/products/${product.category}/`)}>{t(cat.name, lang)}</a> / {t(product.name, lang)}
+      </div>
+      <h1>{t(product.name, lang)}</h1>
+      <p>{t(product.tagline, lang)}</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container prod-top">
+      <div data-gallery>
+        <img class="gallery-main" src={product.image} alt={t(product.imageAlt, lang)} width="1200" height="800" data-main />
+        <div class="gallery-thumbs">
+          {product.gallery.map((g: any, i: number) => (
+            <img src={g.src} alt={t(g.alt, lang)} width="184" height="136" loading="lazy" data-thumb={i} class={i === 0 ? 'on' : ''} />
+          ))}
+        </div>
+      </div>
+      <div>
+        <h2 style="font-size:1.25rem;margin-bottom:14px">{u.products.overview}</h2>
+        {intro.map((p: string) => <p style="color:var(--muted);margin-bottom:12px">{p}</p>)}
+        <h3 style="margin:20px 0 12px">{u.products.highlights}</h3>
+        <ul class="features">
+          {highlights.map((h: string) => <li>{h}</li>)}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <h2 style="margin-bottom:18px">{u.products.specs}</h2>
+      <SpecTable specs={specs} />
+      <div style="margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:22px">
+        <div>
+          <h3 style="margin-bottom:10px">{u.products.applications}</h3>
+          <ul class="features">
+            {applications.map((a: string) => <li>{a}</li>)}
+          </ul>
+        </div>
+        <div>
+          <h3 style="margin-bottom:10px">{u.products.oem}</h3>
+          <p style="color:var(--muted)">{t(product.oem, lang)}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="kicker">{u.products.quoteKicker}</div>
+        <h2>{u.products.quoteH2}</h2>
+        <p>{u.products.quoteP}</p>
+      </div>
+      <div style="max-width:860px;margin:0 auto">
+        <QuoteForm lang={lang} defaultProduct={product.category} next={url + '?sent=1'} />
+      </div>
+    </div>
+  </section>
+
+  <QuoteCTA lang={lang} />
+
+  <script>
+    const g = document.querySelector('[data-gallery]');
+    const main = g?.querySelector('[data-main]');
+    const thumbs = g?.querySelectorAll('[data-thumb]');
+    thumbs?.forEach((t, i) => {
+      t.addEventListener('click', () => {
+        if (!main) return;
+        main.src = t.src;
+        main.alt = t.alt;
+        thumbs.forEach((x) => x.classList.remove('on'));
+        t.classList.add('on');
+      });
+    });
+  </script>
+</Base>

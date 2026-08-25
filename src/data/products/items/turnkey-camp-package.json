@@ -1,0 +1,260 @@
+{
+  "slug": "turnkey-camp-package",
+  "category": "temporary-site-camp-accommodation",
+  "name": {
+    "en": "Turnkey Site Camp Package",
+    "zh": "交钥匙工地营地方案",
+    "ar": "باقة معسكر مواقع جاهزة",
+    "fr": "Forfait camp de chantier clé en main"
+  },
+  "shortName": {
+    "en": "Turnkey Camp Package",
+    "zh": "交钥匙营地",
+    "ar": "باقة معسكر جاهزة",
+    "fr": "Camp clé en main"
+  },
+  "seoTitle": {
+    "en": "Turnkey Site Camp Package | Prefab Camp Solutions | NJRUI",
+    "zh": "交钥匙工地营地方案 | 预制营地解决方案 | NJRUI",
+    "ar": "باقة معسكر مواقع جاهزة | حلول معسكرات جاهزة | NJRUI",
+    "fr": "Forfait camp clé en main | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Turnkey prefab camp packages: dormitories, offices, canteens, clinics, washrooms, power & water guidance. One supplier, one contract. Get a quote.",
+    "zh": "交钥匙预制营地方案：宿舍、办公室、食堂、诊所、卫浴、水电指导。一个供应商、一份合同。获取报价。",
+    "ar": "باقات معسكرات جاهزة: مساكن ومكاتب ومقاصف وعيادات ودورات مياه وإرشاد طاقة ومياه. مورد واحد وعقد واحد. اطلب عرض سعر.",
+    "fr": "Forfaits camp préfabriqués clés en main : dortoirs, bureaux, cantines, infirmeries, sanitaires, guidage eau/électricité. Un fournisseur, un contrat. Devis."
+  },
+  "tagline": {
+    "en": "One supplier for the entire camp — design, production, delivery, guidance.",
+    "zh": "一个供应商承包整个营地——设计、生产、交付、指导。",
+    "ar": "مورد واحد للمعسكر كاملاً — تصميم وإنتاج وتسليم وإرشاد.",
+    "fr": "Un seul fournisseur pour tout le camp — conception, production, livraison, guidage."
+  },
+  "intro": {
+    "en": "For large projects, a fragmented camp supply chain is a liability. Our turnkey camp package puts every building type under one contract: worker dormitories, site offices, canteens, clinics, washrooms and guard booths, produced in parallel at our factories and delivered on a coordinated schedule.\n\nWe support the full scope — from site layout planning and unit configuration to sea freight, crane erection guidance and water/power hook-up advice — so your site team gets a working camp, not a puzzle.",
+    "zh": "对大型项目而言，碎片化的营地供应链是负担。我们的交钥匙营地方案将所有建筑类型纳入一份合同：工人宿舍、工地办公室、食堂、诊所、卫浴与岗亭，在我们工厂并行生产并按协调计划交付。\n\n我们支持全流程——从场地布局规划与单元配置，到海运、吊装指导与水电接通建议——让您的现场团队拿到一个可用的营地，而不是一堆拼图。",
+    "ar": "للمشاريع الكبيرة، سلسلة توريد المعسكرات المجزأة عبء. تضع باقة المعسكر الجاهزة لدينا كل أنواع المباني في عقد واحد: مساكن العمال ومكاتب المواقع والمقاصف والعيادات ودورات المياه وأكشاك الحراسة، تُنتج بالتوازي في مصانعنا وتُسلَّم بجدول منسق.\n\nندعم النطاق الكامل — من تخطيط الموقع وتهيئة الوحدات إلى الشحن البحري وإرشاد الرفع بالرافعة ونصائح توصيل الماء والكهرباء — ليحصل فريق موقعك على معسكر يعمل، لا لغزاً.",
+    "fr": "Pour les grands projets, une chaîne d'approvisionnement fragmentée est un handicap. Notre forfait clé en main regroupe tous les bâtiments sous un seul contrat : dortoirs, bureaux, cantines, infirmeries, sanitaires, postes de garde, produits en parallèle et livrés sur un calendrier coordonné.\n\nNous couvrons tout — plan du site, configuration, fret maritime, guidage levage et raccordements — pour que votre équipe reçoive un camp opérationnel, pas un puzzle."
+  },
+  "image": "/images/products/folding/folding-factory.jpg",
+  "imageAlt": {
+    "en": "Prefab camp units produced at NJRUI factory for turnkey delivery",
+    "zh": "奈吉瑞工厂生产待交付的预制营地单元",
+    "ar": "وحدات معسكر جاهزة تُنتج في مصنع NJRUI للتسليم المتكامل",
+    "fr": "Unités de camp produites à l'usine NJRUI pour livraison clé en main"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/folding/folding-factory.jpg",
+      "alt": {
+        "en": "Camp units in production at NJRUI factory",
+        "zh": "奈吉瑞工厂生产中的营地单元",
+        "ar": "وحدات معسكر قيد الإنتاج في مصنع NJRUI",
+        "fr": "Unités de camp en production à l'usine NJRUI"
+      }
+    },
+    {
+      "src": "/images/products/camp/dorm-row.jpg",
+      "alt": {
+        "en": "Camp dormitory row installed on site",
+        "zh": "现场安装完成的营地宿舍排房",
+        "ar": "صف مساكن معسكر مثبت في الموقع",
+        "fr": "Rangée de dortoirs installée sur site"
+      }
+    },
+    {
+      "src": "/images/products/flatpack/site-office-2floor.jpg",
+      "alt": {
+        "en": "Camp office building two stories",
+        "zh": "两层营地办公楼",
+        "ar": "مبنى مكاتب معسكر من طابقين",
+        "fr": "Bâtiment de bureaux de camp 2 étages"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "All building types from one supplier",
+      "Parallel factory production",
+      "Coordinated delivery schedule",
+      "Site layout planning support",
+      "Crane & hook-up guidance",
+      "Reusable, expandable design"
+    ],
+    "zh": [
+      "一个供应商提供全部建筑类型",
+      "工厂并行生产",
+      "协调交付计划",
+      "场地布局规划支持",
+      "吊装与接通指导",
+      "可复用可扩展设计"
+    ],
+    "ar": [
+      "كل أنواع المباني من مورد واحد",
+      "إنتاج مصنعي متوازٍ",
+      "جدول تسليم منسق",
+      "دعم تخطيط الموقع",
+      "إرشاد الرفع والتوصيل",
+      "تصميم قابل لإعادة الاستخدام والتوسع"
+    ],
+    "fr": [
+      "Tous les bâtiments d'un fournisseur",
+      "Production parallèle en usine",
+      "Calendrier coordonné",
+      "Aide à la planification",
+      "Guidage levage & raccordement",
+      "Réutilisable et extensible"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Large construction camps",
+      "Mining villages",
+      "Refugee & relief settlements",
+      "Event staff villages",
+      "Remote facility bases"
+    ],
+    "zh": [
+      "大型施工营地",
+      "矿山生活区",
+      "难民与救援安置点",
+      "活动工作人员村",
+      "偏远基地"
+    ],
+    "ar": [
+      "معسكرات بناء كبيرة",
+      "قرى تعدين",
+      "مستوطنات اللاجئين والإغاثة",
+      "قرى طاقم الفعاليات",
+      "قواعد منشآت نائية"
+    ],
+    "fr": [
+      "Grands camps",
+      "Villages miniers",
+      "Settlements réfugiés & secours",
+      "Villages staff événementiel",
+      "Bases isolées"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Package scope",
+        "zh": "方案范围",
+        "ar": "نطاق الباقة",
+        "fr": "Périmètre"
+      },
+      "value": {
+        "en": "Dormitory / office / canteen / clinic / washroom / guard booth",
+        "zh": "宿舍/办公室/食堂/诊所/卫浴/岗亭",
+        "ar": "مساكن/مكاتب/مقاصف/عيادات/دورات مياه/أكشاك حراسة",
+        "fr": "Dortoirs / bureaux / cantines / infirmeries / sanitaires / postes de garde"
+      }
+    },
+    {
+      "key": {
+        "en": "Unit types",
+        "zh": "单元类型",
+        "ar": "أنواع الوحدات",
+        "fr": "Types"
+      },
+      "value": {
+        "en": "Flat pack & folding systems",
+        "zh": "打包箱与折叠箱系统",
+        "ar": "أنظمة مسطحة وقابلة للطي",
+        "fr": "Systèmes à plat & pliables"
+      }
+    },
+    {
+      "key": {
+        "en": "Camp capacity",
+        "zh": "营地容量",
+        "ar": "سعة المعسكر",
+        "fr": "Capacité"
+      },
+      "value": {
+        "en": "Configured to headcount — confirm with sales team",
+        "zh": "按人员规模配置——请联系销售团队",
+        "ar": "حسب عدد العمال — أكد مع فريق المبيعات",
+        "fr": "Selon effectif — à confirmer"
+      }
+    },
+    {
+      "key": {
+        "en": "Insulation",
+        "zh": "保温",
+        "ar": "العزل",
+        "fr": "Isolation"
+      },
+      "value": {
+        "en": "Climate-adapted packages",
+        "zh": "气候适配方案",
+        "ar": "باقات مكيفة للمناخ",
+        "fr": "Forfaits selon climat"
+      }
+    },
+    {
+      "key": {
+        "en": "Power / water",
+        "zh": "水电",
+        "ar": "الطاقة/المياه",
+        "fr": "Eau / électricité"
+      },
+      "value": {
+        "en": "Hook-up guidance included",
+        "zh": "含接通指导",
+        "ar": "يشمل إرشاد التوصيل",
+        "fr": "Guidage inclus"
+      }
+    },
+    {
+      "key": {
+        "en": "Installation",
+        "zh": "安装",
+        "ar": "التركيب",
+        "fr": "Installation"
+      },
+      "value": {
+        "en": "On-site guidance or supervision team",
+        "zh": "现场指导或监理团队",
+        "ar": "إرشاد في الموقع أو فريق إشراف",
+        "fr": "Guidage ou supervision sur site"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Camp layout, unit mix, sanitary blocks and power systems are engineered as one package for your site.",
+    "zh": "营地布局、单元组合、卫浴模块与电力系统作为一个整体为您的现场量身设计。",
+    "ar": "تخطيط المعسكر ومزيج الوحدات وكتل الصرف الصحي وأنظمة الطاقة تُهندس كحزمة واحدة لموقعك.",
+    "fr": "Plan du camp, mix d'unités, blocs sanitaires et systèmes électriques conçus comme un ensemble pour votre site."
+  }
+}

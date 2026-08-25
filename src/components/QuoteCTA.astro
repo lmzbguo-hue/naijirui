@@ -1,0 +1,17 @@
+---
+import { U, langPath } from '../i18n';
+
+interface Props { lang: string; heading?: string; sub?: string; }
+const { lang, heading, sub } = Astro.props;
+const u = U(lang);
+const h = heading ?? u.quoteBand.h;
+const p = sub ?? u.quoteBand.p;
+---
+<section class="quote-band">
+  <div class="container">
+    <h2>{h}</h2>
+    <p>{p}</p>
+    <a class="btn" href={langPath(lang, '/get-a-quote/')}>{u.cta.quote}</a>
+    <a class="btn ghost" href={langPath(lang, '/contact-us/')}>{u.cta.contact}</a>
+  </div>
+</section>

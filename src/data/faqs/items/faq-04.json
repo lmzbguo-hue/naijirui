@@ -1,0 +1,15 @@
+{
+  "q": {
+    "en": "How long does installation take?",
+    "zh": "安装需要多长时间？",
+    "ar": "كم يستغرق التركيب؟",
+    "fr": "Combien de temps dure l'installation ?"
+  },
+  "a": {
+    "en": "Folding and modular units are erected with a crane and become usable after water and power hook-up — typically within hours for a standard unit. Flat pack units assemble with simple tools. On-site guidance or a supervision team can be arranged.",
+    "zh": "折叠与模块化单元用吊车立起，接通水电后即可使用——标准单元通常数小时内完成。打包箱单元用简易工具拼装。可安排现场指导或监理团队。",
+    "ar": "تُنصب الوحدات القابلة للطي والمعيارية بالرافعة وتصبح جاهزة بعد توصيل الماء والكهرباء — عادة خلال ساعات للوحدة القياسية. تُجمَّع الوحدات المسطحة بأدوات بسيطة. يمكن ترتيب إرشاد في الموقع أو فريق إشراف.",
+    "fr": "Les unités pliantes et modulaires sont levées par grue et prêtes après raccordement eau/électricité — généralement en quelques heures. Les unités à plat s'assemblent avec des outils simples. Guidage sur site ou supervision possible."
+  },
+  "slug": "faq-installation"
+}

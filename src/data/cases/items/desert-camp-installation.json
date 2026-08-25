@@ -1,0 +1,34 @@
+{
+  "slug": "desert-camp-installation",
+  "title": {
+    "en": "Desert Resort Deployment",
+    "zh": "沙漠度假村部署",
+    "ar": "نشر منتجع صحراوي",
+    "fr": "Déploiement de resort désertique"
+  },
+  "project": {
+    "en": "Desert glamping camp",
+    "zh": "沙漠野奢营地",
+    "ar": "معسكر تخييم فاخر صحراوي",
+    "fr": "Camp de glamping désertique"
+  },
+  "units": {
+    "en": "Capsule row + cabins",
+    "zh": "太空舱排房+木屋",
+    "ar": "صف كبسولات + كبائن",
+    "fr": "Rangée de capsules + cabines"
+  },
+  "image": "/images/cases/case-desert-camp.jpg",
+  "alt": {
+    "en": "Desert resort deployment with capsule units on sand",
+    "zh": "沙漠中的太空舱度假部署",
+    "ar": "نشر منتجع صحراوي بوحدات كبسولة على الرمال",
+    "fr": "Déploiement désertique de capsules sur le sable"
+  },
+  "body": {
+    "en": "Rapid deployment of capsule units in an arid desert environment. Units arrived factory-finished, were placed by crane, and connected to utilities on site — showing how prefab solves logistics-heavy remote projects.",
+    "zh": "在干旱沙漠环境中的太空舱快速部署。单元出厂即成品，吊车就位、现场接通水电——展示预制方案如何解决高物流难度的偏远项目。",
+    "ar": "نشر سريع لوحدات الكبسولة في بيئة صحراوية قاحلة. وصلت الوحدات مكتملة من المصنع ووُضعت بالرافعة ووُصلت بالمرافق في الموقع — مما يوضح كيف يحل البناء الجاهز مشاكل المشاريع النائية عالية اللوجستيات.",
+    "fr": "Déploiement rapide de capsules en milieu désertique. Unités finies d'usine, posées par grue et raccordées sur site — la preuve que le préfabriqué résout les projets isolés à forte logistique."
+  }
+}

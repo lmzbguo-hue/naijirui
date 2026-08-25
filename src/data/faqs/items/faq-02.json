@@ -1,0 +1,15 @@
+{
+  "q": {
+    "en": "What is the delivery / lead time?",
+    "zh": "交付/生产周期是多久？",
+    "ar": "ما هي مهلة التسليم / الإنتاج؟",
+    "fr": "Quel est le délai de livraison / production ?"
+  },
+  "a": {
+    "en": "Standard models and custom projects have different production schedules. Please contact our sales team to confirm lead time for your configuration; it is fixed in the order contract once your specs are finalized.",
+    "zh": "标准型号与定制项目的生产周期不同。请联系销售团队确认您配置的交期；规格定稿后写入订单合同。",
+    "ar": "للموديلات القياسية والمشاريع المخصصة جداول إنتاج مختلفة. يرجى التواصل مع فريق المبيعات لتأكيد المهلة لتهيئتك؛ تُثبت في عقد الطلب بمجرد الانتهاء من المواصفات.",
+    "fr": "Modèles standards et projets sur mesure ont des délais différents. Contactez notre équipe commerciale pour confirmer le délai de votre configuration ; il est fixé au contrat une fois les specs finalisées."
+  },
+  "slug": "faq-lead-time"
+}

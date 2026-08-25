@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { t, U, langPath } from '../../i18n';
+
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const u = U(lang);
+const canonical = '/blog/';
+
+const all = await getCollection('blog');
+const byKey = new Map<string, any>();
+for (const e of all) {
+  if (!byKey.has(e.data.postKey)) byKey.set(e.data.postKey, []);
+  byKey.get(e.data.postKey).push(e);
+}
+const posts = [...byKey.values()].map((entries) => {
+  const entry = entries.find((e: any) => e.data.lang === lang) ?? entries[0];
+  return { slug: entry.data.postKey, date: entry.data.date, title: entry.data.title, excerpt: entry.data.excerpt };
+});
+posts.sort((a, b) => (a.date < b.date ? 1 : -1));
+---
+<Base
+  lang={lang}
+  title={t({ en: 'Blog — Prefab House Buying & Shipping Guide | NJRUI', zh: '博客——预制房采购与海运指南 | NJRUI', ar: 'المدونة — دليل شراء وشحن المنازل الجاهزة | NJRUI', fr: "Blog — guide d'achat et d'expédition | NJRUI" }, lang)}
+  description={t({ en: 'Practical guides for buying, shipping and installing prefab houses and container homes: shipping, selection, insulation and project planning articles from NJRUI.', zh: '采购、海运与安装预制房和集装箱房的实用指南：奈吉瑞出品的海运、选型、保温与项目规划文章。', ar: 'أدلة عملية لشراء وشحن وتركيب المنازل الجاهزة والحاويات: مقالات عن الشحن والاختيار والعزل والتخطيط من NJRUI.', fr: "Guides pratiques d'achat, expédition et installation de maisons préfabriquées et conteneurs : articles NJRUI." }, lang)}
+  canonical={canonical}
+>
+  <div class="page-head">
+    <div class="container">
+      <div class="crumbs"><a href={langPath(lang, '/')}>{u.products.homeCrumbs}</a> / {u.nav.blog}</div>
+      <h1>{u.blog.h1}</h1>
+      <p>{u.blog.p}</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container grid grid-2">
+      {posts.map((p) => (
+        <a class="card" href={langPath(lang, `/blog/${p.slug}/`)}>
+          <div class="card-body">
+            <span class="tag">{p.date}</span>
+            <h3>{p.title}</h3>
+            <p>{p.excerpt}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

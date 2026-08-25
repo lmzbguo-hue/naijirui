@@ -1,0 +1,34 @@
+{
+  "slug": "site-camp-project",
+  "title": {
+    "en": "Amusement Park Site Camp",
+    "zh": "游乐园工地营地",
+    "ar": "معسكر موقع متنزه ترفيهي",
+    "fr": "Camp de chantier de parc d'attractions"
+  },
+  "project": {
+    "en": "Tourism complex construction camp",
+    "zh": "旅游综合体施工营地",
+    "ar": "معسكر إنشاء مجمع سياحي",
+    "fr": "Camp de construction d'un complexe touristique"
+  },
+  "units": {
+    "en": "Multi-building site camp",
+    "zh": "多栋营地建筑",
+    "ar": "معسكر متعدد المباني",
+    "fr": "Camp multi-bâtiments"
+  },
+  "image": "/images/cases/case-site-project.jpg",
+  "alt": {
+    "en": "Prefabricated site camp buildings under construction at tourism project",
+    "zh": "旅游项目施工现场的预制营地建筑",
+    "ar": "مبانٍ جاهزة لمعسكر موقع قيد الإنشاء في مشروع سياحي",
+    "fr": "Bâtiments de camp préfabriqués en construction sur un projet touristique"
+  },
+  "body": {
+    "en": "A multi-building prefabricated complex for a tourism development project: two-story modular buildings with blue-tiled roofs, glazed facades and fast-track construction alongside ongoing site works.",
+    "zh": "面向旅游开发项目的多栋预制建筑群：蓝瓦屋顶的两层模块化建筑、玻璃幕墙，与现场施工同步快速推进。",
+    "ar": "مجمع جاهز متعدد المباني لمشروع تطوير سياحي: مبانٍ معيارية من طابقين بأسقف قرميد أزرق وواجهات زجاجية وإنشاء سريع بالتزامن مع أعمال الموقع.",
+    "fr": "Complexe préfabriqué multi-bâtiments pour un projet touristique : bâtiments modulaires sur deux étages, toits de tuiles bleues, façades vitrées, construction accélérée en parallèle du chantier."
+  }
+}

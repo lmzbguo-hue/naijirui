@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuoteCTA from '../QuoteCTA.astro';
+import { getCases } from '../../data/load';
+import { t, U, langPath } from '../../i18n';
+
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const u = U(lang);
+const cases = getCases();
+const canonical = '/project-cases/';
+---
+<Base
+  lang={lang}
+  title={t({ en: 'Project Cases — Container House & Prefab Camp Projects | NJRUI', zh: '项目案例——集装箱房与预制营地项目 | NJRUI', ar: 'مشاريعنا — مشاريع الحاويات والمعسكرات الجاهزة | NJRUI', fr: 'Réalisations — conteneurs et camps préfabriqués | NJRUI' }, lang)}
+  description={t({ en: 'See NJRUI prefab house and container camp projects across 30+ countries: site camps, resorts, emergency housing, offices. Factory-backed quality, on-time delivery.', zh: '了解奈吉瑞在30+国家的预制房与集装箱营地项目：工地营地、度假村、应急住房、办公。工厂级品质，准时交付。', ar: 'شاهد مشاريع NJRUI الجاهزة ومعسكرات الحاويات في أكثر من 30 دولة: معسكرات مواقع ومنتجعات وإسكان طوارئ ومكاتب. جودة مصنعية وتسليم في الوقت.', fr: "Découvrez les projets NJRUI de maisons préfabriquées et camps dans 30+ pays : camps, resorts, urgences, bureaux. Qualité usine, livraison à l'heure." }, lang)}
+  canonical={canonical}
+>
+  <div class="page-head">
+    <div class="container">
+      <div class="crumbs"><a href={langPath(lang, '/')}>{u.products.homeCrumbs}</a> / {u.nav.cases}</div>
+      <h1>{u.cases.h1}</h1>
+      <p>{u.cases.p}</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container grid grid-3">
+      {cases.map((c) => (
+        <div class="card">
+          <img src={c.image} alt={t(c.alt, lang)} loading="lazy" width="800" height="600" />
+          <div class="card-body">
+            <span class="tag">{t(c.project, lang)} · {t(c.units, lang)}</span>
+            <h3>{t(c.title, lang)}</h3>
+            <p>{t(c.body, lang)}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <QuoteCTA lang={lang} heading={u.cases.ctaH} sub={u.cases.ctaP} />
+</Base>

@@ -1,0 +1,15 @@
+{
+  "q": {
+    "en": "Can you customize the houses (OEM/ODM)?",
+    "zh": "可以定制房屋吗（OEM/ODM）？",
+    "ar": "هل يمكن تخصيص المنازل (OEM/ODM)؟",
+    "fr": "Pouvez-vous personnaliser les maisons (OEM/ODM) ?"
+  },
+  "a": {
+    "en": "Yes. Size, layout, wall panels, doors & windows, cladding, electrical systems and interiors can all be customized. Send your drawings or reference photos and our engineering team will return a proposal with specs and pricing.",
+    "zh": "可以。尺寸、布局、墙板、门窗、外墙饰面、电路系统与内饰均可定制。发送您的图纸或参考照片，我们的工程团队将反馈带规格与报价的方案。",
+    "ar": "نعم. يمكن تخصيص المقاس والتخطيط وألواح الجدران والأبواب والنوافذ والكسوة والأنظمة الكهربائية والديكورات. أرسل رسوماتك أو صوراً مرجعية وسيعود فريق الهندسة بعرض يتضمن المواصفات والأسعار.",
+    "fr": "Oui. Taille, plan, panneaux, portes & fenêtres, bardage, systèmes électriques et intérieurs sont personnalisables. Envoyez vos plans ou photos ; notre bureau d'études revient avec proposition et tarifs."
+  },
+  "slug": "faq-oem-customization"
+}

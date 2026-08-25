@@ -1,0 +1,162 @@
+---
+import Base from '../../layouts/Base.astro';
+import Hero from '../Hero.astro';
+import QuoteCTA from '../QuoteCTA.astro';
+import ProductCard from '../ProductCard.astro';
+import site from '../../data/site.json';
+import categories from '../../data/categories.json';
+import { getAllProducts, getCases } from '../../data/load';
+import { t, ta, U, langPath } from '../../i18n';
+
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const u = U(lang);
+const cases = getCases();
+
+const catMap: Record<string, { list: any[]; cat: any }> = {};
+for (const cat of categories) {
+  catMap[cat.slug] = { list: getAllProducts().filter((p) => p.category === cat.slug), cat };
+}
+
+const statsLabels: Record<string, string[]> = {
+  en: ['Countries served', 'Partner customers', 'Total production base', 'Industrialized manufacturing'],
+  zh: ['出口国家', '合作伙伴客户', '生产基地总面积', '工业化标准制造'],
+  ar: ['دول نخدمها', 'عملاء شركاء', 'إجمالي قاعدة الإنتاج', 'تصنيع صناعي'],
+  fr: ['Pays desservis', 'Clients partenaires', 'Base de production totale', 'Fabrication industrialisée'],
+};
+
+const orgJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'JIRUI WEIVE Co., Ltd. (NJRUI Mobile Home)',
+  url: 'https://naijirui.com',
+  logo: 'https://naijirui.com/favicon.svg',
+  description: t({ en: 'Prefab house, container house and modular building manufacturer. Factory-direct OEM/ODM, exported to 30+ countries.', zh: '预制房屋、集装箱房与模块化建筑制造商。工厂直供OEM/ODM，出口30+国家。', ar: 'مصنّع منازل جاهزة وحاويات سكنية ومبانٍ معيارية. OEM/ODM مباشر من المصنع، تصدير إلى 30+ دولة.', fr: 'Fabricant de maisons préfabriquées, conteneurs et bâtiments modulaires. OEM/ODM direct usine, export vers 30+ pays.' }, lang),
+  address: { '@type': 'PostalAddress', addressLocality: 'Lianyungang', addressRegion: 'Jiangsu', addressCountry: 'CN' },
+  contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: site.email },
+};
+---
+<Base
+  lang={lang}
+  title={t({ en: 'Prefab House & Container House Manufacturer | Factory Direct OEM | NJRUI', zh: '预制房屋与集装箱房厂家 | 工厂直供OEM | NJRUI', ar: 'مصنّع منازل جاهزة وحاويات سكنية | NJRUI', fr: 'Fabricant de maisons préfabriquées et conteneurs | NJRUI' }, lang)}
+  description={t({ en: 'NJRUI is a prefab house & modular container house manufacturer with 4 factories, 30+ export countries. Folding expandable, flat pack, site camp houses. OEM/ODM, get a quote.', zh: '奈吉瑞是拥有4大工厂、出口30+国家的预制房屋与模块化集装箱房制造商。折叠扩展房、打包箱房、工地营地房。支持OEM/ODM。获取报价。', ar: 'NJRUI مصنّع منازل جاهزة وحاويات معيارية بأربعة مصانع وتصدير لأكثر من 30 دولة. قابلة للطي، مسطحة، معسكرات. OEM/ODM. اطلب عرض سعر.', fr: 'NJRUI fabrique maisons préfabriquées et conteneurs modulaires, 4 usines, 30+ pays. Pliables, à plat, camps. OEM/ODM. Devis.' }, lang)}
+  canonical="/"
+  preloadImage="/images/hero/hero-factory.jpg"
+  jsonLd={[orgJsonLd]}
+>
+  <Hero lang={lang} />
+
+  <section class="stats">
+    <div class="container stats-grid">
+      {site.stats.map((s: any, i: number) => (
+        <div class="stat"><b>{s.value}</b><span>{statsLabels[lang][i]}</span></div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="kicker">{u.home.whyKicker}</div>
+        <h2>{u.home.whyH2}</h2>
+        <p>{u.home.whyP}</p>
+      </div>
+      <div class="adv-grid">
+        {u.home.advantages.map((a: string[]) => (
+          <div class="adv"><b>{a[0]}</b><h3>{a[1]}</h3><p>{a[2]}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="kicker">{u.home.hotKicker}</div>
+        <h2>{u.home.hotH2}</h2>
+        <p>{u.home.hotP}</p>
+      </div>
+      <div class="cat-flex">
+        {categories.map((c) => (
+          <a class="card" href={langPath(lang, `/products/${c.slug}/`)}>
+            <img src={c.image} alt={t(c.imageAlt, lang)} loading="lazy" width="800" height="600" />
+            <div class="card-body">
+              <span class="tag">{t(c.short, lang)}</span>
+              <h3>{t(c.name, lang)}</h3>
+              <p>{ta(c.features, lang).slice(0, 2).join(' · ')}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="kicker">{u.home.featKicker}</div>
+        <h2>{u.home.featH2}</h2>
+      </div>
+      <div class="grid grid-3">
+        {(['folding-expandable-container-house', 'flat-pack-container-house', 'temporary-site-camp-accommodation'] as const).map((key) => {
+          const { list, cat } = catMap[key];
+          const p = list[0];
+          return (
+            <ProductCard
+              category={key}
+              categoryLabel={t(cat.short, lang)}
+              slug={p.slug}
+              name={t(p.name, lang)}
+              image={p.image}
+              imageAlt={t(p.imageAlt, lang)}
+              tagline={t(p.tagline, lang)}
+            />
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="kicker">{u.home.appKicker}</div>
+        <h2>{u.home.appH2}</h2>
+      </div>
+      <div class="grid grid-4">
+        {u.home.applications.map((a: string[], i: number) => (
+          <div class="card">
+            <img src={['/images/products/camp/dorm-row.jpg', '/images/products/modular/capsule-mountain.jpg', '/images/products/folding/folding-install.jpg', '/images/products/flatpack/site-office-2floor.jpg'][i]} alt={a[0]} loading="lazy" width="800" height="600" />
+            <div class="card-body"><h3>{a[0]}</h3><p>{a[1]}</p></div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="kicker">{u.home.caseKicker}</div>
+        <h2>{u.home.caseH2}</h2>
+      </div>
+      <div class="grid grid-3">
+        {cases.slice(0, 3).map((c) => (
+          <div class="card">
+            <img src={c.image} alt={t(c.alt, lang)} loading="lazy" width="800" height="600" />
+            <div class="card-body">
+              <span class="tag">{t(c.project, lang)}</span>
+              <h3>{t(c.title, lang)}</h3>
+              <p>{t(c.body, lang).slice(0, 110)}…</p>
+            </div>
+          </div>
+        ))}
+      </div>
+      <div style="text-align:center;margin-top:28px">
+        <a class="btn ghost" style="border-color:var(--steel);color:var(--steel)" href={langPath(lang, '/project-cases/')}>{u.home.viewAll}</a>
+      </div>
+    </div>
+  </section>
+
+  <QuoteCTA lang={lang} />
+</Base>

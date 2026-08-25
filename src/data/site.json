@@ -1,0 +1,18 @@
+{
+  "name": "NJRUI Mobile Home",
+  "legalName": "JIRUI WEIVE Co., Ltd.",
+  "group": "Jiuce Holding Group",
+  "domain": "https://naijirui.com",
+  "email": "v88868@qq.com",
+  "whatsapp": "8618391317205",
+  "whatsappDisplay": "+86 183 9131 7205",
+  "address": "Lianyungang, Jiangsu, China",
+  "addressFull": "JIRUI WEIVE Co., Ltd., GanYu District, Lianyungang, Jiangsu, China",
+  "slogan": "Movable House, Free to Settle Down",
+  "stats": [
+    { "value": "30+", "label": "Countries served" },
+    { "value": "500+", "label": "Partner customers" },
+    { "value": "1.7M m²", "label": "Total production base" },
+    { "value": "100%", "label": "Industrialized manufacturing" }
+  ]
+}

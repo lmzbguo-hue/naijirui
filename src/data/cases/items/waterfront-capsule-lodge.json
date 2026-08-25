@@ -1,0 +1,34 @@
+{
+  "slug": "waterfront-capsule-lodge",
+  "title": {
+    "en": "Waterfront Capsule Lodge",
+    "zh": "滨水太空舱度假屋",
+    "ar": "نزل كبسولات على الواجهة المائية",
+    "fr": "Lodge de capsules en bord d'eau"
+  },
+  "project": {
+    "en": "Lake-side eco lodge",
+    "zh": "湖畔生态度假屋",
+    "ar": "نزل بيئي على ضفاف البحيرة",
+    "fr": "Éco-lodge au bord du lac"
+  },
+  "units": {
+    "en": "15+ elevated units",
+    "zh": "15+ 套架高单元",
+    "ar": "15+ وحدة مرتفعة",
+    "fr": "15+ unités surélevées"
+  },
+  "image": "/images/cases/case-waterfront.jpg",
+  "alt": {
+    "en": "Waterfront capsule lodge project with elevated prefab units over water",
+    "zh": "架高预制单元立于水上的滨水太空舱度假屋",
+    "ar": "نزل كبسولات على الواجهة المائية بوحدات جاهزة مرتفعة فوق الماء",
+    "fr": "Lodge de capsules surélevé au-dessus de l'eau"
+  },
+  "body": {
+    "en": "Elevated capsule units on stilts and wooden decking over the waterline, with full water and power hook-up. The project demonstrates our ability to handle challenging terrain and environmental constraints with minimal site impact.",
+    "zh": "架高太空舱立于支柱与木甲板上方，跨越水位线，水电全部接通。该项目展示了我们在挑战性地形与环保限制下、以最小现场影响施工的能力。",
+    "ar": "وحدات كبسولة مرتفعة على ركائز وسطح خشبي فوق خط الماء مع توصيل كامل للمياه والكهرباء. يوضح المشروع قدرتنا على التعامل مع التضاريس الصعبة والقيود البيئية بأقل تأثير على الموقع.",
+    "fr": "Capsules surélevées sur pilotis et platelage bois au-dessus de la ligne d'eau, avec raccordements complets. Ce projet démontre notre capacité sur terrains difficiles avec impact minimal."
+  }
+}

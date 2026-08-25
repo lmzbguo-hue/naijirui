@@ -1,0 +1,353 @@
+{
+  "slug": "40ft-double-wing-expandable-box",
+  "category": "folding-expandable-container-house",
+  "name": {
+    "en": "40ft Double-Wing Expandable Box House",
+    "zh": "40英尺双翼拓展箱房",
+    "ar": "منزل حاوية مزدوج الجناح 40 قدماً",
+    "fr": "Maison boîte extensible double aile 40 pieds"
+  },
+  "shortName": {
+    "en": "40ft Double-Wing Expandable Box",
+    "zh": "40英尺双翼拓展箱",
+    "ar": "صندوق مزدوج الجناح 40 قدماً",
+    "fr": "Boîte extensible 40'"
+  },
+  "seoTitle": {
+    "en": "40ft Double-Wing Expandable Box House | 73m² | NJRUI",
+    "zh": "40英尺双翼拓展箱房 | 73㎡ | NJRUI",
+    "ar": "منزل حاوية مزدوج الجناح 40 قدماً | 73 م² | NJRUI",
+    "fr": "Boîte extensible double aile 40 pieds | 73 m² | NJRUI"
+  },
+  "seoDesc": {
+    "en": "40ft double-wing expandable box house: 11800×6220mm expanded, 73m² floor area, 6.5t. The largest unit in the series. OEM. Get a quote.",
+    "zh": "40英尺双翼拓展箱房：展开11800×6220mm、占地73㎡、重6.5t。系列最大单元。支持OEM。获取报价。",
+    "ar": "منزل حاوية مزدوج الجناح 40 قدماً: ممدد 11800×6220 ملم ومساحة 73 م² ووزن 6.5 طن. الأكبر في السلسلة. OEM. اطلب عرض سعر.",
+    "fr": "Boîte extensible double aile 40 pieds : 11800×6220 mm dépliée, 73 m², 6,5 t. La plus grande de la série. OEM. Devis."
+  },
+  "tagline": {
+    "en": "73 m² — a complete apartment from a single folding unit.",
+    "zh": "73㎡——单个折叠单元变出整套公寓。",
+    "ar": "73 م² — شقة كاملة من وحدة مطوية واحدة.",
+    "fr": "73 m² — un appartement complet depuis une unité pliée."
+  },
+  "intro": {
+    "en": "The 40ft double-wing expandable box is the largest model in the series: 73 m² of usable space unfolding from an 11.8-meter folded unit. It works as a multi-bedroom family home, a large dormitory block or a camp community room.\n\nThe wide expanded envelope (6.2 m) and generous internal height support full apartment layouts: living room, dining room, kitchen, 2–4 bedrooms and dry/wet separated bathrooms.",
+    "zh": "40英尺双翼拓展箱是系列最大型号：从 11.8 米折叠单元展开出 73㎡ 可用空间。可用作多卧室家庭住宅、大型宿舍段或营地社区活动室。\n\n6.2 米展开宽度与宽敞内部高度支持完整公寓布局：客厅、餐厅、厨房、2-4 间卧室与干湿分离卫生间。",
+    "ar": "منزل الحاوية مزدوج الجناح 40 قدماً هو الأكبر في السلسلة: 73 م² من المساحة القابلة للاستخدام تتفتح من وحدة مطوية بطول 11.8 متراً. يعمل كمنزل عائلي متعدد الغرف أو كتلة مساكن كبيرة أو غرفة مجتمع معسكر.\n\nيدعم الغلاف الممدد العريض (6.2 متر) والارتفاع الداخلي الواسع تخطيطات شقق كاملة: صالة ومطبخ و2-4 غرف نوم وحمامات فصل رطب/جاف.",
+    "fr": "La boîte extensible double aile 40 pieds est le plus grand modèle : 73 m² utiles depuis une unité pliée de 11,8 mètres. Maison familiale multi-chambres, grand dortoir ou salle communautaire de camp.\n\nL'enveloppe dépliée large (6,2 m) et la hauteur intérieure généreuse permettent de vrais plans d'appartement : salon, salle à manger, cuisine, 2–4 chambres et SdB sec/humide."
+  },
+  "image": "/images/products/folding/dw-40ft.jpg",
+  "imageAlt": {
+    "en": "40ft double-wing expandable box house cutout views on white background",
+    "zh": "白底多视图的40英尺双翼拓展箱房",
+    "ar": "عروض متعددة لمنزل حاوية مزدوج الجناح 40 قدماً على خلفية بيضاء",
+    "fr": "Vues multiples de la boîte extensible 40' sur fond blanc"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/folding/dw-40ft.jpg",
+      "alt": {
+        "en": "40ft double-wing expandable box house product views",
+        "zh": "40英尺双翼拓展箱房产品视图",
+        "ar": "عروض منتج منزل حاوية مزدوج الجناح 40 قدماً",
+        "fr": "Vues produit de la boîte extensible 40'"
+      }
+    },
+    {
+      "src": "/images/products/folding/dw-floorplan.jpg",
+      "alt": {
+        "en": "Floor plan render of double-wing expandable house",
+        "zh": "双翼拓展房户型渲染图",
+        "ar": "مخطط أرضي للمنزل مزدوج الجناح",
+        "fr": "Plan de la maison extensible double aile"
+      }
+    },
+    {
+      "src": "/images/products/folding/dw-solar-camo.jpg",
+      "alt": {
+        "en": "Expandable house with solar panels in camouflage finish",
+        "zh": "迷彩饰面带太阳能板的拓展房",
+        "ar": "منزل قابل للتمدد بألواح شمسية وتشطيب تمويه",
+        "fr": "Maison extensible avec panneaux solaires, finition camouflage"
+      }
+    },
+    {
+      "src": "/images/products/folding/dw-outdoor.jpg",
+      "alt": {
+        "en": "Double-wing expandable house installed outdoors",
+        "zh": "户外安装的双翼拓展房",
+        "ar": "منزل مزدوج الجناح مثبت في الخارج",
+        "fr": "Maison extensible installée en extérieur"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "73 m² expanded floor area",
+      "Largest unit in the series",
+      "2–4 bedroom apartment layouts",
+      "6.2 m expanded width",
+      "Pre-fitted kitchen, dining & bathrooms",
+      "Solar-ready options"
+    ],
+    "zh": [
+      "展开占地 73㎡",
+      "系列最大单元",
+      "2-4 室公寓布局",
+      "6.2 米展开宽度",
+      "预装厨房、餐厅与卫浴",
+      "预留太阳能选项"
+    ],
+    "ar": [
+      "مساحة ممددة 73 م²",
+      "الأكبر في السلسلة",
+      "تخطيطات شقق 2-4 غرف",
+      "عرض ممدد 6.2 متر",
+      "مطبخ وطعام وحمامات مثبتة مسبقاً",
+      "خيارات جاهزة للطاقة الشمسية"
+    ],
+    "fr": [
+      "73 m² dépliés",
+      "Plus grande de la série",
+      "Plans 2–4 chambres",
+      "6,2 m de large",
+      "Cuisine, salle à manger, SdB préinstallées",
+      "Options solaires"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Family homes",
+      "Large dormitory blocks",
+      "Camp community rooms",
+      "Field clinics",
+      "Show homes & offices"
+    ],
+    "zh": [
+      "家庭住宅",
+      "大型宿舍楼",
+      "营地社区活动室",
+      "野外诊所",
+      "样板房与办公室"
+    ],
+    "ar": [
+      "منازل عائلية",
+      "كتل مساكن كبيرة",
+      "غرف مجتمع المعسكر",
+      "عيادات ميدانية",
+      "منازل عرض ومكاتب"
+    ],
+    "fr": [
+      "Maisons familiales",
+      "Grands dortoirs",
+      "Salles communautaires",
+      "Infirmeries de terrain",
+      "Maisons témoins & bureaux"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Expanded size (L×W×H)",
+        "zh": "展开尺寸(长×宽×高)",
+        "ar": "المقاس الممدد (ط×ع×ا)",
+        "fr": "Taille dépliée (L×l×H)"
+      },
+      "value": {
+        "en": "11800 × 6220 × 2480 mm",
+        "zh": "11800 × 6220 × 2480 毫米",
+        "ar": "11800 × 6220 × 2480 ملم",
+        "fr": "11800 × 6220 × 2480 mm"
+      }
+    },
+    {
+      "key": {
+        "en": "Folded size (L×W×H)",
+        "zh": "折叠尺寸(长×宽×高)",
+        "ar": "المقاس المطوي (ط×ع×ا)",
+        "fr": "Taille pliée (L×l×H)"
+      },
+      "value": {
+        "en": "11800 × 2200 × 2480 mm",
+        "zh": "11800 × 2200 × 2480 毫米",
+        "ar": "11800 × 2200 × 2480 ملم",
+        "fr": "11800 × 2200 × 2480 mm"
+      }
+    },
+    {
+      "key": {
+        "en": "Internal size (L×W×H)",
+        "zh": "内部尺寸(长×宽×高)",
+        "ar": "المقاس الداخلي (ط×ع×ا)",
+        "fr": "Taille interne (L×l×H)"
+      },
+      "value": {
+        "en": "11540 × 6060 × 2240 mm",
+        "zh": "11540 × 6060 × 2240 毫米",
+        "ar": "11540 × 6060 × 2240 ملم",
+        "fr": "11540 × 6060 × 2240 mm"
+      }
+    },
+    {
+      "key": {
+        "en": "Floor area",
+        "zh": "占地面积",
+        "ar": "مساحة الأرضية",
+        "fr": "Surface"
+      },
+      "value": {
+        "en": "73 m²",
+        "zh": "73㎡",
+        "ar": "73 م²",
+        "fr": "73 m²"
+      }
+    },
+    {
+      "key": {
+        "en": "Net weight",
+        "zh": "净重",
+        "ar": "الوزن الصافي",
+        "fr": "Poids net"
+      },
+      "value": {
+        "en": "6.5 t",
+        "zh": "6.5 吨",
+        "ar": "6.5 طن",
+        "fr": "6,5 t"
+      }
+    },
+    {
+      "key": {
+        "en": "Container loading",
+        "zh": "装柜数量",
+        "ar": "تحميل الحاوية",
+        "fr": "Chargement"
+      },
+      "value": {
+        "en": "1 set per 40ft high-cube",
+        "zh": "40尺高柜装 1 套",
+        "ar": "وحدة واحدة لكل حاوية 40 قدماً",
+        "fr": "1 unité / conteneur 40' HC"
+      }
+    },
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Galvanized steel frame",
+        "zh": "镀锌钢框架",
+        "ar": "هيكل فولاذي مجلفن",
+        "fr": "Acier galvanisé"
+      }
+    },
+    {
+      "key": {
+        "en": "Windows",
+        "zh": "窗户",
+        "ar": "النوافذ",
+        "fr": "Fenêtres"
+      },
+      "value": {
+        "en": "Broken-bridge aluminum options",
+        "zh": "断桥铝合金可选",
+        "ar": "خيارات ألمنيوم مكسورة حرارياً",
+        "fr": "Alu rupture thermique"
+      }
+    },
+    {
+      "key": {
+        "en": "Doors",
+        "zh": "门",
+        "ar": "الأبواب",
+        "fr": "Portes"
+      },
+      "value": {
+        "en": "High-end anti-theft; glass curtain-wall; steel single door",
+        "zh": "高配防盗门；玻璃幕墙门；钢制单开门",
+        "ar": "مانع سرقة فاخر؛ زجاجي ستائري؛ فولاذي مفرد",
+        "fr": "Blindée ; rideau vitré ; acier"
+      }
+    },
+    {
+      "key": {
+        "en": "Electrical",
+        "zh": "电气",
+        "ar": "الكهرباء",
+        "fr": "Électricité"
+      },
+      "value": {
+        "en": "AU & EU sockets, AC option, water heater, LED",
+        "zh": "澳/欧标插座、空调选配、热水器、LED",
+        "ar": "مقابس AU وEU وتكييف اختياري وسخان ماء وLED",
+        "fr": "Prises AU/EU, clim option, chauffe-eau, LED"
+      }
+    },
+    {
+      "key": {
+        "en": "Interior",
+        "zh": "内饰",
+        "ar": "الداخل",
+        "fr": "Intérieur"
+      },
+      "value": {
+        "en": "Carbon crystal panels, composite flooring, dry/wet bathrooms",
+        "zh": "碳晶护墙板、复合地板、干湿分离卫浴",
+        "ar": "ألواح كربون وأرضيات مركبة وحمامات فصل رطب/جاف",
+        "fr": "Carbone cristal, sol composite, SdB sec/humide"
+      }
+    },
+    {
+      "key": {
+        "en": "Floor plans",
+        "zh": "户型",
+        "ar": "المخططات",
+        "fr": "Plans"
+      },
+      "value": {
+        "en": "2–4 bedrooms + living + kitchen",
+        "zh": "2-4 室+客厅+厨房",
+        "ar": "2-4 غرف + صالة + مطبخ",
+        "fr": "2–4 ch. + salon + cuisine"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Largest-format customization: full floor plans, finishes, solar-ready packages and special exterior finishes (incl. camouflage) available.",
+    "zh": "大规格定制：完整户型、饰面、太阳能预留方案与特殊外观饰面（含迷彩）均可提供。",
+    "ar": "تخصيص بأكبر صيغة: مخططات كاملة وتشطيبات وباقات جاهزة للطاقة الشمسية وتشطيبات خارجية خاصة (بما فيها التمويه).",
+    "fr": "Personnalisation grand format : plans complets, finitions, packages solaires et finitions spéciales (dont camouflage)."
+  }
+}

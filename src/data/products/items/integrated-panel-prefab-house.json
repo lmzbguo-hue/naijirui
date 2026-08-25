@@ -1,0 +1,288 @@
+{
+  "slug": "integrated-panel-prefab-house",
+  "category": "modular-prefab-house",
+  "name": {
+    "en": "Integrated Panel Prefab House",
+    "zh": "一体板预制房",
+    "ar": "منزل جاهز بألواح متكاملة",
+    "fr": "Maison préfabriquée à panneaux intégrés"
+  },
+  "shortName": {
+    "en": "Integrated Panel House",
+    "zh": "一体板房",
+    "ar": "منزل ألواح متكاملة",
+    "fr": "Maison à panneaux intégrés"
+  },
+  "seoTitle": {
+    "en": "Integrated Panel Prefab House | A-Class Fire Rated | NJRUI",
+    "zh": "一体板预制房 | A级防火 | NJRUI",
+    "ar": "منزل جاهز بألواح متكاملة | مقاوم للحريق فئة A | NJRUI",
+    "fr": "Maison à panneaux intégrés | Feu classe A | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Integrated panel prefab house: graphene-EPS panels, double asphalt shingle roof, 60-series thermal-break windows, A-class fire rating, zero-formaldehyde. Get a quote.",
+    "zh": "一体板预制房：石墨烯EPS板、双层沥青瓦屋顶、60系断桥铝窗、A级防火、零甲醛。获取报价。",
+    "ar": "منزل جاهز بألواح متكاملة: ألواح جرافين-EPS وسقف قرميد أسفلتي مزدوج ونوافذ سلسلة 60 مكسورة حرارياً ومقاومة حريق فئة A وبدون فورمالديهايد. اطلب عرض سعر.",
+    "fr": "Maison à panneaux intégrés : panneaux graphène-EPS, toit bardeaux bitumés doubles, fenêtres série 60 à rupture thermique, feu classe A, sans formaldéhyde. Devis."
+  },
+  "tagline": {
+    "en": "One integrated panel system: structure, insulation and finish in one.",
+    "zh": "一套一体化板系统：结构、保温、饰面三位一体。",
+    "ar": "نظام ألواح متكامل واحد: الهيكل والعزل والتشطيب في واحد.",
+    "fr": "Un système de panneaux intégrés : structure, isolation, finition en un."
+  },
+  "intro": {
+    "en": "The integrated panel prefab house combines structure, insulation and decoration in a single panel system — faster to build, cleaner to finish, and engineered to A-class fire standards with zero-formaldehyde interiors.\n\nEach unit carries the full NJRUI envelope package: galvanized frame, graphene-EPS integrated panels, double asphalt shingle roof, aluminum edge trim, composite wood flooring over cement pressure board, 60-series thermal-break aluminum windows and a security door.",
+    "zh": "一体板预制房将结构、保温与装饰集成于单一板系统——建造更快、收口更干净，按 A 级防火标准打造，内饰零甲醛。\n\n每套单元配备完整的奈吉瑞围护包：镀锌框架、石墨烯 EPS 一体板、双层沥青瓦屋顶、铝合金包边、水泥压力板上的复合木地板、60 系断桥铝合金窗与防盗门。",
+    "ar": "يجمع المنزل الجاهز بالألواح المتكاملة بين الهيكل والعزل والديكور في نظام لوح واحد — بناء أسرع وتشطيب أنظف، ومهندس وفق معايير مقاومة الحريق فئة A مع ديكورات خالية من الفورمالديهايد.\n\nتحمل كل وحدة حزمة NJRUI الكاملة: إطار مجلفن وألواح جرافين-EPS متكاملة وسقف قرميد أسفلتي مزدوج وحواف ألمنيوم وأرضية خشبية مركبة فوق لوح أسمنتي ونوافذ ألمنيوم سلسلة 60 مكسورة حرارياً وباب أمان.",
+    "fr": "La maison à panneaux intégrés combine structure, isolation et décoration en un seul système — plus rapide, plus propre, conçue aux normes feu classe A avec intérieurs sans formaldéhyde.\n\nChaque unité porte le package NJRUI complet : châssis galvanisé, panneaux graphène-EPS, toit bardeaux doubles, baguettes aluminium, sol bois composite sur panneau ciment, fenêtres alu série 60 et porte de sécurité."
+  },
+  "image": "/images/products/modular/wood-tinyhome.jpg",
+  "imageAlt": {
+    "en": "Integrated panel prefab house with wood-grain siding and black frame",
+    "zh": "木纹饰面与黑色框架的一体板预制房",
+    "ar": "منزل جاهز بألواح متكاملة بكسوة خشبية وإطار أسود",
+    "fr": "Maison à panneaux intégrés, bardage bois et cadre noir"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/modular/wood-tinyhome.jpg",
+      "alt": {
+        "en": "Integrated panel prefab house exterior with wood-grain finish",
+        "zh": "木纹饰面的一体板预制房外观",
+        "ar": "واجهة منزل جاهز بألواح متكاملة بتشطيب خشبي",
+        "fr": "Extérieur de maison à panneaux intégrés, finition bois"
+      }
+    },
+    {
+      "src": "/images/products/modular/waterfront-cabin.jpg",
+      "alt": {
+        "en": "Integrated panel cabins by the water with private yards",
+        "zh": "带私家庭院的水边一体板木屋",
+        "ar": "كبائن ألواح متكاملة بجوار الماء بأفنية خاصة",
+        "fr": "Cabines à panneaux intégrés au bord de l'eau"
+      }
+    },
+    {
+      "src": "/images/products/modular/apple-cabin.jpg",
+      "alt": {
+        "en": "Prefab house with rooftop deck and large glass wall",
+        "zh": "带屋顶露台与大面积玻璃墙的预制房",
+        "ar": "منزل جاهز بسطح علوي وجدار زجاجي كبير",
+        "fr": "Maison préfabriquée avec terrasse de toit et grand vitrage"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "A-class fire-rated panels",
+      "Zero-formaldehyde interior",
+      "Graphene-EPS integrated panel",
+      "Double asphalt shingle roof",
+      "60-series thermal-break windows",
+      "Fast industrialized construction"
+    ],
+    "zh": [
+      "A级防火板材",
+      "零甲醛内饰",
+      "石墨烯EPS一体板",
+      "双层沥青瓦屋顶",
+      "60系断桥铝窗",
+      "工业化快速建造"
+    ],
+    "ar": [
+      "ألواح مقاومة للحريق فئة A",
+      "ديكورات بدون فورمالديهايد",
+      "لوح جرافين-EPS متكامل",
+      "سقف قرميد أسفلتي مزدوج",
+      "نوافذ سلسلة 60 مكسورة حرارياً",
+      "بناء صناعي سريع"
+    ],
+    "fr": [
+      "Panneaux feu classe A",
+      "Intérieur sans formaldéhyde",
+      "Panneau graphène-EPS",
+      "Bardeaux bitumés doubles",
+      "Fenêtres série 60",
+      "Construction industrialisée rapide"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Residential houses",
+      "Rural housing",
+      "Guest houses",
+      "Small offices",
+      "Retreat cabins"
+    ],
+    "zh": [
+      "住宅",
+      "乡村住房",
+      "民宿",
+      "小型办公室",
+      "静居木屋"
+    ],
+    "ar": [
+      "منازل سكنية",
+      "إسكان ريفي",
+      "بيوت ضيافة",
+      "مكاتب صغيرة",
+      "كبائن راحة"
+    ],
+    "fr": [
+      "Maisons résidentielles",
+      "Logement rural",
+      "Maisons d'hôtes",
+      "Petits bureaux",
+      "Cabines de retraite"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Galvanized steel frame",
+        "zh": "镀锌钢框架",
+        "ar": "هيكل فولاذي مجلفن",
+        "fr": "Châssis acier galvanisé"
+      }
+    },
+    {
+      "key": {
+        "en": "Wall",
+        "zh": "墙体",
+        "ar": "الجدار",
+        "fr": "Mur"
+      },
+      "value": {
+        "en": "Graphene-EPS integrated panel, A-class fire rating",
+        "zh": "石墨烯EPS一体板，A级防火",
+        "ar": "لوح جرافين-EPS متكامل، مقاومة حريق فئة A",
+        "fr": "Panneau graphène-EPS, feu classe A"
+      }
+    },
+    {
+      "key": {
+        "en": "Roof",
+        "zh": "屋顶",
+        "ar": "السقف",
+        "fr": "Toit"
+      },
+      "value": {
+        "en": "Double asphalt shingle, aluminum edge trim",
+        "zh": "双层沥青瓦，铝合金包边",
+        "ar": "قرميد أسفلتي مزدوج مع حواف ألمنيوم",
+        "fr": "Bardeaux bitumés doubles, baguettes alu"
+      }
+    },
+    {
+      "key": {
+        "en": "Floor",
+        "zh": "地面",
+        "ar": "الأرضية",
+        "fr": "Sol"
+      },
+      "value": {
+        "en": "Composite wood flooring + cement pressure board",
+        "zh": "复合木地板+水泥压力板",
+        "ar": "خشب مركب + لوح أسمنتي",
+        "fr": "Bois composite + panneau ciment"
+      }
+    },
+    {
+      "key": {
+        "en": "Windows",
+        "zh": "窗户",
+        "ar": "النوافذ",
+        "fr": "Fenêtres"
+      },
+      "value": {
+        "en": "60-series thermal-break aluminum",
+        "zh": "60系断桥铝合金",
+        "ar": "ألمنيوم سلسلة 60 مكسور حراريًا",
+        "fr": "Alu série 60 rupture thermique"
+      }
+    },
+    {
+      "key": {
+        "en": "Door",
+        "zh": "门",
+        "ar": "الباب",
+        "fr": "Porte"
+      },
+      "value": {
+        "en": "Security steel door",
+        "zh": "防盗钢门",
+        "ar": "باب أمان فولاذي",
+        "fr": "Porte acier de sécurité"
+      }
+    },
+    {
+      "key": {
+        "en": "Interior",
+        "zh": "内饰",
+        "ar": "الداخل",
+        "fr": "Intérieur"
+      },
+      "value": {
+        "en": "Zero-formaldehyde finishes",
+        "zh": "零甲醛饰面",
+        "ar": "تشطيبات بدون فورمالديهايد",
+        "fr": "Sans formaldéhyde"
+      }
+    },
+    {
+      "key": {
+        "en": "Fire rating",
+        "zh": "防火等级",
+        "ar": "مقاومة الحريق",
+        "fr": "Feu"
+      },
+      "value": {
+        "en": "A-class",
+        "zh": "A级",
+        "ar": "فئة A",
+        "fr": "Classe A"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Panel finish, roof style, window layout and interior plan customized per order.",
+    "zh": "板材饰面、屋顶样式、窗户布局与室内方案均可按订单定制。",
+    "ar": "تشطيب الألواح ونمط السقف وتخطيط النوافذ والمخطط الداخلي تُخصص حسب الطلب.",
+    "fr": "Finition des panneaux, toiture, fenêtres et plan intérieur personnalisés par commande."
+  }
+}

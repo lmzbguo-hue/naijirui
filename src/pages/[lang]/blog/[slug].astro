@@ -1,0 +1,21 @@
+---
+import BlogPostPage from '../../../components/pages/BlogPostPage.astro';
+import { getCollection } from 'astro:content';
+import { locales } from '../../../i18n';
+
+export async function getStaticPaths() {
+  const all = await getCollection('blog');
+  const slugs = [...new Set(all.map((e) => e.data.postKey))];
+  const pages: any[] = [];
+  for (const lang of locales.filter((l) => l !== 'en')) {
+    for (const slug of slugs) {
+      pages.push({ params: { lang, slug }, props: { id: `${slug}-${lang}` } });
+    }
+  }
+  return pages;
+}
+
+const { lang } = Astro.params;
+const { id } = Astro.props;
+---
+<BlogPostPage lang={lang} id={id} />

@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuoteCTA from '../QuoteCTA.astro';
+import { getEntry, render } from 'astro:content';
+import { U, langPath } from '../../i18n';
+
+interface Props { lang: string; id: string; }
+const { lang, id } = Astro.props;
+const u = U(lang);
+const entry = await getEntry('blog', id);
+if (!entry) throw new Error('Blog entry not found: ' + id);
+const post = entry.data;
+const canonical = `/blog/${post.postKey}/`;
+const url = langPath(lang, canonical);
+const { Content } = await render(entry);
+
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: post.title,
+  description: post.excerpt,
+  datePublished: post.date,
+  author: { '@type': 'Organization', name: 'NJRUI Mobile Home' },
+  publisher: { '@type': 'Organization', name: 'JIRUI WEIVE Co., Ltd.' },
+};
+---
+<Base lang={lang} title={post.seoTitle ?? post.title} description={post.seoDesc ?? post.excerpt} canonical={canonical} jsonLd={[articleJsonLd]}>
+  <div class="page-head">
+    <div class="container">
+      <div class="crumbs"><a href={langPath(lang, '/')}>{u.products.homeCrumbs}</a> / <a href={langPath(lang, '/blog/')}>{u.nav.blog}</a> / {post.title}</div>
+      <h1>{post.title}</h1>
+      <p style="color:#c6d8ec">{post.date} · NJRUI Mobile Home</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container post">
+      <Content />
+    </div>
+  </section>
+
+  <QuoteCTA lang={lang} heading={u.blog.ctaH} sub={u.blog.ctaP} />
+</Base>

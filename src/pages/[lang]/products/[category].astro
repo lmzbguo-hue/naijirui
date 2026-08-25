@@ -1,0 +1,23 @@
+---
+import ProductCategoryPage from '../../../components/pages/ProductCategoryPage.astro';
+import categories from '../../../data/categories.json';
+import { getAllProducts } from '../../../data/load';
+import { locales } from '../../../i18n';
+
+export function getStaticPaths() {
+  const pages: any[] = [];
+  for (const lang of locales.filter((l) => l !== 'en')) {
+    for (const c of categories) {
+      pages.push({
+        params: { lang, category: c.slug },
+        props: { list: getAllProducts().filter((p) => p.category === c.slug), cat: c },
+      });
+    }
+  }
+  return pages;
+}
+
+const { lang } = Astro.params;
+const { cat, list } = Astro.props;
+---
+<ProductCategoryPage lang={lang} cat={cat} list={list} />

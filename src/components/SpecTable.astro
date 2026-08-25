@@ -1,0 +1,9 @@
+---
+interface Props { specs: [string, string][]; }
+const { specs } = Astro.props;
+---
+<table class="spec-table">
+  {specs.map(([k, v]) => (
+    <tr><th>{k}</th><td>{v}</td></tr>
+  ))}
+</table>

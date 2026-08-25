@@ -1,0 +1,288 @@
+{
+  "slug": "expandable-mobile-medical-station",
+  "category": "folding-expandable-container-house",
+  "name": {
+    "en": "Expandable Mobile Medical Station & Shelter Unit",
+    "zh": "可扩展移动医疗站与庇护单元",
+    "ar": "محطة طبية متنقلة قابلة للتمدد ووحدة مأوى",
+    "fr": "Poste médical mobile extensible & unité d'abri"
+  },
+  "shortName": {
+    "en": "Expandable Medical Station",
+    "zh": "可扩展医疗站",
+    "ar": "محطة طبية قابلة للتمدد",
+    "fr": "Poste médical extensible"
+  },
+  "seoTitle": {
+    "en": "Expandable Mobile Medical Station & Shelter Unit | NJRUI",
+    "zh": "可扩展移动医疗站与庇护单元 | NJRUI",
+    "ar": "محطة طبية متنقلة قابلة للتمدد ووحدة مأوى | NJRUI",
+    "fr": "Poste médical mobile extensible | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Expandable mobile medical station, operations room & shelter unit. Rugged, flexible, pre-fitted for medical/command use. OEM configurable. Get a quote.",
+    "zh": "可扩展移动医疗站、作战室与庇护单元。坚固灵活，可预制医疗/指挥用途配置。支持OEM定制。获取报价。",
+    "ar": "محطة طبية متنقلة قابلة للتمدد وغرفة عمليات ووحدة مأوى. متينة ومرنة ومجهزة مسبقاً للاستخدام الطبي/القيادي. قابل للتهيئة OEM. اطلب عرض سعر.",
+    "fr": "Poste médical mobile extensible, salle d'opérations et unité d'abri. Robuste, flexible, pré-équipé usage médical/commandement. Configurable OEM. Devis."
+  },
+  "tagline": {
+    "en": "Rugged expandable units for medical, command and shelter missions.",
+    "zh": "为医疗、指挥与庇护任务而生的坚固扩展单元。",
+    "ar": "وحدات قابلة للتمدد متينة لمهام طبية وقيادية وإيواء.",
+    "fr": "Unités extensibles robustes pour missions médicales, commandement et abri."
+  },
+  "intro": {
+    "en": "Our expandable mobile units are engineered for mission-critical use: mobile medical stations, field operations rooms and shelters. The expandable design multiplies internal space while keeping a transportable footprint, and the rugged galvanized structure is built for repeated relocation.\n\nUnits can be pre-fitted with advanced interior equipment — medical fixtures, power distribution, communications and climate systems — per project specification, and are well suited to government, military and relief procurement.",
+    "zh": "我们的可扩展移动单元为关键任务场景而设计：移动医疗站、野战指挥室与庇护单元。可扩展设计在保持可运输占地的同时成倍增加内部空间，坚固的镀锌结构适合反复迁移。\n\n单元可按项目规格预装高端内部设备——医疗设施、配电、通信与空调系统——非常适合政府、军队与救援采购。",
+    "ar": "صُممت وحداتنا المتنقلة القابلة للتمدد للاستخدامات الحرجة: محطات طبية متنقلة وغرف عمليات ميدانية وملاجئ. يضاعف التصميم القابل للتمدد المساحة الداخلية مع الحفاظ على بصمة قابلة للنقل، والهيكل المجلفن المتين مصمم للنقل المتكرر.\n\nيمكن تجهيز الوحدات مسبقاً بمعدات داخلية متقدمة — تجهيزات طبية وتوزيع طاقة واتصالات وأنظمة مناخ — حسب مواصفة المشروع، وهي مناسبة تماماً لمشتريات الحكومة والجيش والإغاثة.",
+    "fr": "Nos unités mobiles extensibles sont conçues pour les usages critiques : postes médicaux mobiles, salles d'opérations de terrain et abris. Le design extensible multiplie l'espace intérieur en conservant une empreinte transportable ; la structure galvanisée robuste supporte les relocalisations.\n\nPré-équipables (médical, distribution électrique, communications, climatisation) selon spécification, elles conviennent aux achats gouvernementaux, militaires et humanitaires."
+  },
+  "image": "/images/products/folding/folding-unit.jpg",
+  "imageAlt": {
+    "en": "Expandable mobile unit exterior for medical station use",
+    "zh": "用于医疗站的扩展移动单元外观",
+    "ar": "واجهة وحدة متنقلة قابلة للتمدد لاستخدام المحطة الطبية",
+    "fr": "Extérieur d'unité mobile extensible pour poste médical"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/folding/folding-unit.jpg",
+      "alt": {
+        "en": "Expandable mobile unit with insulated panels and security windows",
+        "zh": "带保温板与安全窗的扩展移动单元",
+        "ar": "وحدة متنقلة قابلة للتمدد بألواح معزولة ونوافذ أمان",
+        "fr": "Unité mobile extensible, panneaux isolés et fenêtres sécurisées"
+      }
+    },
+    {
+      "src": "/images/products/folding/folding-install.jpg",
+      "alt": {
+        "en": "Expandable unit installation with crane in field environment",
+        "zh": "野外环境中吊装扩展单元",
+        "ar": "تركيب وحدة قابلة للتمدد بالرافعة في بيئة ميدانية",
+        "fr": "Installation d'unité extensible par grue en environnement de terrain"
+      }
+    },
+    {
+      "src": "/images/products/folding/folding-factory.jpg",
+      "alt": {
+        "en": "Expandable units at NJRUI factory before delivery",
+        "zh": "交付前奈吉瑞工厂内的扩展单元",
+        "ar": "وحدات قابلة للتمدد في مصنع NJRUI قبل التسليم",
+        "fr": "Unités extensibles à l'usine NJRUI avant livraison"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "Expandable mission space",
+      "Rugged galvanized structure",
+      "Pre-fitted interior options",
+      "Rapid field deployment",
+      "Repeat relocation & reuse",
+      "Spec-driven customization"
+    ],
+    "zh": [
+      "可扩展任务空间",
+      "坚固镀锌结构",
+      "预制内饰选项",
+      "快速野外部署",
+      "反复搬迁复用",
+      "按规格定制"
+    ],
+    "ar": [
+      "مساحة مهمة قابلة للتمدد",
+      "هيكل مجلفن متين",
+      "خيارات تجهيز داخلي مسبق",
+      "نشر ميداني سريع",
+      "نقل وإعادة استخدام متكرر",
+      "تخصيص حسب المواصفة"
+    ],
+    "fr": [
+      "Espace de mission extensible",
+      "Structure galvanisée robuste",
+      "Options pré-équipées",
+      "Déploiement rapide",
+      "Relocalisation réutilisable",
+      "Personnalisation sur spécification"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Mobile medical stations",
+      "Field operations & command rooms",
+      "Emergency shelters",
+      "Disaster relief bases",
+      "Military logistics"
+    ],
+    "zh": [
+      "移动医疗站",
+      "野战指挥室",
+      "应急庇护所",
+      "救灾基地",
+      "军事后勤"
+    ],
+    "ar": [
+      "محطات طبية متنقلة",
+      "غرف عمليات وقيادة ميدانية",
+      "ملاجئ طوارئ",
+      "قواعد إغاثة الكوارث",
+      "لوجستيات عسكرية"
+    ],
+    "fr": [
+      "Postes médicaux mobiles",
+      "Salles d'opérations de terrain",
+      "Abris d'urgence",
+      "Bases de secours",
+      "Logistique militaire"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Base size (L×W×H)",
+        "zh": "基础尺寸(长×宽×高)",
+        "ar": "المقاس الأساسي (ط×ع×ا)",
+        "fr": "Taille base (L×l×H)"
+      },
+      "value": {
+        "en": "20ft / 40ft ISO — selectable",
+        "zh": "20ft / 40ft ISO — 可选",
+        "ar": "حاوية ISO 20/40 قدماً — قابلة للاختيار",
+        "fr": "ISO 20' / 40' — au choix"
+      }
+    },
+    {
+      "key": {
+        "en": "Expanded size",
+        "zh": "展开尺寸",
+        "ar": "المقاس الممدد",
+        "fr": "Taille dépliée"
+      },
+      "value": {
+        "en": "Configurable — confirm with sales team",
+        "zh": "可配置——请联系销售团队",
+        "ar": "قابل للتهيئة — أكد مع فريق المبيعات",
+        "fr": "Configurable — confirmer"
+      }
+    },
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Galvanized square-tube steel frame",
+        "zh": "镀锌方管钢框架",
+        "ar": "هيكل فولاذي مجلفن مربع",
+        "fr": "Châssis acier galvanisé à tubes"
+      }
+    },
+    {
+      "key": {
+        "en": "Wall panel",
+        "zh": "墙体",
+        "ar": "ألواح الجدران",
+        "fr": "Panneaux"
+      },
+      "value": {
+        "en": "Insulated color steel integrated board",
+        "zh": "保温彩钢夹芯板",
+        "ar": "لوح فولاذي ملون متكامل معزول",
+        "fr": "Panneau acier intégré isolé"
+      }
+    },
+    {
+      "key": {
+        "en": "Floor",
+        "zh": "地面",
+        "ar": "الأرضية",
+        "fr": "Sol"
+      },
+      "value": {
+        "en": "Cement fiber board + PVC surface",
+        "zh": "水泥纤维板+PVC饰面",
+        "ar": "لوح ألياف أسمنتي + سطح PVC",
+        "fr": "Fibre-ciment + PVC"
+      }
+    },
+    {
+      "key": {
+        "en": "Windows / Doors",
+        "zh": "门窗",
+        "ar": "النوافذ/الأبواب",
+        "fr": "Fenêtres / Portes"
+      },
+      "value": {
+        "en": "Aluminum alloy windows with screens; steel doors",
+        "zh": "铝合金窗带纱窗；钢制门",
+        "ar": "نوافذ ألمنيوم مع شاشات؛ أبواب فولاذية",
+        "fr": "Alu avec moustiquaires ; portes acier"
+      }
+    },
+    {
+      "key": {
+        "en": "Interior fit-out",
+        "zh": "内部配置",
+        "ar": "التجهيز الداخلي",
+        "fr": "Équipement"
+      },
+      "value": {
+        "en": "Medical / command / shelter packages on request",
+        "zh": "医疗/指挥/庇护方案，按需定制",
+        "ar": "باقات طبية/قيادية/مأوى عند الطلب",
+        "fr": "Packages médical/commandement/abri"
+      }
+    },
+    {
+      "key": {
+        "en": "Electrical",
+        "zh": "电气",
+        "ar": "الكهرباء",
+        "fr": "Électricité"
+      },
+      "value": {
+        "en": "LED lighting, power distribution, AC-ready",
+        "zh": "LED照明、配电、空调预留",
+        "ar": "إضاءة LED وتوزيع طاقة وجاهزية تكييف",
+        "fr": "LED, distribution, clim-ready"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Interior fit-out, power systems and external finishes are specified per project. Contact us with your requirement sheet.",
+    "zh": "内部配置、电力系统与外部饰面按项目定制。请将需求清单发给我们。",
+    "ar": "يتم تحديد التجهيز الداخلي وأنظمة الطاقة والتشطيبات الخارجية حسب المشروع. تواصل معنا بورقة المتطلبات.",
+    "fr": "Équipement, systèmes électriques et finitions spécifiés par projet. Contactez-nous avec votre cahier des charges."
+  }
+}

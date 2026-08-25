@@ -1,0 +1,73 @@
+---
+import site from '../data/site.json';
+import categories from '../data/categories.json';
+import { t, U, langPath } from '../i18n';
+
+interface Props { lang: string; defaultProduct?: string; next?: string; }
+const { lang, defaultProduct = '', next } = Astro.props;
+const u = U(lang);
+const action = `https://formsubmit.co/${site.email}`;
+const redirect = next ?? langPath(lang, '/contact-us/') + '?sent=1';
+---
+<form class="form" action={action} method="POST">
+  <input type="hidden" name="_subject" value={u.form.subject} />
+  <input type="hidden" name="_template" value="table" />
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_next" value={'https://naijirui.com' + redirect} />
+  <input type="hidden" name="_autoresponse" value={u.form.autoresponse} />
+  <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" />
+  <div class="form-grid">
+    <div>
+      <label for="f-name">{u.form.name}</label>
+      <input id="f-name" name="Name" required placeholder={u.form.namePh} />
+    </div>
+    <div>
+      <label for="f-company">{u.form.company}</label>
+      <input id="f-company" name="Company" required placeholder={u.form.companyPh} />
+    </div>
+    <div>
+      <label for="f-email">{u.form.email}</label>
+      <input id="f-email" name="Email" type="email" required placeholder={u.form.emailPh} />
+    </div>
+    <div>
+      <label for="f-country">{u.form.country}</label>
+      <input id="f-country" name="Country" placeholder={u.form.countryPh} />
+    </div>
+    <div>
+      <label for="f-product">{u.form.product}</label>
+      <select id="f-product" name="Interested Product" required>
+        <option value="" disabled selected={!defaultProduct}>{defaultProduct ? '' : u.form.productPh}</option>
+        {categories.map((c) => (
+          <option value={t(c.name, lang)} selected={defaultProduct === c.slug}>{t(c.name, lang)}</option>
+        ))}
+        <option value={u.form.other}>{u.form.other}</option>
+      </select>
+    </div>
+    <div>
+      <label for="f-qty">{u.form.quantity}</label>
+      <input id="f-qty" name="Quantity" placeholder={u.form.quantityPh} />
+    </div>
+    <div class="full">
+      <label for="f-req">{u.form.requirement}</label>
+      <textarea id="f-req" name="Project Requirement" rows="5" required placeholder={u.form.reqPh}></textarea>
+    </div>
+  </div>
+  <div class="inline-cta">
+    <button class="btn" type="submit">{u.form.submit}</button>
+  </div>
+  <p class="form-note">{u.form.note}</p>
+</form>
+
+<div class="form-sent" style="display:none;background:#e8f7ee;border:1px solid #bfe8d0;border-radius:10px;padding:24px;margin-bottom:20px">
+  <b>{u.form.sentTitle}</b>
+  <p style="margin-top:6px">{u.form.sentBody} <a href={`https://wa.me/${site.whatsapp}`}>+86 183 9131 7205</a></p>
+</div>
+
+<script>
+  if (new URLSearchParams(window.location.search).get('sent') === '1') {
+    const el = document.querySelector('.form-sent');
+    if (el) { el.style.display = 'block'; }
+    const form = document.querySelector('.form');
+    if (form) { form.style.display = 'none'; }
+  }
+</script>

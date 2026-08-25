@@ -1,0 +1,34 @@
+{
+  "slug": "lakeside-cabin-row",
+  "title": {
+    "en": "Lakeside Cabin Development",
+    "zh": "湖畔木屋开发项目",
+    "ar": "تطوير كبائن على ضفاف البحيرة",
+    "fr": "Développement de cabines en bord de lac"
+  },
+  "project": {
+    "en": "Waterfront vacation cabins",
+    "zh": "滨水度假木屋",
+    "ar": "كبائن عطلات على الواجهة المائية",
+    "fr": "Cabines de vacances en bord d'eau"
+  },
+  "units": {
+    "en": "Mixed cabin & capsule mix",
+    "zh": "木屋与太空舱混合",
+    "ar": "مزيج كبائن وكبسولات",
+    "fr": "Mix cabines & capsules"
+  },
+  "image": "/images/cases/case-cabins-lake.jpg",
+  "alt": {
+    "en": "Lakeside prefab cabin development with wooden decks",
+    "zh": "带木制露台的湖畔预制木屋开发项目",
+    "ar": "تطوير كبائن جاهزة على ضفاف البحيرة مع أسطح خشبية",
+    "fr": "Développement de cabines préfabriquées au bord du lac avec terrasses bois"
+  },
+  "body": {
+    "en": "A mixed development of prefab cabins and capsule units along a lakeside, each with its own deck. The project combines standard and custom models to test fast, repeatable delivery of vacation housing.",
+    "zh": "湖畔的预制木屋与太空舱混合开发项目，每套配独立露台。项目结合标准与定制型号，验证度假住宅的快速、可复制交付。",
+    "ar": "تطوير مختلط من كبائن جاهزة وكبسولات على ضفاف البحيرة، لكل منها سطح خشبي خاص. يجمع المشروع بين الموديلات القياسية والمخصصة لاختبار تسليم سكن العطلات بسرعة وقابلية للتكرار.",
+    "fr": "Développement mixte cabines préfabriquées et capsules au bord d'un lac, chacune avec sa terrasse. Modèles standard et sur mesure pour tester une livraison rapide et reproductible."
+  }
+}

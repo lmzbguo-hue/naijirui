@@ -1,0 +1,232 @@
+{
+  "slug": "apple-cabin",
+  "category": "modular-prefab-house",
+  "name": {
+    "en": "Apple Cabin (Glamping Cabin)",
+    "zh": "苹果舱（野奢木屋）",
+    "ar": "كبينة التفاح (كبينة تخييم)",
+    "fr": "Cabine Apple (cabine de glamping)"
+  },
+  "shortName": {
+    "en": "Apple Cabin",
+    "zh": "苹果舱",
+    "ar": "كبينة تفاح",
+    "fr": "Cabine Apple"
+  },
+  "seoTitle": {
+    "en": "Apple Cabin Glamping Room | Prefab Cabin | NJRUI",
+    "zh": "苹果舱野奢房 | 预制木屋 | NJRUI",
+    "ar": "كبينة تفاح للتخييم الفاخر | NJRUI",
+    "fr": "Cabine Apple de glamping | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Apple cabins: simple modern design, double-glazed windows, extendable with terrace, roof deck & second floor. For camps, B&B, offices. Get a quote.",
+    "zh": "苹果舱：简洁现代设计、双层玻璃窗，可扩展露台、屋顶平台与二层。适用于营地、民宿、办公。获取报价。",
+    "ar": "كبائن تفاح: تصميم حديث بسيط ونوافذ مزدوجة وقابلة للتوسع بشرفة وسطح علوي وطابق ثانٍ. للمعسكرات والمبيت والإفطار والمكاتب. اطلب عرض سعر.",
+    "fr": "Cabines Apple : design moderne simple, fenêtres double vitrage, extensibles terrasse, toit-terrasse et 2e étage. Camps, B&B, bureaux. Devis."
+  },
+  "tagline": {
+    "en": "Simple outside, flexible inside — and endlessly extendable.",
+    "zh": "外观简洁、内部灵活——还能无限扩展。",
+    "ar": "بسيطة من الخارج ومرنة من الداخل — وقابلة للتوسع بلا حدود.",
+    "fr": "Simple dehors, flexible dedans — et infiniment extensible."
+  },
+  "intro": {
+    "en": "The apple cabin wins over camp and resort operators with its clean, simple look and wide glass walls. Double-glazed windows keep it quiet; the base unit can grow a terrace, roof deck or even a second floor as the business expands.\n\nUse it as a reading lounge, outdoor camp room, bed-and-breakfast unit, private home, street storefront or office — the same shell adapts to many roles.",
+    "zh": "苹果舱凭借简洁利落的外观与大面积玻璃墙赢得营地与度假村运营商的青睐。双层玻璃窗保持安静；基础单元可随业务扩展增加露台、屋顶平台甚至二层。\n\n可作为阅读厅、户外营房、民宿单元、私宅、街边店面或办公室——同一壳体适配多种角色。",
+    "ar": "تكسب كبينة التفاح مشغلي المعسكرات والمنتجعات بمظهرها النظيف البسيط وجدرانها الزجاجية الواسعة. النوافذ المزدوجة تحافظ على الهدوء؛ ويمكن للوحدة الأساسية أن تكبر بشرفة وسطح علوي أو حتى طابق ثانٍ مع توسع العمل.\n\nاستخدمها كصالة قراءة أو غرفة معسكر خارجية أو وحدة مبيت وإفطار أو منزلاً خاصاً أو واجهة محل أو مكتباً — نفس الهيكل يتكيف مع أدوار كثيرة.",
+    "fr": "La cabine Apple séduit les opérateurs de camps et resorts par son look propre et simple et ses larges parois vitrées. Double vitrage pour le calme ; l'unité de base peut gagner terrasse, toit-terrasse ou second étage.\n\nLounge de lecture, chambre de camp, unité B&B, maison privée, boutique ou bureau — la même coque s'adapte à de nombreux rôles."
+  },
+  "image": "/images/products/modular/apple-cabin.jpg",
+  "imageAlt": {
+    "en": "Apple cabin with white shell, glass wall and rooftop deck",
+    "zh": "白色壳体、玻璃墙与屋顶平台的苹果舱",
+    "ar": "كبينة تفاح بقشرة بيضاء وجدار زجاجي وسطح علوي",
+    "fr": "Cabine Apple, coque blanche, mur vitré et toit-terrasse"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/modular/apple-cabin.jpg",
+      "alt": {
+        "en": "Apple cabin with rooftop deck and large glass facade",
+        "zh": "带屋顶平台与大玻璃立面的苹果舱",
+        "ar": "كبينة تفاح بسطح علوي وواجهة زجاجية كبيرة",
+        "fr": "Cabine Apple, toit-terrasse et grande façade vitrée"
+      }
+    },
+    {
+      "src": "/images/products/modular/wood-tinyhome.jpg",
+      "alt": {
+        "en": "Prefab cabin with wood-grain siding",
+        "zh": "木纹饰面的预制木屋",
+        "ar": "كبينة جاهزة بكسوة خشبية",
+        "fr": "Cabine préfabriquée, bardage bois"
+      }
+    },
+    {
+      "src": "/images/products/modular/waterfront-cabin.jpg",
+      "alt": {
+        "en": "Prefab cabins in waterfront setting",
+        "zh": "滨水环境中的预制木屋",
+        "ar": "كبائن جاهزة في بيئة مائية",
+        "fr": "Cabines préfabriquées en bord d'eau"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "Clean modern appearance",
+      "Double-glazed soundproof windows",
+      "Terrace / roof deck / 2nd floor add-ons",
+      "Multi-purpose interior",
+      "Low-maintenance shell",
+      "Fast delivery"
+    ],
+    "zh": [
+      "简洁现代外观",
+      "双层隔音玻璃窗",
+      "露台/屋顶平台/二层扩展件",
+      "多功能内部空间",
+      "低维护壳体",
+      "快速交付"
+    ],
+    "ar": [
+      "مظهر حديث نظيف",
+      "نوافذ مزدوجة عازلة للصوت",
+      "إضافات شرفة/سطح/طابق ثانٍ",
+      "داخل متعدد الاستخدامات",
+      "قشرة منخفضة الصيانة",
+      "تسليم سريع"
+    ],
+    "fr": [
+      "Apparence moderne et propre",
+      "Double vitrage insonorisé",
+      "Extensions terrasse/toit/2e étage",
+      "Intérieur polyvalent",
+      "Coque faible maintenance",
+      "Livraison rapide"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Glamping & camp sites",
+      "Bed & breakfast units",
+      "Reading lounges",
+      "Private homes",
+      "Street retail & offices"
+    ],
+    "zh": [
+      "野奢与营地",
+      "民宿单元",
+      "阅读厅",
+      "私宅",
+      "街边零售与办公"
+    ],
+    "ar": [
+      "مواقع التخييم الفاخر",
+      "وحدات مبيت وإفطار",
+      "صالات قراءة",
+      "منازل خاصة",
+      "متاجر ومكاتب"
+    ],
+    "fr": [
+      "Glamping & camps",
+      "Unités B&B",
+      "Lounges de lecture",
+      "Maisons privées",
+      "Retail & bureaux"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Glazing",
+        "zh": "玻璃",
+        "ar": "الزجاج",
+        "fr": "Vitrage"
+      },
+      "value": {
+        "en": "Large double-glazed windows",
+        "zh": "大面积双层玻璃窗",
+        "ar": "نوافذ مزدوجة كبيرة",
+        "fr": "Grandes fenêtres double vitrage"
+      }
+    },
+    {
+      "key": {
+        "en": "Extensions",
+        "zh": "扩展",
+        "ar": "التوسعات",
+        "fr": "Extensions"
+      },
+      "value": {
+        "en": "Terrace, roof deck, second floor, canopy",
+        "zh": "露台、屋顶平台、二层、雨棚",
+        "ar": "شرفة وسطح علوي وطابق ثانٍ ومظلة",
+        "fr": "Terrasse, toit-terrasse, 2e étage, auvent"
+      }
+    },
+    {
+      "key": {
+        "en": "Uses",
+        "zh": "用途",
+        "ar": "الاستخدامات",
+        "fr": "Usages"
+      },
+      "value": {
+        "en": "Lounge / camp / B&B / home / store / office",
+        "zh": "休闲/营地/民宿/住宅/商铺/办公",
+        "ar": "استرخاء/معسكر/مبيت/منزل/متجر/مكتب",
+        "fr": "Lounge / camp / B&B / maison / boutique / bureau"
+      }
+    },
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Steel frame, insulated panels",
+        "zh": "钢框架，保温板",
+        "ar": "هيكل صلب وألواح معزولة",
+        "fr": "Acier, panneaux isolés"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Size, add-ons and interior finish tailored to the operation.",
+    "zh": "尺寸、扩展件与内饰按经营需求定制。",
+    "ar": "المقاس والإضافات والتشطيب الداخلي تُهيأ حسب العملية.",
+    "fr": "Taille, extensions et finitions adaptées à l'exploitation."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "q": {
+    "en": "What is your MOQ (minimum order quantity)?",
+    "zh": "起订量（MOQ）是多少？",
+    "ar": "ما هو الحد الأدنى لكمية الطلب؟",
+    "fr": "Quel est votre MOQ (quantité minimale de commande) ?"
+  },
+  "a": {
+    "en": "Our MOQ depends on the model and configuration. Please contact our sales team to confirm the minimum order for your selected product, and we will also advise the most cost-efficient container loading quantity.",
+    "zh": "起订量取决于型号与配置。请联系我们的销售团队确认所选产品的最低起订量，我们也会给出最经济的集装箱装载数量建议。",
+    "ar": "يعتمد الحد الأدنى للطلب على الموديل والتهيئة. يرجى التواصل مع فريق المبيعات لتأكيد الحد الأدنى للمنتج الذي اخترته، وسننصحك أيضاً بأكثر كمية تحميل حاويات فعالة من حيث التكلفة.",
+    "fr": "Notre MOQ dépend du modèle et de la configuration. Contactez notre équipe commerciale pour confirmer le minimum de votre produit, et nous vous conseillerons aussi la quantité de chargement conteneur la plus rentable."
+  },
+  "slug": "faq-moq"
+}

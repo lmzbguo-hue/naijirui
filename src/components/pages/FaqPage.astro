@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuoteCTA from '../QuoteCTA.astro';
+import { getFaqs } from '../../data/load';
+import { t, U, langPath } from '../../i18n';
+
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const u = U(lang);
+const faqs = getFaqs();
+const canonical = '/faq/';
+const items = faqs.map((f) => ({ q: t(f.q, lang), a: t(f.a, lang) }));
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: items.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+---
+<Base
+  lang={lang}
+  title={t({ en: 'FAQ — Prefab House MOQ, Delivery, Shipping & Installation | NJRUI', zh: '常见问题——预制房MOQ、交期、海运与安装 | NJRUI', ar: 'الأسئلة الشائعة — MOQ والتسليم والشحن والتركيب | NJRUI', fr: 'FAQ — MOQ, délais, expédition et installation | NJRUI' }, lang)}
+  description={t({ en: 'Frequently asked questions about prefab & container houses: MOQ, lead time, packaging & sea freight, installation, insulation, certifications, OEM customization and payment terms.', zh: '关于预制房与集装箱房的常见问题：MOQ、交期、包装与海运、安装、保温、认证、OEM定制与付款条款。', ar: 'أسئلة شائعة عن المنازل الجاهزة والحاويات: الحد الأدنى للطلب والمهلة والتغليف والشحن والتركيب والعزل والشهادات وتخصيص OEM وشروط الدفع.', fr: 'Questions fréquentes sur les maisons préfabriquées et conteneurs : MOQ, délais, emballage & fret, installation, isolation, certifications, OEM et paiement.' }, lang)}
+  canonical={canonical}
+  jsonLd={[faqJsonLd]}
+>
+  <div class="page-head">
+    <div class="container">
+      <div class="crumbs"><a href={langPath(lang, '/')}>{u.products.homeCrumbs}</a> / {u.nav.faq}</div>
+      <h1>{u.faq.h1}</h1>
+      <p>{u.faq.p}</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container" style="max-width:860px">
+      {items.map((f) => (
+        <details class="faq-item">
+          <summary>{f.q}</summary>
+          <div class="faq-body">{f.a}</div>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <QuoteCTA lang={lang} heading={u.faq.ctaH} sub={u.faq.ctaP} />
+</Base>

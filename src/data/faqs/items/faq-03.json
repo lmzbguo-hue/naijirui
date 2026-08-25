@@ -1,0 +1,15 @@
+{
+  "q": {
+    "en": "How are the houses packaged and shipped?",
+    "zh": "房屋如何包装与运输？",
+    "ar": "كيف يتم تغليف المنازل وشحنها؟",
+    "fr": "Comment les maisons sont-elles emballées et expédiées ?"
+  },
+  "a": {
+    "en": "Units ship folded or flat-packed, protected with frames and wrapping. We arrange sea freight (FOB/CIF) with loading guidance, using standard containers or flat racks depending on unit size. Loading quantities are confirmed with each order.",
+    "zh": "房屋以折叠或平板状态发运，配框架与缠绕膜保护。我们安排海运（FOB/CIF）并提供装柜指导，按单元尺寸选择标准集装箱或框架柜。装载数量随订单确认。",
+    "ar": "تُشحن الوحدات مطوية أو مسطحة محمية بإطارات وتغليف. نرتب الشحن البحري (FOB/CIF) مع إرشاد التحميل، باستخدام حاويات قياسية أو رفوف مسطحة حسب حجم الوحدة. تُؤكد كميات التحميل مع كل طلب.",
+    "fr": "Les unités partent pliées ou à plat, protégées par châssis et films. Nous organisons le fret maritime (FOB/CIF) avec guidage de chargement, en conteneurs standards ou racks plats selon la taille. Quantités confirmées à chaque commande."
+  },
+  "slug": "faq-packaging-shipping"
+}

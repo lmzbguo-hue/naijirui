@@ -1,0 +1,82 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuoteCTA from '../QuoteCTA.astro';
+import { t, U, langPath } from '../../i18n';
+
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const u = U(lang);
+const canonical = '/about-us/';
+const bases = [
+  { img: '/images/factory/hq-building.jpg', n: u.about.b1n, d: u.about.b1d },
+  { img: '/images/factory/factory-building.jpg', n: u.about.b2n, d: u.about.b2d },
+  { img: '/images/factory/aerial-complex.jpg', n: u.about.b3n, d: u.about.b3d },
+  { img: '/images/factory/research-center.jpg', n: u.about.b4n, d: u.about.b4d },
+];
+const quals = [
+  { n: u.about.q1t, d: u.about.q1d },
+  { n: u.about.q2t, d: u.about.q2d },
+  { n: u.about.q3t, d: u.about.q3d },
+];
+---
+<Base
+  lang={lang}
+  title={t({ en: 'About NJRUI — Prefab House Factory & Modular Home Manufacturer', zh: '关于奈吉瑞——预制房屋工厂与模块化住宅制造商', ar: 'عن NJRUI — مصنع منازل جاهزة ومعيارية', fr: 'À propos de NJRUI — usine de maisons préfabriquées et modulaires' }, lang)}
+  description={t({ en: 'NJRUI (JIRUI WEIVE Co., Ltd.) — 4 factories, 1,700,000 m² production base, CE/ISO/SGS certified, 30+ export countries. Prefab, container & modular house manufacturer in China.', zh: '奈吉瑞（JIRUI WEIVE Co., Ltd.）——4大工厂、170万㎡生产基地、CE/ISO/SGS认证、出口30+国家。中国预制房、集装箱房与模块化住宅制造商。', ar: 'NJRUI (JIRUI WEIVE Co., Ltd.) — 4 مصانع وقاعدة إنتاج 1,700,000 م² وشهادات CE/ISO/SGS وتصدير لأكثر من 30 دولة. مصنّع منازل جاهزة وحاويات ومعيارية في الصين.', fr: 'NJRUI (JIRUI WEIVE Co., Ltd.) — 4 usines, 1 700 000 m², certifié CE/ISO/SGS, 30+ pays. Fabricant de maisons préfabriquées, conteneurs et modulaires en Chine.' }, lang)}
+  canonical={canonical}
+>
+  <div class="page-head">
+    <div class="container">
+      <div class="crumbs"><a href={langPath(lang, '/')}>{u.products.homeCrumbs}</a> / {u.nav.about}</div>
+      <h1>{u.about.h1}</h1>
+      <p>{u.about.p}</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:center">
+        <div>
+          <h2 style="margin-bottom:14px">{u.about.h2}</h2>
+          <p style="color:var(--muted);margin-bottom:12px">{u.about.b1}</p>
+          <p style="color:var(--muted);margin-bottom:12px">{u.about.b2}</p>
+          <p style="color:var(--muted)">{u.about.b3}</p>
+        </div>
+        <div>
+          <img src="/images/factory/production-floor.jpg" alt={u.about.h2} width="1200" height="675" loading="lazy" style="border-radius:12px;box-shadow:var(--shadow)" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <div class="kicker">{u.about.basesKicker}</div>
+        <h2>{u.about.basesH2}</h2>
+      </div>
+      <div class="grid grid-4">
+        {bases.map((b) => (
+          <div class="card"><img src={b.img} alt={b.n} width="800" height="600" loading="lazy" /><div class="card-body"><h3>{b.n}</h3><p>{b.d}</p></div></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <div class="kicker">{u.about.qualKicker}</div>
+        <h2>{u.about.qualH2}</h2>
+        <p>{u.about.qualP}</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:22px">
+        {quals.map((q) => (
+          <div class="adv"><b>{q.n}</b><p>{q.d}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <QuoteCTA lang={lang} heading={t({ en: 'Talk to the factory directly', zh: '直接与工厂对话', ar: 'تحدث إلى المصنع مباشرة', fr: "Parlez directement à l'usine" }, lang)} sub={t({ en: 'Skip the middlemen — our export team answers your questions and quotes within 24 hours.', zh: '跳过中间商——外贸团队24小时内答复您的疑问与报价。', ar: 'تجاوز الوسطاء — فريق التصدير يجيب على أسئلتك وعروضك خلال 24 ساعة.', fr: 'Sans intermédiaires — notre équipe export répond sous 24 h.' }, lang)} />
+</Base>

@@ -1,0 +1,15 @@
+{
+  "q": {
+    "en": "What are your payment terms?",
+    "zh": "付款条件是什么？",
+    "ar": "ما هي شروط الدفع؟",
+    "fr": "Quelles sont vos conditions de paiement ?"
+  },
+  "a": {
+    "en": "Typical terms are T/T with a deposit and balance before shipment; other arrangements can be discussed for larger projects. Exact terms are confirmed in the sales contract.",
+    "zh": "常见条款为 T/T：定金 + 发货前付清尾款；大项目可另行协商。具体条款在销售合同中确认。",
+    "ar": "الشروط النموذجية هي تحويل مصرفي (T/T) بدفعة مقدمة والرصيد قبل الشحن؛ يمكن مناقشة ترتيبات أخرى للمشاريع الأكبر. تُؤكد الشروط في عقد البيع.",
+    "fr": "Conditions typiques en T/T avec acompte et solde avant expédition ; d'autres arrangements possibles pour les grands projets. Conditions confirmées au contrat."
+  },
+  "slug": "faq-payment-terms"
+}

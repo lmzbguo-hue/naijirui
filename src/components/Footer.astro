@@ -1,0 +1,48 @@
+---
+import site from '../data/site.json';
+import categories from '../data/categories.json';
+import { t, U, langPath } from '../i18n';
+
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const u = U(lang);
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>{site.name}</h4>
+        <p>{u.footer.about}</p>
+      </div>
+      <div>
+        <h4>{u.footer.products}</h4>
+        <ul>
+          {categories.map((c) => (
+            <li><a href={langPath(lang, `/products/${c.slug}/`)}>{t(c.short, lang)}</a></li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h4>{u.footer.company}</h4>
+        <ul>
+          <li><a href={langPath(lang, '/about-us/')}>{u.nav.about}</a></li>
+          <li><a href={langPath(lang, '/project-cases/')}>{u.nav.cases}</a></li>
+          <li><a href={langPath(lang, '/faq/')}>{u.nav.faq}</a></li>
+          <li><a href={langPath(lang, '/blog/')}>{u.nav.blog}</a></li>
+          <li><a href={langPath(lang, '/get-a-quote/')}>{u.nav.quote}</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>{u.footer.contact}</h4>
+        <ul>
+          <li>{u.contact.email}: <a href={`mailto:${site.email}`}>{site.email}</a></li>
+          <li>{u.contact.whatsapp}: <a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">{site.whatsappDisplay}</a></li>
+          <li>{site.addressFull}</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © {new Date().getFullYear()} {site.legalName} ({site.name}). {u.footer.rights}
+    </div>
+  </div>
+</footer>

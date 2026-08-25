@@ -1,0 +1,232 @@
+{
+  "slug": "aframe-triangular-cabin",
+  "category": "modular-prefab-house",
+  "name": {
+    "en": "A-Frame Triangular Cabin",
+    "zh": "A型三角木屋",
+    "ar": "كبينة مثلثة على شكل A",
+    "fr": "Cabine triangulaire A-frame"
+  },
+  "shortName": {
+    "en": "A-Frame Cabin",
+    "zh": "三角木屋",
+    "ar": "كبينة A",
+    "fr": "Cabine A-frame"
+  },
+  "seoTitle": {
+    "en": "A-Frame Triangular Cabin | Modern Minimalist Cabin | NJRUI",
+    "zh": "A型三角木屋 | 现代简约木屋 | NJRUI",
+    "ar": "كبينة مثلثة A-frame | NJRUI",
+    "fr": "Cabine A-frame triangulaire | NJRUI"
+  },
+  "seoDesc": {
+    "en": "A-frame triangular cabins with modern minimalist design for art vacation houses & light camping bases. Durable, scenic, customizable. Get a quote.",
+    "zh": "现代简约设计的A型三角木屋，适用于艺术度假屋与轻露营基地。坚固、风景宜人、可定制。获取报价。",
+    "ar": "كبائن مثلثة A-frame بتصميم حديث بسيط لبيوت العطلات الفنية وقواعد التخييم الخفيفة. متينة وخلابة وقابلة للتخصيص. اطلب عرض سعر.",
+    "fr": "Cabines A-frame triangulaires au design minimaliste moderne pour maisons de vacances artistiques et bases de camping léger. Durables, pittoresques, personnalisables. Devis."
+  },
+  "tagline": {
+    "en": "The signature shape that sells itself.",
+    "zh": "自带卖点的标志性造型。",
+    "ar": "الشكل المميز الذي يبيع نفسه.",
+    "fr": "La silhouette signature qui se vend d'elle-même."
+  },
+  "intro": {
+    "en": "The A-frame triangular cabin is a design icon: a modern-minimalist reinterpretation of the classic wood cabin, with a steep roof, full-glass front and a layout that makes small spaces feel large and bright.\n\nA favorite for art vacation houses and lightweight camping bases, it delivers the scenic, immersive experience guests remember — and rebook for.",
+    "zh": "A型三角木屋是设计图标：经典木屋的现代简约再诠释，陡峭屋顶、全玻璃正面，布局让小空间显得开阔明亮。\n\n艺术度假屋与轻露营基地的最爱，提供客人念念不忘、并愿意再次预订的沉浸式风景体验。",
+    "ar": "الكبينة المثلثة A-frame أيقونة تصميم: إعادة تفسير حديثة بسيطة للكابينة الخشبية الكلاسيكية، بسقف حاد وواجهة زجاجية كاملة وتخطيط يجعل المساحات الصغيرة تبدو واسعة ومشرقة.\n\nمفضلة لبيوت العطلات الفنية وقواعد التخييم الخفيفة، تقدم تجربة مناظر غامرة يتذكرها الضيوف — ويحجزون من جديد.",
+    "fr": "La cabine A-frame est une icône de design : réinterprétation minimaliste moderne de la cabane en bois classique, toit pentu, façade vitrée pleine et plan qui agrandit l'espace.\n\nFavorite des maisons de vacances artistiques et bases de camping léger, elle offre l'expérience immersive dont les clients se souviennent — et qu'ils rebookent."
+  },
+  "image": "/images/products/modular/aframe-cabin.jpg",
+  "imageAlt": {
+    "en": "A-frame triangular cabin with glass front at dusk",
+    "zh": "暮色中带玻璃正面的A型三角木屋",
+    "ar": "كبينة مثلثة A-frame بواجهة زجاجية عند الغسق",
+    "fr": "Cabine A-frame à façade vitrée au crépuscule"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/modular/aframe-cabin.jpg",
+      "alt": {
+        "en": "A-frame cabin glowing at dusk in wooded setting",
+        "zh": "暮色林间发光的A型木屋",
+        "ar": "كبينة A متوهجة عند الغسق في محيط مشجر",
+        "fr": "Cabine A-frame lumineuse au crépuscule"
+      }
+    },
+    {
+      "src": "/images/products/modular/starry-dome.jpg",
+      "alt": {
+        "en": "Glamping site with transparent domes",
+        "zh": "带透明穹顶的野奢营地",
+        "ar": "موقع تخييم فاخر بقبب شفافة",
+        "fr": "Site de glamping avec dômes transparents"
+      }
+    },
+    {
+      "src": "/images/products/modular/capsule-mountain.jpg",
+      "alt": {
+        "en": "Scenic resort with prefab units",
+        "zh": "带预制单元的风景度假村",
+        "ar": "منتجع خلاب بوحدات جاهزة",
+        "fr": "Resort pittoresque avec unités préfabriquées"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "Iconic triangular silhouette",
+      "Modern minimalist design",
+      "Full-glass front facade",
+      "Efficient use of space",
+      "Fast prefab delivery",
+      "Scenic immersive experience"
+    ],
+    "zh": [
+      "标志性三角轮廓",
+      "现代简约设计",
+      "全玻璃正面",
+      "空间高效利用",
+      "预制快速交付",
+      "沉浸式风景体验"
+    ],
+    "ar": [
+      "صورة ظلية مثلثة مميزة",
+      "تصميم حديث بسيط",
+      "واجهة زجاجية كاملة",
+      "استخدام فعال للمساحة",
+      "تسليم جاهز سريع",
+      "تجربة مناظر غامرة"
+    ],
+    "fr": [
+      "Silhouette triangulaire iconique",
+      "Design minimaliste moderne",
+      "Façade avant tout vitrée",
+      "Usage efficace de l'espace",
+      "Livraison préfabriquée rapide",
+      "Expérience immersive"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Art vacation houses",
+      "Light camping bases",
+      "Private retreats",
+      "Photo-friendly rentals",
+      "Garden studios"
+    ],
+    "zh": [
+      "艺术度假屋",
+      "轻露营基地",
+      "私人静居",
+      "拍照友好短租",
+      "花园工作室"
+    ],
+    "ar": [
+      "بيوت عطلات فنية",
+      "قواعد تخييم خفيفة",
+      "منتجعات خاصة",
+      "إيجارات صديقة للتصوير",
+      "استوديوهات حدائق"
+    ],
+    "fr": [
+      "Maisons de vacances artistiques",
+      "Bases de camping léger",
+      "Retraites privées",
+      "Locations photogéniques",
+      "Studios de jardin"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Design",
+        "zh": "设计",
+        "ar": "التصميم",
+        "fr": "Design"
+      },
+      "value": {
+        "en": "Modern minimalist A-frame",
+        "zh": "现代简约A型",
+        "ar": "A-frame حديث بسيط",
+        "fr": "A-frame minimaliste moderne"
+      }
+    },
+    {
+      "key": {
+        "en": "Facade",
+        "zh": "立面",
+        "ar": "الواجهة",
+        "fr": "Façade"
+      },
+      "value": {
+        "en": "Large glass front",
+        "zh": "大面积玻璃正面",
+        "ar": "واجهة زجاجية كبيرة",
+        "fr": "Grand vitrage avant"
+      }
+    },
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Steel frame, insulated panels",
+        "zh": "钢框架，保温板",
+        "ar": "هيكل صلب وألواح معزولة",
+        "fr": "Acier, panneaux isolés"
+      }
+    },
+    {
+      "key": {
+        "en": "Style",
+        "zh": "风格",
+        "ar": "الأسلوب",
+        "fr": "Style"
+      },
+      "value": {
+        "en": "Art vacation / light camping base",
+        "zh": "艺术度假/轻露营基地",
+        "ar": "عطلات فنية/قاعدة تخييم خفيفة",
+        "fr": "Vacances artistiques / camping léger"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Size, cladding, interior and deck customized per project.",
+    "zh": "尺寸、饰面、内饰与露台均可按项目定制。",
+    "ar": "المقاس والكسوة والداخل والشرفة تُخصص حسب المشروع.",
+    "fr": "Taille, bardage, intérieur et terrasse personnalisés par projet."
+  }
+}

@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuoteForm from '../QuoteForm.astro';
+import site from '../../data/site.json';
+import { t, U, langPath } from '../../i18n';
+
+interface Props { lang: string; }
+const { lang } = Astro.props;
+const u = U(lang);
+const canonical = '/contact-us/';
+---
+<Base
+  lang={lang}
+  title={t({ en: 'Contact Us — Prefab House & Container House Quotes | NJRUI', zh: '联系我们——预制房与集装箱房报价 | NJRUI', ar: 'اتصل بنا — عروض المنازل الجاهزة والحاويات | NJRUI', fr: 'Contact — devis maisons préfabriquées et conteneurs | NJRUI' }, lang)}
+  description={t({ en: 'Contact NJRUI Mobile Home for prefab house and container house quotes. Send your project requirements — our export team replies within 24 hours. WhatsApp & email available.', zh: '联系奈吉瑞移动房屋获取预制房与集装箱房报价。发送您的项目需求——外贸团队24小时内回复。支持WhatsApp与邮箱。', ar: 'تواصل مع NJRUI Mobile Home لعروض المنازل الجاهزة والحاويات. أرسل متطلبات مشروعك — فريق التصدير يرد خلال 24 ساعة. واتساب وبريد متاحان.', fr: 'Contactez NJRUI pour un devis de maisons préfabriquées et conteneurs. Réponse sous 24 h. WhatsApp et e-mail disponibles.' }, lang)}
+  canonical={canonical}
+>
+  <div class="page-head">
+    <div class="container">
+      <div class="crumbs"><a href={langPath(lang, '/')}>{u.products.homeCrumbs}</a> / {u.contact.h1}</div>
+      <h1>{u.contact.h1}</h1>
+      <p>{u.contact.p}</p>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container" style="display:grid;grid-template-columns:0.9fr 1.4fr;gap:32px;align-items:start">
+      <div class="contact-info">
+        <div class="ci"><b>{u.contact.email}</b><a href={`mailto:${site.email}`}>{site.email}</a></div>
+        <div class="ci"><b>{u.contact.whatsapp}</b><a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">{site.whatsappDisplay}</a></div>
+        <div class="ci"><b>{u.contact.address}</b>{site.addressFull}</div>
+        <div class="ci"><b>{u.contact.hours}</b>{u.contact.hoursVal}</div>
+      </div>
+      <QuoteForm lang={lang} next={langPath(lang, '/contact-us/') + '?sent=1'} />
+    </div>
+  </section>
+</Base>

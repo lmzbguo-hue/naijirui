@@ -1,0 +1,260 @@
+{
+  "slug": "courtyard-villa-with-bipv-roof",
+  "category": "prefab-villa",
+  "name": {
+    "en": "Courtyard Villa with BIPV Solar Roof",
+    "zh": "BIPV 光伏屋顶合院别墅",
+    "ar": "فيلا فناء بسقف شمسي BIPV",
+    "fr": "Villa à cour avec toit solaire BIPV"
+  },
+  "shortName": {
+    "en": "BIPV Courtyard Villa",
+    "zh": "光伏合院别墅",
+    "ar": "فيلا فناء BIPV",
+    "fr": "Villa à cour BIPV"
+  },
+  "seoTitle": {
+    "en": "Courtyard Villa with BIPV Solar Roof | Energy-Efficient Villa | NJRUI",
+    "zh": "BIPV光伏屋顶合院别墅 | 节能别墅 | NJRUI",
+    "ar": "فيلا فناء بسقف شمسي BIPV | NJRUI",
+    "fr": "Villa à cour à toit solaire BIPV | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Courtyard villa with building-integrated photovoltaic (BIPV) solar roof, pond landscaping, smart systems. Luxury eco villa. OEM/ODM. Get a quote.",
+    "zh": "建筑一体化光伏（BIPV）屋顶合院别墅：池塘景观、智能系统。高端生态别墅。OEM/ODM。获取报价。",
+    "ar": "فيلا فناء بسقف شمسي مدمج بالمبنى (BIPV) ومناظر بركة وأنظمة ذكية. فيلا بيئية فاخرة. OEM/ODM. اطلب عرض سعر.",
+    "fr": "Villa à cour à toit photovoltaïque intégré (BIPV), bassin paysager, systèmes intelligents. Villa éco de luxe. OEM/ODM. Devis."
+  },
+  "tagline": {
+    "en": "Generate power where you live — a villa roof that pays back.",
+    "zh": "在居住处发电——会回本的别墅屋顶。",
+    "ar": "ولّد الطاقة حيث تعيش — سقف فيلا يعيد التكلفة.",
+    "fr": "Produisez de l'énergie là où vous vivez — un toit de villa qui rentabilise."
+  },
+  "intro": {
+    "en": "This villa integrates building-integrated photovoltaics (BIPV) directly into the roof tiles: the traditional silhouette stays, while the roof generates electricity for lighting, climate and smart systems — an energy-positive statement home for eco-conscious owners and resorts.\n\nThe design pairs a courtyard layout, water features and garden landscaping with a full smart-control package, making it ideal for high-end eco developments and luxury resorts.",
+    "zh": "这栋别墅将建筑一体化光伏（BIPV）直接融入屋顶瓦片：保留传统轮廓，屋顶同时为照明、空调与智能系统发电——面向生态意识业主与度假村的能量正输出住宅。\n\n设计将合院布局、水景与园林景观和完整智能控制方案结合，非常适合高端生态开发与奢华度假村。",
+    "ar": "تدمج هذه الفيلا الخلايا الكهروضوئية المدمجة بالمبنى (BIPV) مباشرة في قرميد السقف: يبقى الشكل التقليدي، بينما يولد السقف الكهرباء للإضاءة والمناخ والأنظمة الذكية — منزل موجب الطاقة للملاك المهتمين بالبيئة والمنتجعات.\n\nيجمع التصميم بين تخطيط الفناء وخصائص الماء والحدائق وباقة تحكم ذكية كاملة، مما يجعله مثالياً للتطويرات البيئية الراقية والمنتجعات الفاخرة.",
+    "fr": "Cette villa intègre le photovoltaïque directement dans les tuiles (BIPV) : la silhouette traditionnelle demeure, tandis que le toit produit l'électricité pour l'éclairage, le climat et les systèmes intelligents — une maison à énergie positive pour propriétaires écoresponsables et resorts.\n\nPlan de cour, plans d'eau et jardins s'associent à un package domotique complet : idéal pour l'éco-développement haut de gamme et les resorts de luxe."
+  },
+  "image": "/images/products/villa/courtyard-pond.jpg",
+  "imageAlt": {
+    "en": "Courtyard villa with BIPV solar roof beside pond and arched bridge",
+    "zh": "池塘与拱桥旁的BIPV光伏屋顶合院别墅",
+    "ar": "فيلا فناء بسقف شمسي BIPV بجانب بركة وجسر مقوس",
+    "fr": "Villa à cour à toit BIPV près d'un bassin et d'un pont voûté"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/villa/courtyard-pond.jpg",
+      "alt": {
+        "en": "Courtyard villa with solar roof tiles reflected in pond",
+        "zh": "太阳能屋顶倒映在池塘中的合院别墅",
+        "ar": "فيلا فناء بقرميد شمسي ينعكس في البركة",
+        "fr": "Villa à cour, tuiles solaires reflétées dans le bassin"
+      }
+    },
+    {
+      "src": "/images/products/villa/courtyard-render.jpg",
+      "alt": {
+        "en": "Courtyard villa design render",
+        "zh": "合院别墅设计效果图",
+        "ar": "تصميم فيلا فناء",
+        "fr": "Rendu design de villa à cour"
+      }
+    },
+    {
+      "src": "/images/products/villa/courtyard-night.jpg",
+      "alt": {
+        "en": "Courtyard villa at night",
+        "zh": "夜晚的合院别墅",
+        "ar": "فيلا فناء ليلاً",
+        "fr": "Villa à cour la nuit"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "BIPV solar roof tiles",
+      "Energy-positive operation",
+      "Courtyard + water landscaping",
+      "Smart control systems",
+      "Luxury eco positioning",
+      "70+ year design life"
+    ],
+    "zh": [
+      "BIPV光伏屋顶瓦",
+      "能量正输出",
+      "合院+水景园林",
+      "智能控制系统",
+      "高端生态定位",
+      "70年以上设计寿命"
+    ],
+    "ar": [
+      "قرميد شمسي BIPV",
+      "تشغيل موجب للطاقة",
+      "فناء + مناظر مائية",
+      "أنظمة تحكم ذكية",
+      "توجه بيئي فاخر",
+      "عمر تصميمي 70+ سنة"
+    ],
+    "fr": [
+      "Tuiles solaires BIPV",
+      "Énergie positive",
+      "Cour + paysage d'eau",
+      "Systèmes intelligents",
+      "Positionnement éco luxe",
+      "Durée de vie 70+ ans"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Luxury eco resorts",
+      "Energy-efficient villas",
+      "Zero-carbon showcase homes",
+      "High-end residential",
+      "Sustainable developments"
+    ],
+    "zh": [
+      "高端生态度假村",
+      "节能别墅",
+      "零碳示范住宅",
+      "高端住宅",
+      "可持续发展项目"
+    ],
+    "ar": [
+      "منتجعات بيئية فاخرة",
+      "فلل موفرة للطاقة",
+      "منازل نموذجية صفرية الكربون",
+      "سكن راقٍ",
+      "تطويرات مستدامة"
+    ],
+    "fr": [
+      "Resorts éco de luxe",
+      "Villas économes",
+      "Maisons vitrines zéro carbone",
+      "Résidentiel haut de gamme",
+      "Développements durables"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Roof",
+        "zh": "屋顶",
+        "ar": "السقف",
+        "fr": "Toit"
+      },
+      "value": {
+        "en": "Building-integrated photovoltaic (BIPV) tiles",
+        "zh": "建筑一体化光伏（BIPV）瓦",
+        "ar": "قرميد كهروضوئي مدمج بالمبنى (BIPV)",
+        "fr": "Tuiles photovoltaïques intégrées (BIPV)"
+      }
+    },
+    {
+      "key": {
+        "en": "Energy",
+        "zh": "能源",
+        "ar": "الطاقة",
+        "fr": "Énergie"
+      },
+      "value": {
+        "en": "On-site generation for lighting & systems",
+        "zh": "现场发电供照明与系统",
+        "ar": "توليد في الموقع للإضاءة والأنظمة",
+        "fr": "Production sur site"
+      }
+    },
+    {
+      "key": {
+        "en": "Design life",
+        "zh": "设计寿命",
+        "ar": "العمر التصميمي",
+        "fr": "Durée de vie"
+      },
+      "value": {
+        "en": "70+ years (courtyard series)",
+        "zh": "70 年以上（合院系列）",
+        "ar": "70+ سنة (سلسلة الفناء)",
+        "fr": "70+ ans (série cour)"
+      }
+    },
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Steel frame, seismic-resistant",
+        "zh": "钢框架，抗震",
+        "ar": "هيكل صلب مقاوم للزلازل",
+        "fr": "Acier parasismique"
+      }
+    },
+    {
+      "key": {
+        "en": "Landscape",
+        "zh": "景观",
+        "ar": "المناظر",
+        "fr": "Paysage"
+      },
+      "value": {
+        "en": "Courtyard, pond, garden packages",
+        "zh": "合院、池塘、园林方案",
+        "ar": "باقات فناء وبركة وحديقة",
+        "fr": "Cour, bassin, jardin"
+      }
+    },
+    {
+      "key": {
+        "en": "Systems",
+        "zh": "系统",
+        "ar": "الأنظمة",
+        "fr": "Systèmes"
+      },
+      "value": {
+        "en": "Smart control, full water & electrical",
+        "zh": "智能控制，全套水电",
+        "ar": "تحكم ذكي ومياه وكهرباء كاملة",
+        "fr": "Domotique, eau/électricité"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Solar capacity, layout and landscape package customized with our design institute.",
+    "zh": "光伏容量、布局与景观方案由我们的设计院定制。",
+    "ar": "سعة الطاقة الشمسية والتخطيط وباقة المناظر تُخصص مع معهد التصميم لدينا.",
+    "fr": "Capacité solaire, plan et package paysager personnalisés avec notre bureau d'études."
+  }
+}

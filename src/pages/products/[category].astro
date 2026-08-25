@@ -1,0 +1,15 @@
+---
+import ProductCategoryPage from '../../components/pages/ProductCategoryPage.astro';
+import categories from '../../data/categories.json';
+import { getAllProducts } from '../../data/load';
+
+export function getStaticPaths() {
+  return categories.map((c) => ({
+    params: { category: c.slug },
+    props: { list: getAllProducts().filter((p) => p.category === c.slug), cat: c },
+  }));
+}
+
+const { list, cat } = Astro.props;
+---
+<ProductCategoryPage lang="en" cat={cat} list={list} />

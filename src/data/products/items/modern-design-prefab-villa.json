@@ -1,0 +1,260 @@
+{
+  "slug": "modern-design-prefab-villa",
+  "category": "prefab-villa",
+  "name": {
+    "en": "Modern Design Prefab Villa",
+    "zh": "现代设计预制别墅",
+    "ar": "فيلا جاهزة بتصميم حديث",
+    "fr": "Villa préfabriquée design moderne"
+  },
+  "shortName": {
+    "en": "Modern Design Villa",
+    "zh": "现代设计别墅",
+    "ar": "فيلا تصميم حديث",
+    "fr": "Villa design moderne"
+  },
+  "seoTitle": {
+    "en": "Modern Design Prefab Villa | Luxury Modular Villa | NJRUI",
+    "zh": "现代设计预制别墅 | 高端模块化别墅 | NJRUI",
+    "ar": "فيلا جاهزة بتصميم حديث | NJRUI",
+    "fr": "Villa préfabriquée design moderne | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Modern design prefab villas with wood-grain finishes, gabled roofs, energy-efficient envelopes. For resorts, vacation homes & developments. Get a quote.",
+    "zh": "现代设计预制别墅：木纹饰面、坡屋顶、节能围护。适用于度假村、度假屋与开发项目。获取报价。",
+    "ar": "فلل جاهزة بتصميم حديث بتشطيبات خشبية وأسقف جملونية وأغلفة موفرة للطاقة. للمنتجعات وبيوت العطلات والتطوير. اطلب عرض سعر.",
+    "fr": "Villas préfabriquées design moderne, finitions bois, toits à pignon, enveloppes économes. Pour resorts, résidences de vacances et développements. Devis."
+  },
+  "tagline": {
+    "en": "Resort-grade living, delivered as modules.",
+    "zh": "度假级居住，模块化交付。",
+    "ar": "معيشة بجودة المنتجعات، تُسلَّم كوحدات.",
+    "fr": "Le confort resort, livré en modules."
+  },
+  "intro": {
+    "en": "The modern design prefab villa pairs clean contemporary lines with warm wood-grain cladding and a gabled roof — the look of a premium vacation home, produced with the speed and cost control of factory manufacturing.\n\nSuitable as a resort unit, vacation villa or development show home, it arrives as finished modules and is assembled on site with full interior fit-out available.",
+    "zh": "现代设计预制别墅将利落的当代线条与温暖的木纹饰面、坡屋顶结合——高端度假屋的外观，工厂制造的效率与成本控制。\n\n可作度假村单元、度假别墅或开发样板房，以成品模块抵达现场并组装，支持全套内饰装修。",
+    "ar": "تجمع فيلا التصميم الحديث الجاهزة بين الخطوط المعاصرة النظيفة والكسوة الخشبية الدافئة والسقف الجملوني — مظهر منزل عطلات فاخر، بإنتاجية المصنع والتحكم بالتكلفة.\n\nمناسبة كوحدة منتجع أو فيلا عطلات أو منزل عرض للتطوير، تصل كوحدات مكتملة وتُجمع في الموقع مع إمكانية التجهيز الداخلي الكامل.",
+    "fr": "La villa préfabriquée design moderne associe lignes contemporaines épurées, bardage bois chaleureux et toit à pignon — l'allure d'une maison de vacances premium, avec la rapidité et le contrôle des coûts de l'usine.\n\nUnité de resort, villa de vacances ou maison témoin : elle arrive en modules finis, assemblée sur site avec aménagement intérieur complet disponible."
+  },
+  "image": "/images/products/villa/tiny-home-resort.jpg",
+  "imageAlt": {
+    "en": "Modern prefab villa with wood-grain siding and black metal frame",
+    "zh": "木纹饰面与黑色金属框架的现代预制别墅",
+    "ar": "فيلا جاهزة حديثة بكسوة خشبية وإطار معدني أسود",
+    "fr": "Villa préfabriquée moderne, bardage bois et cadre métal noir"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/villa/tiny-home-resort.jpg",
+      "alt": {
+        "en": "Modern prefab villa exterior in landscaped setting",
+        "zh": "景观环境中的现代预制别墅外观",
+        "ar": "واجهة فيلا جاهزة حديثة في بيئة منسقة",
+        "fr": "Extérieur de villa préfabriquée moderne paysagée"
+      }
+    },
+    {
+      "src": "/images/products/modular/wood-tinyhome.jpg",
+      "alt": {
+        "en": "Prefab villa with gabled roof and glass entrance",
+        "zh": "坡屋顶与玻璃入口的预制别墅",
+        "ar": "فيلا جاهزة بسقف جملوني ومدخل زجاجي",
+        "fr": "Villa préfabriquée, toit à pignon et entrée vitrée"
+      }
+    },
+    {
+      "src": "/images/products/villa/courtyard-night.jpg",
+      "alt": {
+        "en": "Prefab villa illuminated at night",
+        "zh": "夜晚亮灯的预制别墅",
+        "ar": "فيلا جاهزة مضاءة ليلاً",
+        "fr": "Villa préfabriquée éclairée la nuit"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "Modern wood-grain design",
+      "Gabled roof architecture",
+      "Energy-efficient envelope",
+      "Full interior fit-out option",
+      "Resort & home applications",
+      "Fast factory production"
+    ],
+    "zh": [
+      "现代木纹设计",
+      "坡屋顶建筑",
+      "节能围护",
+      "可选全套内饰装修",
+      "度假与住宅应用",
+      "工厂快速生产"
+    ],
+    "ar": [
+      "تصميم خشبي حديث",
+      "عمارة سقف جملوني",
+      "غلاف موفر للطاقة",
+      "خيار تجهيز داخلي كامل",
+      "تطبيقات منتجع وسكنية",
+      "إنتاج مصنعي سريع"
+    ],
+    "fr": [
+      "Design bois moderne",
+      "Toit à pignon",
+      "Enveloppe économe",
+      "Aménagement complet en option",
+      "Resort & résidentiel",
+      "Production d'usine rapide"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Resort villas",
+      "Vacation homes",
+      "Development show homes",
+      "Estate housing",
+      "Garden houses"
+    ],
+    "zh": [
+      "度假别墅",
+      "度假屋",
+      "开发样板房",
+      "庄园住宅",
+      "花园住宅"
+    ],
+    "ar": [
+      "فلل منتجعات",
+      "بيوت عطلات",
+      "منازل عرض",
+      "مساكن عقارية",
+      "بيوت حدائق"
+    ],
+    "fr": [
+      "Villas de resort",
+      "Maisons de vacances",
+      "Maisons témoins",
+      "Logements d'ensemble",
+      "Maisons de jardin"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Design",
+        "zh": "设计",
+        "ar": "التصميم",
+        "fr": "Design"
+      },
+      "value": {
+        "en": "Modern minimalist with wood-grain finish",
+        "zh": "现代简约+木纹饰面",
+        "ar": "حديث بسيط مع تشطيب خشبي",
+        "fr": "Minimaliste moderne, finition bois"
+      }
+    },
+    {
+      "key": {
+        "en": "Roof",
+        "zh": "屋顶",
+        "ar": "السقف",
+        "fr": "Toit"
+      },
+      "value": {
+        "en": "Gabled roof",
+        "zh": "坡屋顶",
+        "ar": "سقف جملوني",
+        "fr": "Toit à pignon"
+      }
+    },
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Steel frame, insulated panels",
+        "zh": "钢框架，保温板",
+        "ar": "هيكل صلب وألواح معزولة",
+        "fr": "Acier, panneaux isolés"
+      }
+    },
+    {
+      "key": {
+        "en": "Glazing",
+        "zh": "玻璃",
+        "ar": "الزجاج",
+        "fr": "Vitrage"
+      },
+      "value": {
+        "en": "Floor-to-ceiling glass doors & windows",
+        "zh": "落地玻璃门窗",
+        "ar": "أبواب ونوافذ زجاجية ممتدة من الأرض للسقف",
+        "fr": "Portes & fenêtres vitrées en hauteur"
+      }
+    },
+    {
+      "key": {
+        "en": "Interior",
+        "zh": "内饰",
+        "ar": "الداخل",
+        "fr": "Intérieur"
+      },
+      "value": {
+        "en": "Custom fit-out available",
+        "zh": "支持定制装修",
+        "ar": "تجهيز مخصص متاح",
+        "fr": "Aménagement sur mesure"
+      }
+    },
+    {
+      "key": {
+        "en": "Applications",
+        "zh": "应用",
+        "ar": "التطبيقات",
+        "fr": "Applications"
+      },
+      "value": {
+        "en": "Resort / vacation / development home",
+        "zh": "度假/度假屋/开发样板房",
+        "ar": "منتجع / عطلات / منزل تطوير",
+        "fr": "Resort / vacances / maison témoin"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Floor plan, cladding, roof style and interior package customized per project.",
+    "zh": "户型、饰面、屋顶样式与内饰方案均可按项目定制。",
+    "ar": "المخطط والكسوة ونمط السقف وباقة الداخل تُخصص حسب المشروع.",
+    "fr": "Plan, bardage, toiture et package intérieur personnalisés par projet."
+  }
+}

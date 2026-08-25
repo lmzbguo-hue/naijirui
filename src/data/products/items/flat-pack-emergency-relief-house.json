@@ -1,0 +1,274 @@
+{
+  "slug": "flat-pack-emergency-relief-house",
+  "category": "flat-pack-container-house",
+  "name": {
+    "en": "Flat Pack Emergency Relief House",
+    "zh": "打包箱应急救援房",
+    "ar": "منزل إغاثة طارئ مسطح",
+    "fr": "Maison d'urgence à plat"
+  },
+  "shortName": {
+    "en": "Emergency Relief House",
+    "zh": "应急救援房",
+    "ar": "منزل إغاثة طارئ",
+    "fr": "Maison d'urgence"
+  },
+  "seoTitle": {
+    "en": "Flat Pack Emergency Relief House | Rapid Shelter | NJRUI",
+    "zh": "打包箱应急救援房 | 快速庇护 | NJRUI",
+    "ar": "منزل إغاثة طارئ مسطح | مأوى سريع | NJRUI",
+    "fr": "Maison d'urgence à plat | Abri rapide | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Flat pack emergency relief houses deploy fast after disasters: compact shipping, simple assembly, insulated & reusable. For NGOs & governments. Get a quote.",
+    "zh": "打包箱应急救援房在灾后快速部署：紧凑发运、简易拼装、保温可复用。适用于NGO与政府机构。获取报价。",
+    "ar": "منازل إغاثة طارئة مسطحة تنشر بسرعة بعد الكوارث: شحن مضغوط وتجميع بسيط ومعزولة وقابلة لإعادة الاستخدام. للمنظمات غير الحكومية والحكومات. اطلب عرض سعر.",
+    "fr": "Maisons d'urgence à plat déployables rapidement après catastrophe : expédition compacte, montage simple, isolées et réutilisables. Pour ONG et gouvernements. Devis."
+  },
+  "tagline": {
+    "en": "Shelter that reaches disaster zones fast — and rebuilds communities.",
+    "zh": "快速抵达灾区的庇护所——并重建社区。",
+    "ar": "مأوى يصل إلى مناطق الكوارث بسرعة — ويعيد بناء المجتمعات.",
+    "fr": "Un abri qui atteint vite les zones sinistrées — et reconstruit les communautés."
+  },
+  "intro": {
+    "en": "When disaster strikes, speed matters. Our flat pack emergency relief houses are designed to deploy quickly after earthquakes, floods and displacement events: compact flat-pack shipping maximizes aid loads per container, and simple panel assembly means local crews can erect units with minimal training.\n\nInsulated walls and a robust galvanized frame provide dignified interim housing that can later be relocated or reused for permanent settlement phases.",
+    "zh": "灾害发生时，速度至关重要。我们的打包箱应急救援房专为地震、洪水与流离失所事件后的快速部署而设计：紧凑平板发运最大化每柜援助装载量，简易拼装让当地班组经过极少培训即可搭建。\n\n保温墙体与坚固镀锌框架提供有尊严的过渡住房，后续可搬迁或用于永久安置阶段。",
+    "ar": "عند وقوع الكوارث، السرعة مهمة. صُممت منازل الإغاثة المسطحة لدينا للنشر السريع بعد الزلازل والفيضانات وأحداث النزوح: شحن مسطح مضغوط يزيد حمولة المساعدات لكل حاوية، وتجميع الألواح البسيط يعني أن الأطقم المحلية تستطيع إقامة الوحدات بأقل تدريب.\n\nتوفر الجدران المعزولة والهيكل المجلفن المتين سكناً مؤقتاً كريماً يمكن نقله لاحقاً أو إعادة استخدامه لمراحل الاستقرار الدائم.",
+    "fr": "En cas de catastrophe, la vitesse compte. Nos maisons d'urgence à plat se déploient rapidement après séismes, inondations et déplacements : expédition compacte maximisant l'aide par conteneur, assemblage simple par équipes locales avec formation minimale.\n\nParois isolées et châssis galvanisé robuste offrent un logement transitoire digne, relocalisable ou réutilisable pour les phases de stabilisation."
+  },
+  "image": "/images/products/flatpack/gabled-unit.jpg",
+  "imageAlt": {
+    "en": "Flat pack emergency relief house with gabled roof",
+    "zh": "带坡屋顶的打包箱应急救援房",
+    "ar": "منزل إغاثة طارئ مسطح بسقف جملوني",
+    "fr": "Maison d'urgence à plat à toit pignon"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/flatpack/gabled-unit.jpg",
+      "alt": {
+        "en": "Flat pack emergency house unit with brick-finish panels",
+        "zh": "砖纹面板的打包箱应急房",
+        "ar": "وحدة منزل إغاثة مسطحة بألواح تشطيب طوبي",
+        "fr": "Unité d'urgence à plat, panneaux aspect brique"
+      }
+    },
+    {
+      "src": "/images/products/flatpack/single-unit.jpg",
+      "alt": {
+        "en": "Compact flat pack container unit for rapid deployment",
+        "zh": "用于快速部署的紧凑打包箱单元",
+        "ar": "وحدة حاوية مسطحة مضغوطة للنشر السريع",
+        "fr": "Unité conteneur à plat compacte pour déploiement rapide"
+      }
+    },
+    {
+      "src": "/images/products/flatpack/site-office-2floor.jpg",
+      "alt": {
+        "en": "Flat pack units assembled into larger block",
+        "zh": "打包箱单元拼装为更大楼体",
+        "ar": "وحدات مسطحة مجمعة في كتلة أكبر",
+        "fr": "Unités à plat assemblées en bloc"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "High units-per-container density",
+      "Tool-light local assembly",
+      "Insulated for climate extremes",
+      "Relocatable & reusable",
+      "Fast production ramp",
+      "NGO / government friendly"
+    ],
+    "zh": [
+      "单柜装载密度高",
+      "当地简易拼装",
+      "适应极端气候保温",
+      "可搬迁复用",
+      "产能快速爬坡",
+      "NGO/政府友好"
+    ],
+    "ar": [
+      "كثافة عالية للوحدات لكل حاوية",
+      "تجميع محلي بأدوات بسيطة",
+      "معزول للمناخات القاسية",
+      "قابل للنقل وإعادة الاستخدام",
+      "زيادة إنتاج سريعة",
+      "مناسب للمنظمات والحكومات"
+    ],
+    "fr": [
+      "Densité élevée par conteneur",
+      "Assemblage local simple",
+      "Isolé pour climats extrêmes",
+      "Relocalisable & réutilisable",
+      "Montée en production rapide",
+      "ONG / gouvernements"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Disaster relief shelters",
+      "Refugee transitional housing",
+      "Vaccination & aid clinics",
+      "School rooms",
+      "Rural housing programs"
+    ],
+    "zh": [
+      "灾后救援庇护所",
+      "难民过渡住房",
+      "疫苗接种与援助诊所",
+      "教室",
+      "乡村住房项目"
+    ],
+    "ar": [
+      "ملاجئ إغاثة الكوارث",
+      "سكن انتقالي للاجئين",
+      "عيادات التطعيم والمساعدات",
+      "غرف مدارس",
+      "برامج إسكان ريفي"
+    ],
+    "fr": [
+      "Abris de secours",
+      "Logement transitoire réfugiés",
+      "Cliniques vaccination & aide",
+      "Salles de classe",
+      "Programmes ruraux"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Size (L×W×H)",
+        "zh": "尺寸(长×宽×高)",
+        "ar": "المقاس (ط×ع×ا)",
+        "fr": "Taille (L×l×H)"
+      },
+      "value": {
+        "en": "Configurable — 20ft & 40ft options",
+        "zh": "可配置——20ft/40ft 可选",
+        "ar": "قابل للتهيئة — خيارات 20/40 قدماً",
+        "fr": "Configurable — 20' & 40'"
+      }
+    },
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Galvanized steel frame",
+        "zh": "镀锌钢框架",
+        "ar": "هيكل فولاذي مجلفن",
+        "fr": "Châssis acier galvanisé"
+      }
+    },
+    {
+      "key": {
+        "en": "Wall panel",
+        "zh": "墙体",
+        "ar": "ألواح الجدران",
+        "fr": "Panneaux"
+      },
+      "value": {
+        "en": "Insulated sandwich panel",
+        "zh": "保温夹芯板",
+        "ar": "لوح عازل",
+        "fr": "Sandwich isolé"
+      }
+    },
+    {
+      "key": {
+        "en": "Roof / Floor",
+        "zh": "屋顶/地面",
+        "ar": "السقف/الأرضية",
+        "fr": "Toit / Sol"
+      },
+      "value": {
+        "en": "Insulated roof; cement board + PVC floor",
+        "zh": "保温屋顶；水泥板+PVC地面",
+        "ar": "سقف معزول؛ أرضية أسمنتية + PVC",
+        "fr": "Toit isolé ; sol ciment + PVC"
+      }
+    },
+    {
+      "key": {
+        "en": "Windows / Doors",
+        "zh": "门窗",
+        "ar": "النوافذ/الأبواب",
+        "fr": "Fenêtres / Portes"
+      },
+      "value": {
+        "en": "Steel door, windows with screens",
+        "zh": "钢制门，带纱窗",
+        "ar": "باب فولاذي ونوافذ بشاشات",
+        "fr": "Porte acier, fenêtres moustiquaires"
+      }
+    },
+    {
+      "key": {
+        "en": "Electrical",
+        "zh": "电气",
+        "ar": "الكهرباء",
+        "fr": "Électricité"
+      },
+      "value": {
+        "en": "Pre-wired lighting & sockets",
+        "zh": "预布线照明与插座",
+        "ar": "إضاءة ومقابس موصولة مسبقاً",
+        "fr": "Éclairage & prises précâblés"
+      }
+    },
+    {
+      "key": {
+        "en": "Container loading",
+        "zh": "装柜量",
+        "ar": "تحميل الحاوية",
+        "fr": "Chargement"
+      },
+      "value": {
+        "en": "Confirm units per 40ft container with sales team",
+        "zh": "每40ft柜装载数量请联系销售团队",
+        "ar": "أكد عدد الوحدات لكل حاوية 40 قدماً مع فريق المبيعات",
+        "fr": "Unités/conteneur 40' à confirmer"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Standardized relief specs with optional upgrades (solar kit, water tank, partition walls). Volume orders welcome.",
+    "zh": "标准化救援规格，可选升级（太阳能套件、水箱、隔墙）。欢迎批量订单。",
+    "ar": "مواصفات إغاثة معيارية مع ترقيات اختيارية (طاقة شمسية، خزان ماء، جدران فاصلة). أوامر الكميات مرحب بها.",
+    "fr": "Spécifications de secours standardisées, options (solaire, réservoir, cloisons). Commandes en volume bienvenues."
+  }
+}

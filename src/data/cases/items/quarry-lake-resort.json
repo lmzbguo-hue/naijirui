@@ -1,0 +1,34 @@
+{
+  "slug": "quarry-lake-resort",
+  "title": {
+    "en": "Quarry Lake Eco Resort",
+    "zh": "矿坑湖生态度假村",
+    "ar": "منتجع بيئي على بحيرة المحجر",
+    "fr": "Resort éco sur lac de carrière"
+  },
+  "project": {
+    "en": "Eco-tourism resort",
+    "zh": "生态旅游度假村",
+    "ar": "منتجع سياحة بيئية",
+    "fr": "Resort d'écotourisme"
+  },
+  "units": {
+    "en": "20+ units on hillside",
+    "zh": "20+ 套坡地单元",
+    "ar": "20+ وحدة على المنحدر",
+    "fr": "20+ unités à flanc de coteau"
+  },
+  "image": "/images/cases/case-quarry-lake.jpg",
+  "alt": {
+    "en": "Eco resort project with modular cabins on quarry lake hillside",
+    "zh": "矿坑湖畔山坡上的模块化木屋生态度假村",
+    "ar": "مشروع منتجع بيئي بكبائن معيارية على منحدر بحيرة المحجر",
+    "fr": "Resort éco avec cabines modulaires sur le coteau du lac de carrière"
+  },
+  "body": {
+    "en": "A hillside eco resort overlooking a quarry lake. Modular cabins on steel stilts follow the natural contour of the slope, with private terraces and landscaped walkways — a reference for steep-terrain prefab projects.",
+    "zh": "俯瞰矿坑湖的山坡生态度假村。模块化木屋以钢制支柱沿自然坡势排布，配私人露台与景观步道——陡坡预制项目的参考案例。",
+    "ar": "منتجع بيئي على منحدر يطل على بحيرة المحجر. كبائن معيارية على ركائز فولاذية تتبع الكنتور الطبيعي للمنحدر مع شرفات خاصة وممرات منسقة — مرجع لمشاريع الجاهز في التضاريس شديدة الانحدار.",
+    "fr": "Resort éco à flanc de coteau dominant un lac de carrière. Cabines modulaires sur pilotis acier épousant la pente, terrasses privées et chemins paysagers — référence pour terrains escarpés."
+  }
+}

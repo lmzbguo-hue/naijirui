@@ -1,0 +1,15 @@
+{
+  "q": {
+    "en": "What insulation / thermal performance do the houses have?",
+    "zh": "房屋的保温性能如何？",
+    "ar": "ما هي خصائص العزل / الأداء الحراري؟",
+    "fr": "Quelles sont les performances d'isolation / thermiques ?"
+  },
+  "a": {
+    "en": "Wall panels are available in EPS, rock wool or PU options with configurable thickness; roofs use double asphalt shingle where specified, and windows are 60-series thermal-break aluminum. Cold-climate packages are available — share your site location and we will recommend the right spec.",
+    "zh": "墙板可选 EPS、岩棉或 PU，厚度可配置；屋顶按规格采用双层沥青瓦；窗户为 60 系断桥铝合金。提供寒冷气候方案——告知您的项目地点，我们将推荐合适的配置。",
+    "ar": "ألواح الجدران متوفرة بخيارات EPS أو صوف صخري أو PU بسماكة قابلة للتهيئة؛ الأسقف تستخدم قرميد أسفلتي مزدوج عند الطلب، والنوافذ من الألمنيوم المكسور حراريًا سلسلة 60. تتوفر باقات المناخ البارد — شارك موقع مشروعك وسنوصي بالمواصفة المناسبة.",
+    "fr": "Panneaux muraux disponibles en EPS, laine de roche ou PU, épaisseur configurable ; toitures en bardeaux bitumés doubles sur spécification, fenêtres aluminium à rupture de pont thermique série 60. Forfaits climats froids disponibles — indiquez le lieu du projet."
+  },
+  "slug": "faq-insulation-performance"
+}

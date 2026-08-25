@@ -1,0 +1,288 @@
+{
+  "slug": "chinese-courtyard-villa",
+  "category": "prefab-villa",
+  "name": {
+    "en": "Chinese Courtyard Villa",
+    "zh": "中式合院别墅",
+    "ar": "فيلا فناء صينية",
+    "fr": "Villa à cour chinoise"
+  },
+  "shortName": {
+    "en": "Courtyard Villa",
+    "zh": "合院别墅",
+    "ar": "فيلا فناء",
+    "fr": "Villa à cour"
+  },
+  "seoTitle": {
+    "en": "Chinese Courtyard Villa | Prefab Villa 70-Year Design Life | NJRUI",
+    "zh": "中式合院别墅 | 70年设计寿命预制别墅 | NJRUI",
+    "ar": "فيلا فناء صينية | عمر تصميمي 70 عاماً | NJRUI",
+    "fr": "Villa à cour chinoise | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Chinese courtyard villas with aluminum facades, 70+ year design life, smart controls, full water & electrical. Custom layouts. OEM/ODM. Get a quote.",
+    "zh": "中式合院别墅：铝合金立面、70年以上设计寿命、智能控制、全套水电。支持定制布局与OEM/ODM。获取报价。",
+    "ar": "فلل فناء صينية بواجهات ألمنيوم وعمر تصميمي 70+ عاماً وأنظمة ذكية ومياه وكهرباء كاملة. تخطيطات مخصصة. OEM/ODM. اطلب عرض سعر.",
+    "fr": "Villas à cour chinoises, façades aluminium, durée de vie 70+ ans, systèmes intelligents, eau/électricité complètes. Plans sur mesure. OEM/ODM. Devis."
+  },
+  "tagline": {
+    "en": "Ancient courtyard aesthetics, modern prefab engineering.",
+    "zh": "千年合院美学，现代预制工程。",
+    "ar": "جماليات الفناء القديمة، هندسة جاهزة حديثة.",
+    "fr": "L'esthétique de la cour ancestrale, l'ingénierie préfabriquée moderne."
+  },
+  "intro": {
+    "en": "The Chinese courtyard villa blends classical courtyard architecture with modern prefab construction: aluminum facade details, gabled rooflines and a design life of over 70 years. Wood-structure aesthetics meet contemporary comfort, minus the long build time of traditional methods.\n\nLayouts are fully customizable — from compact courtyard homes to multi-courtyard estates — with seismic-resistant steel structure, energy-efficient insulation, smart control systems, full waterproofing and complete water & electrical packages as standard.",
+    "zh": "中式合院别墅将古典合院建筑与现代预制建造相融合：铝合金立面细节、坡屋顶轮廓与 70 年以上设计寿命。木构美学与现代舒适相遇，却省去了传统工法的漫长工期。\n\n布局完全可定制——从紧凑合院到多进院落——标配抗震钢框架、节能保温、智能控制系统、全套防水与水电系统。",
+    "ar": "تجمع فيلا الفناء الصينية بين العمارة الكلاسيكية للفناء والبناء الجاهز الحديث: تفاصيل واجهات ألمنيوم وخطوط أسقف جملونية وعمر تصميمي يتجاوز 70 عاماً. جماليات البناء الخشبي تلتقي براحة عصرية، دون زمن البناء الطويل للطرق التقليدية.\n\nالتخطيطات قابلة للتخصيص بالكامل — من منازل الفناء المدمجة إلى العقارات متعددة الأفنية — مع هيكل صلب مقاوم للزلازل وعزل موفر للطاقة وأنظمة تحكم ذكية وعزل مائي كامل وحزم مياه وكهرباء كاملة كمعيار.",
+    "fr": "La villa à cour chinoise marie architecture classique de cour et construction préfabriquée moderne : façades aluminium, toitures à pignon et durée de vie de plus de 70 ans. L'esthétique bois rencontre le confort contemporain, sans les délais du traditionnel.\n\nPlans entièrement personnalisables — de la cour compacte au domaine multi-cours — avec structure acier parasismique, isolation économe, systèmes intelligents, étanchéité complète et packages eau/électricité en standard."
+  },
+  "image": "/images/products/villa/courtyard-night.jpg",
+  "imageAlt": {
+    "en": "Chinese courtyard villa at night with warm lighting",
+    "zh": "夜晚暖光下的中式合院别墅",
+    "ar": "فيلا فناء صينية ليلاً بإضاءة دافئة",
+    "fr": "Villa à cour chinoise de nuit, éclairage chaleureux"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/villa/courtyard-night.jpg",
+      "alt": {
+        "en": "Chinese courtyard villa illuminated at night",
+        "zh": "夜晚亮灯的中式合院别墅",
+        "ar": "فيلا فناء صينية مضاءة ليلاً",
+        "fr": "Villa à cour chinoise éclairée la nuit"
+      }
+    },
+    {
+      "src": "/images/products/villa/courtyard-render.jpg",
+      "alt": {
+        "en": "Courtyard villa 3D design with tiered roof",
+        "zh": "带层叠屋顶的合院别墅3D设计",
+        "ar": "تصميم ثلاثي الأبعاد لفيلا فناء بسقف متدرج",
+        "fr": "Design 3D de villa à cour, toit en gradins"
+      }
+    },
+    {
+      "src": "/images/products/villa/courtyard-pond.jpg",
+      "alt": {
+        "en": "Courtyard villa with pond and arched bridge",
+        "zh": "带池塘与拱桥的合院别墅",
+        "ar": "فيلا فناء مع بركة وجسر مقوس",
+        "fr": "Villa à cour avec bassin et pont voûté"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "70+ year design life",
+      "Aluminum facade & gabled roof",
+      "Seismic-resistant steel structure",
+      "Smart control systems",
+      "Full waterproofing",
+      "Custom courtyard layouts"
+    ],
+    "zh": [
+      "70年以上设计寿命",
+      "铝合金立面与坡屋顶",
+      "抗震钢框架",
+      "智能控制系统",
+      "全套防水",
+      "合院布局可定制"
+    ],
+    "ar": [
+      "عمر تصميمي 70+ سنة",
+      "واجهة ألمنيوم وسقف جملوني",
+      "هيكل صلب مقاوم للزلازل",
+      "أنظمة تحكم ذكية",
+      "عزل مائي كامل",
+      "تخطيطات فناء مخصصة"
+    ],
+    "fr": [
+      "Durée de vie 70+ ans",
+      "Façade aluminium & toit à pignon",
+      "Structure acier parasismique",
+      "Systèmes intelligents",
+      "Étanchéité complète",
+      "Plans de cour personnalisés"
+    ]
+  },
+  "applications": {
+    "en": [
+      "High-end residential",
+      "Villa developments",
+      "Resort courtyards",
+      "Cultural & hospitality projects",
+      "Second homes"
+    ],
+    "zh": [
+      "高端住宅",
+      "别墅开发",
+      "度假合院",
+      "文化与酒店项目",
+      "第二居所"
+    ],
+    "ar": [
+      "سكن راقٍ",
+      "تطويرات فلل",
+      "أفنية منتجعات",
+      "مشاريع ثقافية وضيافة",
+      "مساكن ثانية"
+    ],
+    "fr": [
+      "Résidentiel haut de gamme",
+      "Développements de villas",
+      "Cours de resort",
+      "Culture & hôtellerie",
+      "Résidences secondaires"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Design life",
+        "zh": "设计寿命",
+        "ar": "العمر التصميمي",
+        "fr": "Durée de vie"
+      },
+      "value": {
+        "en": "70+ years (courtyard series)",
+        "zh": "70 年以上（合院系列）",
+        "ar": "70+ سنة (سلسلة الفناء)",
+        "fr": "70+ ans (série cour)"
+      }
+    },
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Steel frame, seismic-resistant",
+        "zh": "钢框架，抗震",
+        "ar": "هيكل صلب مقاوم للزلازل",
+        "fr": "Acier parasismique"
+      }
+    },
+    {
+      "key": {
+        "en": "Exterior",
+        "zh": "外观",
+        "ar": "الخارج",
+        "fr": "Extérieur"
+      },
+      "value": {
+        "en": "Aluminum facade details, traditional gables",
+        "zh": "铝合金立面细节、传统坡顶",
+        "ar": "تفاصيل واجهات ألمنيوم وجملونات تقليدية",
+        "fr": "Façades aluminium, pignons traditionnels"
+      }
+    },
+    {
+      "key": {
+        "en": "Insulation",
+        "zh": "保温",
+        "ar": "العزل",
+        "fr": "Isolation"
+      },
+      "value": {
+        "en": "Energy-efficient envelope",
+        "zh": "节能围护",
+        "ar": "غلاف موفر للطاقة",
+        "fr": "Enveloppe économe"
+      }
+    },
+    {
+      "key": {
+        "en": "Systems",
+        "zh": "系统",
+        "ar": "الأنظمة",
+        "fr": "Systèmes"
+      },
+      "value": {
+        "en": "Smart control, full water & electrical",
+        "zh": "智能控制，全套水电",
+        "ar": "تحكم ذكي ومياه وكهرباء كاملة",
+        "fr": "Intelligence, eau/électricité complètes"
+      }
+    },
+    {
+      "key": {
+        "en": "Waterproofing",
+        "zh": "防水",
+        "ar": "العزل المائي",
+        "fr": "Étanchéité"
+      },
+      "value": {
+        "en": "Full building waterproofing",
+        "zh": "全屋防水",
+        "ar": "عزل مائي كامل للمبنى",
+        "fr": "Étanchéité complète"
+      }
+    },
+    {
+      "key": {
+        "en": "Interior",
+        "zh": "内饰",
+        "ar": "الداخل",
+        "fr": "Intérieur"
+      },
+      "value": {
+        "en": "Customized premium package",
+        "zh": "定制高端方案",
+        "ar": "باقة راقية مخصصة",
+        "fr": "Package premium sur mesure"
+      }
+    },
+    {
+      "key": {
+        "en": "Layout",
+        "zh": "布局",
+        "ar": "التخطيط",
+        "fr": "Plan"
+      },
+      "value": {
+        "en": "Single to multi-courtyard",
+        "zh": "单进至多进院落",
+        "ar": "من فناء واحد إلى متعدد",
+        "fr": "Simple à multi-cours"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Courtyard layout, materials, smart-home package and interior design customized with our design institute.",
+    "zh": "合院布局、材料、智能家居方案与室内设计由我们的设计院定制。",
+    "ar": "تخطيط الفناء والمواد وباقة المنزل الذكي والتصميم الداخلي تُخصص مع معهد التصميم لدينا.",
+    "fr": "Plan de cour, matériaux, domotique et design intérieur personnalisés avec notre bureau d'études."
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "slug": "star-view-glamping-dome",
+  "category": "modular-prefab-house",
+  "name": {
+    "en": "Star-View Glamping Dome",
+    "zh": "星空野奢圆顶房",
+    "ar": "قبة تخييم فاخر لمشاهدة النجوم",
+    "fr": "Dôme de glamping vue étoilée"
+  },
+  "shortName": {
+    "en": "Star-View Dome",
+    "zh": "星空房",
+    "ar": "قبة نجوم",
+    "fr": "Dôme étoilé"
+  },
+  "seoTitle": {
+    "en": "Star-View Glamping Dome | Transparent Dome Room | NJRUI",
+    "zh": "星空野奢圆顶房 | 透明穹顶房 | NJRUI",
+    "ar": "قبة تخييم لمشاهدة النجوم | NJRUI",
+    "fr": "Dôme de glamping étoilé | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Star-view glamping domes: 360° transparent PC panels, soundproof, windproof, waterproof. Around 21m² suites. For glamping sites. Get a quote.",
+    "zh": "星空野奢圆顶房：360°透明PC耐力板、隔音、防风、防水。约21㎡套房。适用于野奢营地。获取报价。",
+    "ar": "قبب تخييم لمشاهدة النجوم: ألواح PC شفافة 360° وعازلة للصوت ومقاومة للرياح والماء. أجنحة حوالي 21 م². لمواقع التخييم الفاخر. اطلب عرض سعر.",
+    "fr": "Dômes de glamping étoilés : panneaux PC transparents 360°, insonorisés, coupe-vent, étanches. Suites d'environ 21 m². Pour sites de glamping. Devis."
+  },
+  "tagline": {
+    "en": "Sleep under the stars — with the safety of a real building.",
+    "zh": "睡在星空下——拥有真正建筑的安全感。",
+    "ar": "نم تحت النجوم — بأمان مبنى حقيقي.",
+    "fr": "Dormez sous les étoiles — avec la sécurité d'un vrai bâtiment."
+  },
+  "intro": {
+    "en": "The star-view dome brings the sky inside: a 360° transparent room built with polycarbonate endurance panels over a sturdy frame — soundproof, lightweight, windproof, waterproof and fire-retardant. Available as a ready-to-use suite of around 21 m².\n\nPopular for Instagram-first glamping, restaurant dining rooms and leisure spaces, the dome needs no heavy foundation, complies with light-build regulations and can be set up fast with low investment.",
+    "zh": "星空房把天空请进室内：360° 透明房间，由聚碳酸酯耐力板与坚固框架构建——隔音、轻量、防风、防水且阻燃。提供约 21㎡ 的即用套房。\n\n深受“出片型”野奢营地、餐厅包间与休闲空间欢迎，无需重基础、符合轻建规范，投入低、搭建快。",
+    "ar": "تجلب قبة النجوم السماء إلى الداخل: غرفة شفافة 360° مبنية بألواح بولي كربونات متينة فوق إطار قوي — عازلة للصوت وخفيفة ومقاومة للرياح والماء ومانعة للاشتعال. متوفرة كجناح جاهز حوالي 21 م².\n\nشائعة في التخييم الفاخر الملتزم بالصور ومطاعم الطعام ومساحات الترفيه، لا تحتاج القبة أساسات ثقيلة وتتوافق مع لوائح البناء الخفيف وتُنصب بسرعة باستثمار منخفض.",
+    "fr": "Le dôme étoilé amène le ciel à l'intérieur : une pièce transparente à 360° en panneaux polycarbonate sur châssis robuste — insonorisée, légère, coupe-vent, étanche et ignifugée. Disponible en suite prête à l'emploi d'environ 21 m².\n\nPopulaire pour le glamping photogénique, salles de restaurant et espaces loisirs, le dôme ne nécessite pas de fondation lourde, respecte les règles de construction légère et se monte vite à faible investissement."
+  },
+  "image": "/images/products/modular/starry-dome.jpg",
+  "imageAlt": {
+    "en": "Transparent star-view glamping domes on wooden pier in winter landscape",
+    "zh": "冬季景观中木质栈道上的透明星空野奢圆顶房",
+    "ar": "قبب تخييم شفافة لمشاهدة النجوم على رصيف خشبي في منظر شتوي",
+    "fr": "Dômes étoilés transparents sur ponton bois en paysage hivernal"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/modular/starry-dome.jpg",
+      "alt": {
+        "en": "Star-view glamping domes with LED frame lighting on lakeside deck",
+        "zh": "湖岸平台上的LED灯带星空野奢圆顶房",
+        "ar": "قبب نجوم بإضاءة إطار LED على سطح بحيرة",
+        "fr": "Dômes étoilés avec LED sur deck de lac"
+      }
+    },
+    {
+      "src": "/images/products/modular/aframe-cabin.jpg",
+      "alt": {
+        "en": "Glamping cabin at dusk in wooded setting",
+        "zh": "暮色林间野奢木屋",
+        "ar": "كبينة تخييم فاخر عند الغسق في محيط مشجر",
+        "fr": "Cabine de glamping au crépuscule en forêt"
+      }
+    },
+    {
+      "src": "/images/products/modular/capsule-mountain.jpg",
+      "alt": {
+        "en": "Glamping units in mountain landscape",
+        "zh": "山区景观中的野奢单元",
+        "ar": "وحدات تخييم فاخر في مناظر جبلية",
+        "fr": "Unités de glamping en montagne"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "360° transparent PC panels",
+      "Soundproof & windproof",
+      "Waterproof & fire-retardant",
+      "Around 21 m² ready suites",
+      "No heavy foundation needed",
+      "Quick, low-cost deployment"
+    ],
+    "zh": [
+      "360°透明PC耐力板",
+      "隔音防风",
+      "防水阻燃",
+      "约21㎡即用套房",
+      "无需重基础",
+      "搭建快、投入低"
+    ],
+    "ar": [
+      "ألواح PC شفافة 360°",
+      "عازل للصوت ومقاوم للرياح",
+      "مقاوم للماء ومانع للاشتعال",
+      "أجنحة جاهزة حوالي 21 م²",
+      "لا يحتاج أساسات ثقيلة",
+      "نشر سريع بتكلفة منخفضة"
+    ],
+    "fr": [
+      "Panneaux PC transparents 360°",
+      "Insonorisé & coupe-vent",
+      "Étanche & ignifugé",
+      "Suites prêtes ~21 m²",
+      "Sans fondation lourde",
+      "Déploiement rapide, faible coût"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Glamping sites",
+      "Restaurant dining domes",
+      "Observation rooms",
+      "Garden lounges",
+      "Photo & event venues"
+    ],
+    "zh": [
+      "野奢营地",
+      "餐厅穹顶包间",
+      "观景房",
+      "花园休闲区",
+      "拍摄与活动场地"
+    ],
+    "ar": [
+      "مواقع التخييم الفاخر",
+      "قبب مطاعم",
+      "غرف مراقبة",
+      "صالات حدائق",
+      "أماكن تصوير وفعاليات"
+    ],
+    "fr": [
+      "Sites de glamping",
+      "Dômes de restaurant",
+      "Salles d'observation",
+      "Lounges de jardin",
+      "Lieux photo & événement"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Material",
+        "zh": "材料",
+        "ar": "المادة",
+        "fr": "Matériau"
+      },
+      "value": {
+        "en": "Transparent polycarbonate (PC) endurance panels",
+        "zh": "透明聚碳酸酯（PC）耐力板",
+        "ar": "ألواح بولي كربونات (PC) شفافة متينة",
+        "fr": "Panneaux polycarbonate transparents"
+      }
+    },
+    {
+      "key": {
+        "en": "Floor area",
+        "zh": "面积",
+        "ar": "المساحة",
+        "fr": "Surface"
+      },
+      "value": {
+        "en": "Around 21 m² (suite version)",
+        "zh": "约21㎡（套房版）",
+        "ar": "حوالي 21 م² (نسخة الجناح)",
+        "fr": "Env. 21 m² (version suite)"
+      }
+    },
+    {
+      "key": {
+        "en": "Frame",
+        "zh": "框架",
+        "ar": "الإطار",
+        "fr": "Châssis"
+      },
+      "value": {
+        "en": "Steel support frame",
+        "zh": "钢支撑框架",
+        "ar": "إطار دعم فولاذي",
+        "fr": "Structure acier"
+      }
+    },
+    {
+      "key": {
+        "en": "Performance",
+        "zh": "性能",
+        "ar": "الأداء",
+        "fr": "Performance"
+      },
+      "value": {
+        "en": "Soundproof / lightweight / windproof / waterproof / fire-retardant",
+        "zh": "隔音/轻量/防风/防水/阻燃",
+        "ar": "عازل للصوت/خفيف/مقاوم للرياح والماء/مانع للاشتعال",
+        "fr": "Insonorisé / léger / coupe-vent / étanche / ignifugé"
+      }
+    },
+    {
+      "key": {
+        "en": "Foundation",
+        "zh": "基础",
+        "ar": "الأساس",
+        "fr": "Fondation"
+      },
+      "value": {
+        "en": "Light foundation or deck",
+        "zh": "轻基础或平台",
+        "ar": "أساس خفيف أو سطح",
+        "fr": "Légère ou deck"
+      }
+    },
+    {
+      "key": {
+        "en": "Fit-out",
+        "zh": "配置",
+        "ar": "التجهيز",
+        "fr": "Équipement"
+      },
+      "value": {
+        "en": "Bedroom / dining / lounge options",
+        "zh": "卧室/餐厅/休闲可选",
+        "ar": "خيارات نوم/طعام/استرخاء",
+        "fr": "Options chambre / salle / lounge"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Diameter, layout, LED lighting and interior theme customized per site.",
+    "zh": "直径、布局、LED 灯光与室内主题均可按场地定制。",
+    "ar": "القطر والتخطيط وإضاءة LED والطابع الداخلي تُخصص حسب الموقع.",
+    "fr": "Diamètre, plan, LED et thème intérieur personnalisés par site."
+  }
+}

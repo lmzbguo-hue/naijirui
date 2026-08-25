@@ -1,0 +1,15 @@
+{
+  "q": {
+    "en": "Do you offer warranty and after-sales support?",
+    "zh": "你们提供质保与售后服务吗？",
+    "ar": "هل تقدمون ضماناً ودعماً بعد البيع؟",
+    "fr": "Offrez-vous une garantie et un support après-vente ?"
+  },
+  "a": {
+    "en": "Yes — structural and component warranties are provided, with spare parts available for after-sales support. Please confirm warranty coverage with our sales team for your order.",
+    "zh": "提供——主体结构与部件均有质保，并备有配件支持售后。请与销售团队确认您订单的质保范围。",
+    "ar": "نعم — نوفر ضماناً للهيكل والمكونات مع قطع غيار لدعم ما بعد البيع. يرجى تأكيد تغطية الضمان مع فريق المبيعات لطلبك.",
+    "fr": "Oui — garanties structure et composants, avec pièces de rechange disponibles. Confirmez la couverture de garantie avec notre équipe commerciale."
+  },
+  "slug": "faq-warranty-support"
+}

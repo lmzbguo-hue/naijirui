@@ -1,0 +1,274 @@
+{
+  "slug": "two-story-site-office-building",
+  "category": "temporary-site-camp-accommodation",
+  "name": {
+    "en": "Two-Story Site Office Building",
+    "zh": "两层工地办公楼",
+    "ar": "مبنى مكاتب موقع من طابقين",
+    "fr": "Bâtiment de bureau de chantier 2 étages"
+  },
+  "shortName": {
+    "en": "Two-Story Site Office",
+    "zh": "两层工地办公室",
+    "ar": "مكتب موقع بطابقين",
+    "fr": "Bureau de site 2 étages"
+  },
+  "seoTitle": {
+    "en": "Two-Story Site Office Building | Modular Site Office | NJRUI",
+    "zh": "两层工地办公楼 | 模块化工地办公室 | NJRUI",
+    "ar": "مبنى مكاتب موقع من طابقين | NJRUI",
+    "fr": "Bureau de chantier 2 étages modulaire | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Two-story modular site office building from flat pack containers: glazed facade, external staircase, quick assembly. For contractors. Get a quote.",
+    "zh": "由打包箱拼装的两层模块化工地办公楼：玻璃幕墙、外挂楼梯、快速拼装。面向承包商。获取报价。",
+    "ar": "مبنى مكاتب موقع معياري من طابقين من حاويات مسطحة: واجهة زجاجية ودرج خارجي وتجميع سريع. للمقاولين. اطلب عرض سعر.",
+    "fr": "Bureau de chantier modulaire 2 étages en conteneurs à plat : façade vitrée, escalier extérieur, montage rapide. Pour entrepreneurs. Devis."
+  },
+  "tagline": {
+    "en": "Present a professional face on site — two stories, one delivery.",
+    "zh": "在工地展现专业形象——两层建筑，一次交付。",
+    "ar": "قدّم وجهاً احترافياً في الموقع — طابقان وتسليمة واحدة.",
+    "fr": "Une image professionnelle sur chantier — deux étages, une livraison."
+  },
+  "intro": {
+    "en": "A two-story modular site office changes how a project presents itself. Glazed facades, a clean external staircase and a solid concrete-slab base create a professional management building for contractors, developers and state agencies — delivered as flat pack modules and assembled quickly.\n\nThe ground floor suits reception, meeting rooms and stores; the upper floor hosts engineering and management offices. Units are relocatable, so the same building moves with your project pipeline.",
+    "zh": "两层模块化工地办公楼改变项目的对外形象。玻璃幕墙、整洁的外挂楼梯与坚实混凝土板基础，为承包商、开发商与政府机构打造专业管理楼——以打包箱模块交付并快速拼装。\n\n一层适合接待、会议室与库房；二层作为工程与管理办公室。单元可搬迁，同一栋楼随您的项目线流转。",
+    "ar": "يغير مكتب الموقع المعياري ذو الطابقين طريقة عرض المشروع لنفسه. واجهات زجاجية ودرج خارجي أنيق وقاعدة بلاطة خرسانية صلبة تخلق مبنى إدارة احترافياً للمقاولين والمطورين والجهات الحكومية — يُسلَّم كوحدات مسطحة ويُجمع بسرعة.\n\nالطابق الأرضي مناسب للاستقبال وغرف الاجتماعات والمخازن؛ والطابق العلوي لمكاتب الهندسة والإدارة. الوحدات قابلة للنقل، فالمبنى نفسه ينتقل مع مشاريعك.",
+    "fr": "Un bureau de chantier modulaire de deux étages change l'image d'un projet. Façades vitrées, escalier extérieur propre et dalle béton solide : un bâtiment de direction professionnel pour entrepreneurs, promoteurs et agences — livré en modules à plat et monté rapidement.\n\nLe rez-de-chaussée accueille accueil, salles de réunion et stock ; l'étage abrite ingénierie et direction. Relocalisable, le même bâtiment suit votre pipeline."
+  },
+  "image": "/images/products/flatpack/site-office-2floor.jpg",
+  "imageAlt": {
+    "en": "Two-story site office building with glass facade and external staircase",
+    "zh": "玻璃幕墙与外挂楼梯的两层工地办公楼",
+    "ar": "مبنى مكاتب موقع من طابقين بواجهة زجاجية ودرج خارجي",
+    "fr": "Bureau de chantier 2 étages, façade vitrée et escalier extérieur"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/flatpack/site-office-2floor.jpg",
+      "alt": {
+        "en": "Two-story modular site office with curtain-wall glass",
+        "zh": "幕墙玻璃的两层模块化工地办公室",
+        "ar": "مكتب موقع معياري من طابقين بزجاج ستائري",
+        "fr": "Bureau de site modulaire 2 étages, verrière"
+      }
+    },
+    {
+      "src": "/images/products/camp/site-office.jpg",
+      "alt": {
+        "en": "Two-story modular building with wood-textured siding",
+        "zh": "木纹饰面的两层模块化建筑",
+        "ar": "مبنى معياري من طابقين بكسوة خشبية",
+        "fr": "Bâtiment modulaire 2 étages, bardage bois"
+      }
+    },
+    {
+      "src": "/images/products/flatpack/gabled-unit.jpg",
+      "alt": {
+        "en": "Modular office unit with gabled roof",
+        "zh": "坡屋顶模块化办公单元",
+        "ar": "وحدة مكتب معيارية بسقف جملوني",
+        "fr": "Unité de bureau modulaire, toit à pignon"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "Two-story professional presence",
+      "Glazed curtain-wall facade",
+      "External steel staircase",
+      "Flat pack transport",
+      "Relocatable to next project",
+      "Customizable internal layout"
+    ],
+    "zh": [
+      "两层专业形象",
+      "玻璃幕墙立面",
+      "外挂钢楼梯",
+      "平板发运",
+      "可搬迁至下个项目",
+      "内部布局可定制"
+    ],
+    "ar": [
+      "حضور احترافي بطابقين",
+      "واجهة زجاجية ستائرية",
+      "درج فولاذي خارجي",
+      "نقل مسطح",
+      "قابل للنقل للمشروع التالي",
+      "تخطيط داخلي قابل للتخصيص"
+    ],
+    "fr": [
+      "Présence professionnelle 2 étages",
+      "Façade rideau vitrée",
+      "Escalier acier extérieur",
+      "Transport à plat",
+      "Relocalisable",
+      "Plan interne personnalisable"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Construction project offices",
+      "Client & inspection offices",
+      "Site canteens & rest areas",
+      "Temporary schools",
+      "Event & expo buildings"
+    ],
+    "zh": [
+      "施工项目办公室",
+      "客户与监理办公室",
+      "工地食堂与休息区",
+      "临时学校",
+      "活动与展会建筑"
+    ],
+    "ar": [
+      "مكاتب مشاريع البناء",
+      "مكاتب العملاء والتفتيش",
+      "مقاصف الموقع ومناطق الراحة",
+      "مدارس مؤقتة",
+      "مباني الفعاليات والمعارض"
+    ],
+    "fr": [
+      "Bureaux de projet",
+      "Bureaux clients & inspection",
+      "Cantines & repos",
+      "Écoles temporaires",
+      "Bâtiments événementiels"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Two-story galvanized steel modular system",
+        "zh": "两层镀锌钢模块系统",
+        "ar": "نظام معياري فولاذي مجلفن من طابقين",
+        "fr": "Système modulaire acier galvanisé 2 étages"
+      }
+    },
+    {
+      "key": {
+        "en": "Floor plan",
+        "zh": "楼层布局",
+        "ar": "المخطط",
+        "fr": "Plan"
+      },
+      "value": {
+        "en": "Ground + upper floor, configurable rooms",
+        "zh": "一层+二层，房间可配置",
+        "ar": "أرضي + علوي، غرف قابلة للتهيئة",
+        "fr": "RDC + étage, pièces configurables"
+      }
+    },
+    {
+      "key": {
+        "en": "Facade",
+        "zh": "立面",
+        "ar": "الواجهة",
+        "fr": "Façade"
+      },
+      "value": {
+        "en": "Glazed curtain-wall / wood-textured siding options",
+        "zh": "玻璃幕墙/木纹饰面可选",
+        "ar": "زجاج ستائري / كسوة خشبية",
+        "fr": "Verrière / bardage bois"
+      }
+    },
+    {
+      "key": {
+        "en": "Windows / Doors",
+        "zh": "门窗",
+        "ar": "النوافذ/الأبواب",
+        "fr": "Fenêtres / Portes"
+      },
+      "value": {
+        "en": "Aluminum alloy windows; steel doors",
+        "zh": "铝合金窗；钢制门",
+        "ar": "نوافذ ألمنيوم؛ أبواب فولاذية",
+        "fr": "Aluminium ; portes acier"
+      }
+    },
+    {
+      "key": {
+        "en": "Staircase",
+        "zh": "楼梯",
+        "ar": "الدرج",
+        "fr": "Escalier"
+      },
+      "value": {
+        "en": "External steel staircase with balcony",
+        "zh": "带阳台的外挂钢楼梯",
+        "ar": "درج فولاذي خارجي مع شرفة",
+        "fr": "Escalier acier extérieur avec balcon"
+      }
+    },
+    {
+      "key": {
+        "en": "Electrical",
+        "zh": "电气",
+        "ar": "الكهرباء",
+        "fr": "Électricité"
+      },
+      "value": {
+        "en": "Full pre-wired lighting & power",
+        "zh": "全套预布线照明与电力",
+        "ar": "إضاءة وطاقة موصولة مسبقاً بالكامل",
+        "fr": "Éclairage & puissance précâblés"
+      }
+    },
+    {
+      "key": {
+        "en": "Assembly",
+        "zh": "拼装",
+        "ar": "التجميع",
+        "fr": "Assemblage"
+      },
+      "value": {
+        "en": "Crane-assisted, confirm schedule with sales team",
+        "zh": "吊装辅助，工期请联系销售团队",
+        "ar": "بمساعدة رافعة، أكد الجدول مع فريق المبيعات",
+        "fr": "Avec grue, planning à confirmer"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Room layout, cladding, glass treatment and signage integration customized per project.",
+    "zh": "房间布局、饰面、玻璃处理与标识集成均可按项目定制。",
+    "ar": "تخطيط الغرف والكسوة ومعالجة الزجاج ودمج اللافتات تُخصص حسب المشروع.",
+    "fr": "Plan des pièces, bardage, traitement du verre et intégration signalétique personnalisés."
+  }
+}

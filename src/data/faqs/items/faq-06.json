@@ -1,0 +1,15 @@
+{
+  "q": {
+    "en": "Do you have certifications?",
+    "zh": "你们有哪些认证？",
+    "ar": "هل لديكم شهادات اعتماد؟",
+    "fr": "Avez-vous des certifications ?"
+  },
+  "a": {
+    "en": "Yes — our manufacturing holds CE, ISO and SGS standards, plus multiple invention, utility-model and design patents. Certificates can be provided for your project documentation.",
+    "zh": "有——我们的制造符合 CE、ISO、SGS 标准，并拥有多项发明专利、实用新型专利与外观专利。可提供证书用于您的项目文件。",
+    "ar": "نعم — تصنيعنا يلتزم بمعايير CE وISO وSGS، بالإضافة إلى عدة براءات اختراع ونماذج منفعة وتصاميم صناعية. يمكن توفير الشهادات لتوثيق مشروعك.",
+    "fr": "Oui — notre fabrication respecte les normes CE, ISO et SGS, plus plusieurs brevets. Les certificats sont disponibles pour votre documentation projet."
+  },
+  "slug": "faq-certifications"
+}

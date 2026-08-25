@@ -1,0 +1,260 @@
+{
+  "slug": "waterfront-modular-cabin",
+  "category": "modular-prefab-house",
+  "name": {
+    "en": "Waterfront Modular Cabin",
+    "zh": "滨水模块化木屋",
+    "ar": "كبينة معيارية على الواجهة المائية",
+    "fr": "Cabine modulaire en bord d'eau"
+  },
+  "shortName": {
+    "en": "Waterfront Cabin",
+    "zh": "滨水木屋",
+    "ar": "كبينة مائية",
+    "fr": "Cabine d'eau"
+  },
+  "seoTitle": {
+    "en": "Waterfront Modular Cabin | Coastal & Marine Grade | NJRUI",
+    "zh": "滨水模块化木屋 | 海岸与海上级 | NJRUI",
+    "ar": "كبينة معيارية مائية | NJRUI",
+    "fr": "Cabine modulaire en bord d'eau | NJRUI"
+  },
+  "seoDesc": {
+    "en": "Waterfront modular cabins in aluminum eco materials with heavy steel structure: typhoon-proof, sea-corrosion resistant. For coastal & lakeside projects. Get a quote.",
+    "zh": "铝生态材料+重钢结构的滨水模块化木屋：抗台风、耐海水腐蚀。适用于海岸与湖滨项目。获取报价。",
+    "ar": "كبائن معيارية مائية بمواد ألمنيوم بيئية وهيكل صلب ثقيل: مقاومة للأعاصير وتآكل البحر. للمشاريع الساحلية والبحيرات. اطلب عرض سعر.",
+    "fr": "Cabines modulaires d'eau en aluminium éco, structure acier lourde : anti-typhon, résistante à la corrosion marine. Pour littoral & lacs. Devis."
+  },
+  "tagline": {
+    "en": "Built for the waterline: typhoon-proof, corrosion-resistant.",
+    "zh": "为水岸而生：抗台风、耐腐蚀。",
+    "ar": "مبنية لخط الماء: مقاومة للأعاصير والتآكل.",
+    "fr": "Conçue pour la ligne d'eau : anti-typhon, anticorrosion."
+  },
+  "intro": {
+    "en": "Waterfront sites punish ordinary buildings — salt air, wind and humidity. Our waterfront modular cabins use aluminum eco-materials with a heavy steel structure, engineered to resist typhoons and sea-water corrosion for coastal, lakeside and dock projects.\n\nThe same prefabrication advantages apply: factory production, fast installation and relocatable modules — now with a marine-grade envelope that keeps maintenance low.",
+    "zh": "水岸环境对普通建筑毫不留情——盐雾、风与潮湿。我们的滨水模块化木屋采用铝生态材料与重钢结构，为海岸、湖滨与码头项目打造，抗台风、耐海水腐蚀。\n\n同样的预制优势依旧：工厂生产、快速安装、可搬迁模块——如今加上维护极低的海上级围护。",
+    "ar": "تعاقب المواقع المائية المباني العادية — الملح والرياح والرطوبة. تستخدم كبائننا المائية مواد ألمنيوم بيئية مع هيكل صلب ثقيل، مهندسة لمقاومة الأعاصير وتآكل مياه البحر لمشاريع الساحل والبحيرات والأرصفة.\n\nتطبق نفس مزايا البناء الجاهز: إنتاج مصنعي وتركيب سريع ووحدات قابلة للنقل — الآن مع غلاف بحري يخفض الصيانة.",
+    "fr": "Les sites d'eau maltraitent les bâtiments ordinaires — sel, vent, humidité. Nos cabines d'eau utilisent des éco-matériaux aluminium et une structure acier lourde, conçues contre typhons et corrosion marine pour littoral, lacs et quais.\n\nMêmes avantages du préfabriqué : production d'usine, installation rapide, modules relocalisables — avec une enveloppe marine à faible maintenance."
+  },
+  "image": "/images/products/modular/waterfront-cabin.jpg",
+  "imageAlt": {
+    "en": "Waterfront modular cabins with white gabled roofs by the lake",
+    "zh": "湖边的白色坡屋顶滨水模块化木屋",
+    "ar": "كبائن معيارية مائية بأسقف جملونية بيضاء بجوار البحيرة",
+    "fr": "Cabines modulaires d'eau à toits blancs au bord du lac"
+  },
+  "gallery": [
+    {
+      "src": "/images/products/modular/waterfront-cabin.jpg",
+      "alt": {
+        "en": "Waterfront modular cabins with private fenced yards",
+        "zh": "带私家庭院的滨水模块化木屋",
+        "ar": "كبائن معيارية مائية بأفنية مسيجة خاصة",
+        "fr": "Cabines d'eau avec jardins privés clôturés"
+      }
+    },
+    {
+      "src": "/images/products/modular/capsule-lake-resort.jpg",
+      "alt": {
+        "en": "Waterfront modular units along lake shoreline",
+        "zh": "湖岸线排布的滨水模块化单元",
+        "ar": "وحدات معيارية مائية على خط شاطئ البحيرة",
+        "fr": "Unités modulaires le long du rivage"
+      }
+    },
+    {
+      "src": "/images/products/modular/wood-tinyhome.jpg",
+      "alt": {
+        "en": "Modular cabin exterior with wood-grain siding",
+        "zh": "木纹饰面的模块化木屋外观",
+        "ar": "واجهة كبينة معيارية بكسوة خشبية",
+        "fr": "Extérieur de cabine modulaire, bardage bois"
+      }
+    }
+  ],
+  "highlights": {
+    "en": [
+      "Aluminum eco-material envelope",
+      "Heavy steel structure",
+      "Typhoon-resistant design",
+      "Sea-corrosion resistant",
+      "Factory prefabricated",
+      "Multiple waterfront scenarios"
+    ],
+    "zh": [
+      "铝生态材料围护",
+      "重钢结构",
+      "抗台风设计",
+      "耐海水腐蚀",
+      "工厂预制",
+      "多种水岸场景"
+    ],
+    "ar": [
+      "غلاف ألمنيوم بيئي",
+      "هيكل صلب ثقيل",
+      "تصميم مقاوم للأعاصير",
+      "مقاوم لتآكل البحر",
+      "جاهز من المصنع",
+      "سيناريوهات مائية متعددة"
+    ],
+    "fr": [
+      "Enveloppe aluminium éco",
+      "Structure acier lourde",
+      "Anti-typhon",
+      "Anticorrosion marine",
+      "Préfabriqué en usine",
+      "Multiples scénarios d'eau"
+    ]
+  },
+  "applications": {
+    "en": [
+      "Coastal resorts",
+      "Lakeside vacation homes",
+      "Marina & dock facilities",
+      "Fishing camps",
+      "Island housing"
+    ],
+    "zh": [
+      "滨海度假村",
+      "湖畔度假屋",
+      "码头设施",
+      "渔家营地",
+      "岛屿住宅"
+    ],
+    "ar": [
+      "منتجعات ساحلية",
+      "بيوت عطلات على البحيرات",
+      "مرافق المراسي والأرصفة",
+      "معسكرات الصيد",
+      "إسكان الجزر"
+    ],
+    "fr": [
+      "Resorts côtiers",
+      "Maisons de vacances au lac",
+      "Marinas & quais",
+      "Camps de pêche",
+      "Logement insulaire"
+    ]
+  },
+  "specs": [
+    {
+      "key": {
+        "en": "Structure",
+        "zh": "结构",
+        "ar": "الهيكل",
+        "fr": "Structure"
+      },
+      "value": {
+        "en": "Heavy steel frame",
+        "zh": "重钢框架",
+        "ar": "هيكل صلب ثقيل",
+        "fr": "Châssis acier lourd"
+      }
+    },
+    {
+      "key": {
+        "en": "Cladding",
+        "zh": "饰面",
+        "ar": "الكسوة",
+        "fr": "Bardage"
+      },
+      "value": {
+        "en": "Aluminum eco-materials",
+        "zh": "铝生态材料",
+        "ar": "مواد ألمنيوم بيئية",
+        "fr": "Éco-matériaux aluminium"
+      }
+    },
+    {
+      "key": {
+        "en": "Corrosion",
+        "zh": "防腐",
+        "ar": "التآكل",
+        "fr": "Corrosion"
+      },
+      "value": {
+        "en": "Sea-water corrosion resistant",
+        "zh": "耐海水腐蚀",
+        "ar": "مقاوم لتآكل مياه البحر",
+        "fr": "Résistante eau de mer"
+      }
+    },
+    {
+      "key": {
+        "en": "Wind resistance",
+        "zh": "抗风",
+        "ar": "مقاومة الرياح",
+        "fr": "Vent"
+      },
+      "value": {
+        "en": "Typhoon-grade design",
+        "zh": "台风级设计",
+        "ar": "تصميم بدرجة الأعاصير",
+        "fr": "Grade typhon"
+      }
+    },
+    {
+      "key": {
+        "en": "Roof / Floor",
+        "zh": "屋顶/地面",
+        "ar": "السقف/الأرضية",
+        "fr": "Toit / Sol"
+      },
+      "value": {
+        "en": "Marine-grade envelope package",
+        "zh": "海上级围护方案",
+        "ar": "حزمة غلاف بحري",
+        "fr": "Package enveloppe marine"
+      }
+    },
+    {
+      "key": {
+        "en": "Windows",
+        "zh": "窗户",
+        "ar": "النوافذ",
+        "fr": "Fenêtres"
+      },
+      "value": {
+        "en": "Thermal-break aluminum",
+        "zh": "断桥铝合金",
+        "ar": "ألمنيوم مكسور حراريًا",
+        "fr": "Alu rupture thermique"
+      }
+    },
+    {
+      "key": {
+        "en": "MOQ",
+        "zh": "起订量",
+        "ar": "الحد الأدنى للطلب",
+        "fr": "MOQ"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    },
+    {
+      "key": {
+        "en": "Lead time",
+        "zh": "交期",
+        "ar": "المهلة",
+        "fr": "Délai"
+      },
+      "value": {
+        "en": "Contact sales team",
+        "zh": "请联系销售团队",
+        "ar": "تواصل مع فريق المبيعات",
+        "fr": "Contacter l'équipe"
+      }
+    }
+  ],
+  "oem": {
+    "en": "Marine-grade options, layout and finishing customized for coastal conditions.",
+    "zh": "海上级选项、布局与饰面均针对海岸环境定制。",
+    "ar": "خيارات بحرية والتخطيط والتشطيب تُخصص للظروف الساحلية.",
+    "fr": "Options marine, plan et finitions personnalisés pour conditions côtières."
+  }
+}

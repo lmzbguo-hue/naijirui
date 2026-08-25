@@ -1,0 +1,11 @@
+---
+import ProjectCasesPage from '../../components/pages/ProjectCasesPage.astro';
+import { locales } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.filter((l) => l !== 'en').map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+---
+<ProjectCasesPage lang={lang} />

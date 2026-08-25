@@ -1,0 +1,59 @@
+---
+import site from '../data/site.json';
+import { locales, U, langPath } from '../i18n';
+
+interface Props { lang: string; path: string; }
+const { lang, path } = Astro.props;
+const u = U(lang);
+const links = [
+  { href: '/', label: u.nav.home },
+  { href: '/products/', label: u.nav.products },
+  { href: '/project-cases/', label: u.nav.cases },
+  { href: '/about-us/', label: u.nav.about },
+  { href: '/faq/', label: u.nav.faq },
+  { href: '/blog/', label: u.nav.blog },
+];
+---
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href={langPath(lang, '/')} aria-label="NJRUI Mobile Home homepage">
+      <img src="/favicon.svg" width="34" height="34" alt="" />
+      <span>
+        NJRUI Mobile Home
+        <small>JIRUI WEIVE Co., Ltd.</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" data-nav-toggle>☰</button>
+    <nav class="nav" data-nav>
+      {links.map((l) => <a href={langPath(lang, l.href)}>{l.label}</a>)}
+      <details class="lang-dd">
+        <summary title="Language">{u.langName}</summary>
+        <div class="lang-menu">
+          {locales.map((l) => (
+            <a href={langPath(l, path)} class={l === lang ? 'on' : ''}>{U(l).langName}</a>
+          ))}
+        </div>
+      </details>
+      <a class="cta" href={langPath(lang, '/get-a-quote/')}>{u.nav.quote}</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const btn = document.querySelector('[data-nav-toggle]');
+  const nav = document.querySelector('[data-nav]');
+  btn?.addEventListener('click', () => nav?.classList.toggle('open'));
+</script>
+
+<style>
+  .lang-dd { position: relative; }
+  .lang-dd summary { list-style: none; cursor: pointer; color: #d7e0ec; font-size: 0.9rem; font-weight: 500; padding: 6px 10px; border: 1px solid rgba(255,255,255,0.25); border-radius: 6px; }
+  .lang-dd summary::-webkit-details-marker { display: none; }
+  .lang-menu { position: absolute; right: 0; top: calc(100% + 6px); background: var(--steel); border-radius: 8px; padding: 6px; min-width: 120px; box-shadow: var(--shadow); z-index: 70; }
+  .lang-menu a { display: block; padding: 7px 12px; border-radius: 6px; color: #d7e0ec; font-size: 0.88rem; }
+  .lang-menu a:hover, .lang-menu a.on { background: rgba(255,255,255,0.14); color: #fff; text-decoration: none; }
+  @media (max-width: 900px) {
+    .nav.open .lang-dd { margin: 10px 0; }
+    .nav.open .lang-menu { position: static; background: rgba(255,255,255,0.06); }
+  }
+</style>

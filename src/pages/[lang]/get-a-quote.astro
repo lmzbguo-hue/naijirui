@@ -1,0 +1,11 @@
+---
+import QuotePage from '../../components/pages/QuotePage.astro';
+import { locales } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.filter((l) => l !== 'en').map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params;
+---
+<QuotePage lang={lang} />

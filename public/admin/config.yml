@@ -10,7 +10,6 @@ backend:
   auth_endpoint: auth
 
 # 本机编辑模式: 配合 npx decap-server 使用
-local_backend: flase
 
 # 图片上传路径
 media_folder: "public/images/uploads"

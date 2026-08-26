@@ -5,7 +5,7 @@
 backend:
   name: github
   repo: lmzbguo-hue/naijirui # ⚠️ 请替换为你的 GitHub 账户名/仓库名
-  branch: main
+  branch: master
   base_url: https://decap-cms-oauth.vercel.app # 使用稳定可用的 OAuth 代理后端
   auth_endpoint: auth
 
